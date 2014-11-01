@@ -47,6 +47,16 @@ table {
 }
 /*
   ========================================
+  Background
+  ========================================
+*/
+body{
+  background: #293f50;
+  color: #888;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/*
+  ========================================
   Typography
   ========================================
 */
