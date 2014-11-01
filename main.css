@@ -129,7 +129,7 @@ a:hover{
   margin: 0 auto;
   position: fixed;
   top: 30px;
-  left: 10px;
+  left: 50px;
 }
 /*
   ========================================
@@ -137,7 +137,6 @@ a:hover{
   ========================================
 */
 .primary-footer {
-  footer {
   position: absolute;
   right: 0;
   bottom: 0;
