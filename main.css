@@ -67,8 +67,9 @@ h1, h2, h3, h4 {
   color: #ffffff;
 }
 h1 {
-  font-size: 36px;
-  line-height: 38px;
+  font-family: 'Londrina Sketch', cursive;
+  font-size: 56px;
+  line-height: 44px;
 }
 h2 {
   font-size: 24px;
@@ -78,7 +79,9 @@ h3 {
   font-size: 21px;
 }
 h4 {
-  font-size: 18px;
+  font-family: 'Londrina Sketch', cursive;
+  font-size: 26px;
+  line-height: 22px;
 }
 h5 {
   color: #a9b2b9;
@@ -121,9 +124,17 @@ a:hover{
   top: 30px;
   left: 50px;
 }
-nav {
-  text-align: right;
-}
+.frontpage {
+    height: 10em;
+    position: relative;
+    text-align: center; }
+.frontpage {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
 /*
   ========================================
   Primary footer
@@ -134,12 +145,14 @@ nav {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
-  background-color: #efefef;
+  padding: 5px;
+  opacity: 1;
+  background-color: rgba(239, 239, 239, 0.3);
 }
 .primary-footer small {
   float: left;
-  bottom: 0px;
+  position: absolute;
+  bottom: 5px;
 }
 .primary-footer med {
   float: right;
