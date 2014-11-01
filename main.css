@@ -127,10 +127,10 @@ a:hover{
 */
 .name {
   margin: 0 auto;
+  position: fixed;
+  top: 30px;
+  left: 10px;
 }
-position: fixed;
-top: 30px;
-left: 10px;
 /*
   ========================================
   Primary footer
