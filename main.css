@@ -50,6 +50,9 @@ table {
   Links
   ========================================
 */
+a{
+  color: #31698a;
+}
 a:link{
   text-decoration: none;
 }
@@ -58,7 +61,5 @@ a:visited{
 }
 a:hover{
   text-decoration: underline;
-}
-a:active{
-  text-decoration: underline;
+  color: #b6d9e8;
 }
