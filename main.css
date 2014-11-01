@@ -110,3 +110,23 @@ a:hover{
   text-decoration: underline;
   color: #31698a;
 }
+/*
+  ========================================
+  Primary header
+  ========================================
+*/
+.name {
+  margin: 0 auto;
+}
+/*
+  ========================================
+  Primary footer
+  ========================================
+*/
+.primary-footer {
+  padding-bottom: 44px;
+  padding-top: 44px;
+}
+.primary-footer small {
+  float: left;
+}
