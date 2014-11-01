@@ -51,7 +51,7 @@ table {
   ========================================
 */
 a{
-  color: #31698a;
+  color: #36465d;
 }
 a:link{
   text-decoration: none;
@@ -61,5 +61,5 @@ a:visited{
 }
 a:hover{
   text-decoration: underline;
-  color: #b6d9e8;
+  color: #31698a;
 }
