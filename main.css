@@ -51,7 +51,7 @@ table {
   ========================================
 */
 body{
-  background: #88adce;
+  background: rgba(136, 173, 206, 0.2);
   color: #888;
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -95,6 +95,9 @@ strong {
 cite, em {
   font-style: italic;
 }
+.blue{
+	color: #88adce;
+}
 /*
   ========================================
   Links
@@ -119,10 +122,14 @@ a:hover{
   ========================================
 */
 .name {
-  margin: 0 auto;
-  position: fixed;
-  top: 30px;
-  left: 50px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  opacity: 1;
+  background-color: rgb(136, 173, 206);
+  text-indent: 200px;
 }
 .frontpage {
     height: 10em;
@@ -147,7 +154,7 @@ a:hover{
   left: 0;
   padding: 5px;
   opacity: 1;
-  background-color: rgba(239, 239, 239, 0.3);
+  background-color: rgba(239, 239, 239, 0.7);
 }
 .primary-footer small {
   float: left;
