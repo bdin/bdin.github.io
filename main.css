@@ -139,9 +139,8 @@ left: 10px;
 .primary-footer {
   padding-bottom: 44px;
   padding-top: 44px;
-  position: fixed;
-  bottom: 0px;
 }
 .primary-footer small {
   float: left;
+  bottom: 0px;
 }
