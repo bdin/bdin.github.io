@@ -5,11 +5,26 @@
   <title>About | Benjamin Din</title>
   <link rel="stylesheet" href="main.css">
   <link href='http://fonts.googleapis.com/css?family=Fredericka+the+Great|Londrina+Sketch' rel='stylesheet' type='text/css'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+ 
+  <script type="text/javascript">
+  function unhide(divID) {
+    var item = document.getElementById(divID);
+    if (item) {
+      item.className=(item.className=='hidden')?'unhidden':'hidden';
+    }
+  }
+</script>
+
 </head>
+
 <body>
+
 <header class="name">
+
 	<h1>Benjamin Din</h1>
 	<h4>journalist. explorer. mathematician.</h4>
+
 	<nav>
 		<a href="index.html">home</a> /
 		<a href="about.html">about</a> /
@@ -17,8 +32,23 @@
 		<a href="resume.html">resume</a> /
 		<a href="contact.html">contact</a>
 	</nav>
+
 </header>
-<a href="#"><img class="aboutbutton" src="https://lh3.googleusercontent.com/NdWPDetT0wcgon7qfRxk4jVJgiPu2RFrrpdS-E7Wd2g=w900-h902-no"></a>
+
+<table class="thisisme">
+	<tr>
+		<td>
+<a href="javascript:unhide('aboutme');"><img class="aboutbutton" src="https://lh3.googleusercontent.com/NdWPDetT0wcgon7qfRxk4jVJgiPu2RFrrpdS-E7Wd2g=w900-h902-no"></a>
+</td>
+<td>
+<div id="aboutme" class="hidden">
+	<p>Hello! My name is Ben. I'm a student at the Medill School of Journalism at Northwestern University in Evanston, Illinois, where I'm studying journalism and the mathematical methods in the social sciences.<br><br>
+	<p>If I could describe myself in three words, I would choose journalist, explorer, and mathematician. I love to write and tell stories, to travel to unexplored places with different cultures, and to crunch numbers and find derivatives. Am I left-brained or right-brained? Well, I guess you could say I'm a little bit of both.<br><br>
+	<p>At Northwestern, I've discovered the <a href="http://www.knightlab.northwestern.edu">Knight Lab</a>, where I've been learning how to code. If you're interested in learning how to code, I would recommend checking out <a href="http://www.learn.knightlab.northwestern.edu">this link</a> for more information!
+</div>
+</td>
+</tr>
+</table>
 <footer class="primary-footer">
 	<small>&copy; 2014 Benjamin Din</small>
 	<med>
@@ -26,5 +56,6 @@
 	<a href="https://www.linkedin.com/pub/benjamin-din/73/74/52" target="_blank"><img src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_black-48.png" onmouseover="this.src='https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_color-48.png'" onmouseout="this.src='https://cdn3.iconfinder.com/data/icons/free-social-icons/67/linkedin_circle_black-48.png'"></a>
 	</med>
 </footer>
+
 </body>
 </html>
