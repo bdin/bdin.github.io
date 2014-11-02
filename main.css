@@ -172,9 +172,6 @@ a:hover{
   ========================================
 */
 .aboutbutton {
-	border-style: solid;
-	border-color: 2px purple;
-	border-radius: 100px;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -182,9 +179,9 @@ a:hover{
     margin-right: -20%;
     transform: translate(-150%, -50%);
  	opacity: 1.0;
- 	transition: opacity 1s ease-in-out;
- 	-moz-transition: opacity 1s ease-in-out;
- 	-webkit-transition: opacity 1s ease-in-out;
+ 	transition: opacity .55s ease-in-out;
+ 	-moz-transition: opacity .55s ease-in-out;
+ 	-webkit-transition: opacity .55s ease-in-out;
  }
  a:hover .aboutbutton {
  opacity: .6;
@@ -192,6 +189,19 @@ a:hover{
  -moz-transition: opacity .55s ease-in-out;
  -webkit-transition: opacity .55s ease-in-out;
  }
+.hidden{
+	display: none;
+}
+.unhidden{display: block;}
+.thisisme{
+	height: 500px;
+	width: 600px;
+	position: fixed;
+	top: 175px; 
+	left: 600px;
+	border-collapse: separate;
+	border-spacing: 60px;
+}
 /*
   ========================================
   Buttons
