@@ -141,7 +141,8 @@ a:hover{
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) }
+    transform: translate(-50%, -50%);
+}
 /*
   ========================================
   Primary footer
@@ -167,6 +168,32 @@ a:hover{
 }
 /*
   ========================================
+  About
+  ========================================
+*/
+.aboutbutton {
+	border-style: solid;
+	border-color: 2px purple;
+	border-radius: 100px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -20%;
+    transform: translate(-150%, -50%);
+ 	opacity: 1.0;
+ 	transition: opacity 1s ease-in-out;
+ 	-moz-transition: opacity 1s ease-in-out;
+ 	-webkit-transition: opacity 1s ease-in-out;
+ }
+ a:hover .aboutbutton {
+ opacity: .6;
+ transition: opacity .55s ease-in-out;
+ -moz-transition: opacity .55s ease-in-out;
+ -webkit-transition: opacity .55s ease-in-out;
+ }
+/*
+  ========================================
   Buttons
   ========================================
 */
@@ -176,7 +203,6 @@ a:hover{
 	border-style: none;
 	border-width: 5px;
 	border-radius: 100px;
-	text-align: center;
 }
 /*
   ========================================
