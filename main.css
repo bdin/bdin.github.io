@@ -232,11 +232,13 @@ a:hover{
   Portfolio
   ========================================
 */
+.totality {
+  margin-top: 175px;
+}
 .wrapper {
       width: 970px;
       margin: 0 auto;
       position: relative;
-      margin-top: 175px;
     }
     .publication img {
       width: 180px;
