@@ -173,36 +173,38 @@ a:hover{
   About//Contact
   ========================================
 */
-.aboutbutton {
-    margin: 0;
-    position: absolute;
+.aboutsection{
+    margin: 0 auto;
+    position: fixed;
     top: 50%;
     left: 50%;
-    margin-right: -20%;
-    transform: translate(-150%, -50%);
-  opacity: 1.0;
-  transition: opacity .55s ease-in-out;
-  -moz-transition: opacity .55s ease-in-out;
-  -webkit-transition: opacity .55s ease-in-out;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+}
+.aboutsection2{
+    width: 600px;
+    margin: 0 auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%, -50%);
+}
+.aboutbutton{
+  float: left;
+  display: block;
  }
- a:hover .aboutbutton {
- opacity: .6;
- transition: opacity .55s ease-in-out;
- -moz-transition: opacity .55s ease-in-out;
- -webkit-transition: opacity .55s ease-in-out;
+ a:hover .aboutbutton{
+ opacity: 0.1;
+ transition: opacity .75s ease-out;
+ -moz-transition: opacity .75s ease-out;
+ -webkit-transition: opacity .75s ease-out;
  }
 .hidden{
   display: none;
 }
-.unhidden{display: block;}
-.thisisme{
-  height: 500px;
-  width: 600px;
-  position: fixed;
-  top: 175px; 
-  left: 600px;
-  border-collapse: separate;
-  border-spacing: 60px;
+.unhidden{
+  display: block;
 }
 .centered{
   margin: 0;
@@ -212,7 +214,6 @@ a:hover{
     margin-right: -50%;
     transform: translate(-50%, -50%);
     text-align: center;
-
 }
 /*
   ========================================
