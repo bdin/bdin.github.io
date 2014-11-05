@@ -196,9 +196,9 @@ a:hover{
  }
  a:hover .aboutbutton{
  opacity: 0.1;
- transition: opacity .75s ease-out;
- -moz-transition: opacity .75s ease-out;
- -webkit-transition: opacity .75s ease-out;
+ transition: opacity 1s ease-out;
+ -moz-transition: opacity 1s ease-out;
+ -webkit-transition: opacity 1s ease-out;
  }
 .hidden{
   display: none;
