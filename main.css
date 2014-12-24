@@ -239,6 +239,9 @@ a:hover{
   Portfolio
   ========================================
 */
+.transparency:hover {
+    opacity: 0.6;
+}
 .totality {
   margin-top: 140px;
 }
