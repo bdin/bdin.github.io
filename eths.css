@@ -163,7 +163,7 @@ main {
 .curtainContainer .curtain {width: 300%; height: 1px; background-color: #000000; position: absolute; top: 25%; left: 0; opacity: 0}
 .curtainContainer .copy {position: absolute; bottom: 10%; left: 0; width: 100%; text-align: center;}
 
-#slide-4 .bcg {background-image:url('../img/bcg_slide-4.jpg')}
+#slide-4 .bcg {background-image:url('https://lh5.googleusercontent.com/-msPw1sVdgBo/VPbKtEp5gLI/AAAAAAAAAcc/yvU2l59o1hI/w2048-h1366-no/bcg_slide-4.jpg')}
 
 /* Slide 5 */
 #slide-5 {position: relative;}
