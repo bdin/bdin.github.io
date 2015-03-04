@@ -122,7 +122,7 @@ h2 {
 	margin-top: 0;
 }
 .loading {
-	background: url('../img/ico_loading.gif') no-repeat center center;
+	background: url('https://lh6.googleusercontent.com/-9O89nUMOdck/VPbLXeWSI0I/AAAAAAAAAc8/4ZTgWxriLRg/w32-h22-no/ico_loading.gif') no-repeat center center;
 }
 section {
 	min-width: 960px;
@@ -149,13 +149,13 @@ main {
 }
 
 /* Slide 1 */
-#slide-1 .bcg {background-image:url('../img/bcg_slide-1.jpg');}
+#slide-1 .bcg {background-image:url('http://www.eths.k12.il.us/assets/1/Page/ETHS_bldgfront_oct2013.jpg');}
 
 /* Slide 2 */
 #slide-2 .bcg {background: none; background-color: #010101; height: 5px; text-align: center}
 
 /* Slide 3 */
-#slide-3 .bcg {background-image:url('../img/bcg_slide-3.jpg')}
+#slide-3 .bcg {background-image:url('http://3.bp.blogspot.com/-cS0y7jTAhzA/UkCqchwUbKI/AAAAAAAAAJE/4xM46cx61dU/s1600/MPj04225910000%5B1%5D.jpg')}
 
 /* Slide 4 */
 .curtainContainer {width: 100%; height: 100%; position: relative;}
@@ -163,7 +163,7 @@ main {
 .curtainContainer .curtain {width: 300%; height: 1px; background-color: #000000; position: absolute; top: 25%; left: 0; opacity: 0}
 .curtainContainer .copy {position: absolute; bottom: 10%; left: 0; width: 100%; text-align: center;}
 
-#slide-4 .bcg {background-image:url('../img/bcg_slide-4.jpg')}
+#slide-4 .bcg {background-image:url('https://lh5.googleusercontent.com/-msPw1sVdgBo/VPbKtEp5gLI/AAAAAAAAAcc/yvU2l59o1hI/w2048-h1366-no/bcg_slide-4.jpg')}
 
 /* Slide 5 */
 #slide-5 {position: relative;}
