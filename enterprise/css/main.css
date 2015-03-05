@@ -108,88 +108,90 @@ textarea {
    Parallax Scroll
    ========================================================================== */
 body, html {
-	height: 100%;
-	min-height: 100%;
-	background-color: #000000;
+    height: 100%;
+    min-height: 100%;
+    background-color: #000000;
 }
 body {
-	
+    
 }
 .no-js {
-	padding-top: 106px;
+    padding-top: 106px;
 }
 h2 {
-	margin-top: 0;
+    margin-top: 0;
 }
 .loading {
-	background: url('https://lh6.googleusercontent.com/-9O89nUMOdck/VPbLXeWSI0I/AAAAAAAAAc8/4ZTgWxriLRg/w32-h22-no/ico_loading.gif') no-repeat center center;
+    background: url('https://lh6.googleusercontent.com/-9O89nUMOdck/VPbLXeWSI0I/AAAAAAAAAc8/4ZTgWxriLRg/w32-h22-no/ico_loading.gif') no-repeat center center;
 }
 section {
-	min-width: 960px;
-	opacity: 0;
+    min-width: 960px;
+    opacity: 0;
 }
 .loaded section,
 .no-js section {
-	opacity: 1;
-	-webkit-transition: opacity 300ms ease-out;
-	-moz-transition: opacity 300ms ease-out;
-	transition: opacity 300ms ease-out;
+    opacity: 1;
+    -webkit-transition: opacity 300ms ease-out;
+    -moz-transition: opacity 300ms ease-out;
+    transition: opacity 300ms ease-out;
 }
 main {
-	overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 .bcg {
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	height: 100%;
-	width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 /* Slide 1 */
+#slide-1 {position: relative;}
 #slide-1 .bcg {background-image:url('http://www.eths.k12.il.us/assets/1/Page/ETHS_bldgfront_oct2013.jpg');}
 
 /* Slide 2 */
+#slide-2 {position: relative;}
 #slide-2 .bcg {background: none; background-color: #010101; height: 5px; text-align: center}
 
 /* Slide 3 */
+#slide-3 {position: relative;}
 #slide-3 .bcg {background-image:url('http://3.bp.blogspot.com/-cS0y7jTAhzA/UkCqchwUbKI/AAAAAAAAAJE/4xM46cx61dU/s1600/MPj04225910000%5B1%5D.jpg')}
 
 /* Slide 4 */
+#slide-4 {position: relative;}
 .curtainContainer {width: 100%; height: 100%; position: relative;}
 /* .curtain affects the transparent black */
-.curtainContainer .curtain {width: 300%; height: 1px; background-color: #000000; position: absolute; top: 25%; left: 0; opacity: 0}
+.curtainContainer .curtain {width: 300%; height: 1px; background-color: #000000; position: absolute; top: 25%; left: 0; opacity: 0; z-index: 0}
 .curtainContainer .copy {position: absolute; bottom: 10%; left: 0; width: 100%; text-align: center;}
-
-#slide-4 .bcg {background-image:url('https://lh5.googleusercontent.com/-msPw1sVdgBo/VPbKtEp5gLI/AAAAAAAAAcc/yvU2l59o1hI/w2048-h1366-no/bcg_slide-4.jpg')}
+#slide-4 .bcg {background-image:url('https://lh5.googleusercontent.com/-msPw1sVdgBo/VPbKtEp5gLI/AAAAAAAAAcc/yvU2l59o1hI/w2048-h1366-no/bcg_slide-4.jpg');}
 
 /* Slide 5 */
-#slide-5 {position: relative;}
+#slide-5 {position: fixed;}
 #slide-5 .bcg {background: none; background-color: #000000;}
-#slide-5 .bcg2 {background: none; background-color: #D3D3D3; position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 1}
-#slide-5 .bcg3 {background: none; background-color: #010101; z-index: 2;  position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 2}
-#slide-5 .bcg4 {background: none; background-color: #010101; z-index: 3;  position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 3}
-
+#slide-5 .bcg2 {background: none; background-color: #D3D3D3; position: absolute; bottom: 0; left: 0; opacity: 0; z-index: auto}
+#slide-5 .bcg3 {background: none; background-color: #010101; z-index: auto;  position: absolute; bottom: 0; left: 0; opacity: 0; z-index: auto}
+#slide-5 .bcg4 {background: none; background-color: #010101; z-index: auto;  position: absolute; bottom: 0; left: 0; opacity: 0; z-index: auto}
 
 .hsContainer {
-	display: table;
-	table-layout: fixed;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	position: relative;
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
 }
 
 .hsContent {
-	max-width: 450px;
-	margin: -150px auto 0 auto;
-	display: table-cell;
-	vertical-align: middle;
-	color: #ebebeb;
-	padding: 0 8%;
-	text-align: center;
+    max-width: 450px;
+    margin: -150px auto 0 auto;
+    display: table-cell;
+    vertical-align: middle;
+    color: #ebebeb;
+    padding: 0 8%;
+    text-align: center;
+    position: relative;
 }
 
 .hsContent2 {
@@ -197,38 +199,43 @@ main {
     display: table-cell;
     vertical-align: middle;
     text-align: justify;
+    position: relative;
 }
 
 #hello {
         background: rgba(0, 0, 0, 0.6);
 }
 
-	.hsContent h2,
-	.copy h2 {
-		color: #ffffff;
-		font-size: 60px;
-		line-height: 48px;
-		margin-bottom: 12px;
-	}
-	.hsContent p {
-		width: 600px;
-		margin: 0 auto;
-		color: #b2b2b2;
+    .hsContent h2,
+    .copy h2 {
+        color: #ffffff;
+        font-size: 60px;
+        line-height: 48px;
+        margin-bottom: 12px;
+    }
+    .hsContent p {
+        width: 600px;
+        margin: 0 auto;
+        color: #b2b2b2;
         font-size: 20px;
-	}
-	.hsContent a {
-		color: #b2b2b2;
-		text-decoration: underline;
-	}
-	.bgBlack {
-		background-color: rgba(0,0,0,0.75);
-		padding: 3px 10px;
-	}
+    }
+    
+    .hsContent a {
+        color: #b2b2b2;
+        text-decoration: underline;
+    }
+    
+    .bgBlack {
+        background-color: rgba(0,0,0,0.75);
+        padding: 3px 10px;
+    }
+
     .plaxEl{
         width: 26%;
         background-color: rgba(0,0,0,0.75);
         margin: auto;
         border-color: rgb(0,0,0);
+        overflow: scroll;
     }
 
     .plaxEl2{
@@ -236,6 +243,7 @@ main {
         background-color: rgba(130,151,213,1);
         margin: auto;
         border-color: rgb(0,0,0);
+        overflow: scroll;
     }
 
     #paragraph {
@@ -265,7 +273,7 @@ main {
         text-indent: 2em;
     }
 
-        #paragraph5 {
+    #paragraph5 {
         width: 90%;
         text-align: center;
         padding: auto;
@@ -280,8 +288,6 @@ main {
         color: #b2b2b2;
         font-size: 20px;
     }
-
-
 
     #paragraph3 {
         width: 100%;
@@ -310,11 +316,20 @@ main {
         float: right;
         height: 40%;
         width: 40%;
+        position: relative;
+        z-index: 0;
     }
 
     .centered{
         margin: 50%;
     }
+
+    html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
 
 /* ==========================================================================
    Helper classes
@@ -504,18 +519,4 @@ main {
     h3 {
         page-break-after: avoid;
     }
-}
-
-/*
-* sticky
-*/
-#sticky {
-    padding: 0.5ex;
-    border-radius: 0.5ex;
-}
-#sticky.stick {
-    position: fixed;
-    bottom: -4%;
-    z-index: 10000;
-    border-radius: 0 0 0.5em 0.5em;
 }
