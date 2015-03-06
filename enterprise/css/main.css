@@ -158,7 +158,7 @@ main {
 
 /* Slide 3 */
 #slide-3 {position: relative;}
-#slide-3 .bcg {background-image:url('http://3.bp.blogspot.com/-cS0y7jTAhzA/UkCqchwUbKI/AAAAAAAAAJE/4xM46cx61dU/s1600/MPj04225910000%5B1%5D.jpg')}
+#slide-3 .bcg {background: none; background-color: #0f0f0f;}
 
 /* Slide 4 */
 #slide-4 {position: relative;}
@@ -169,11 +169,11 @@ main {
 #slide-4 .bcg {background-image:url('https://lh5.googleusercontent.com/-msPw1sVdgBo/VPbKtEp5gLI/AAAAAAAAAcc/yvU2l59o1hI/w2048-h1366-no/bcg_slide-4.jpg');}
 
 /* Slide 5 */
-#slide-5 {position: fixed;}
+#slide-5 {position: relative;}
 #slide-5 .bcg {background: none; background-color: #000000;}
-#slide-5 .bcg2 {background: none; background-color: #D3D3D3; position: absolute; bottom: 0; left: 0; opacity: 0; z-index: auto}
-#slide-5 .bcg3 {background: none; background-color: #010101; z-index: auto;  position: absolute; bottom: 0; left: 0; opacity: 0; z-index: auto}
-#slide-5 .bcg4 {background: none; background-color: #010101; z-index: auto;  position: absolute; bottom: 0; left: 0; opacity: 0; z-index: auto}
+#slide-5 .bcg2 {background: none; background-color: #D3D3D3; position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 1}
+#slide-5 .bcg3 {background: none; background-color: #010101; z-index: 2;  position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 2}
+#slide-5 .bcg4 {background: none; background-color: #010101; z-index: 3;  position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 3}
 
 .hsContainer {
     position: relative;
@@ -231,6 +231,14 @@ main {
     }
 
     .plaxEl{
+        width: 36%;
+        background-color: rgba(0,0,0,0.75);
+        margin: auto;
+        border-color: rgb(0,0,0);
+        overflow: scroll;
+    }
+
+        .plaxEl3{
         width: 26%;
         background-color: rgba(0,0,0,0.75);
         margin: auto;
@@ -239,7 +247,7 @@ main {
     }
 
     .plaxEl2{
-        width: 39.4%;
+        width: 44.4%;
         background-color: rgba(130,151,213,1);
         margin: auto;
         border-color: rgb(0,0,0);
@@ -256,12 +264,15 @@ main {
 
     #paragraph2 {
     text-align: center;
-    padding: auto;
     font-family: 'Raleway', sans-serif;
     }
 
     .paragraph3 {
         margin: 5%;
+    }
+
+    .paragraph3 a {
+        color: #ffffff;
     }
 
     #paragraph4 {
@@ -300,22 +311,19 @@ main {
     }
 
     #ETHSpopb {
-        text-align: right;
-        padding-right: 4%;
-        font-size: 36px;
-        line-height: 1px;
+        text-align: center;
+        font-size: 24px;
+        line-height: 10px;
     }
     #ETHSpopa {
-        text-align: right;
-        padding-right: 4%;
-        font-size: 12px;
+        text-align: center;
+        font-size: 10px;
         color: rgb(255, 255, 255)
-        line-height: 5px;
+        line-height: 0.01px;
     }
     #ETHSgraphic {
-        float: right;
-        height: 40%;
-        width: 40%;
+        max-height: 48%;
+        max-width: 48%;
         position: relative;
         z-index: 0;
     }
@@ -327,6 +335,19 @@ main {
     html, body {
     max-width: 100%;
     overflow-x: hidden;
+}
+
+#links {
+        text-decoration: none;
+        color: #ffffff;
+}
+
+.extra {
+    width: 54.6%;
+    float: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
