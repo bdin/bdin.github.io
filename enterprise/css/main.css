@@ -19,23 +19,17 @@ Enjoy responsibly!
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
  * Kroc Camen, and the H5BP dev community and team.
  */
-
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
-html,
-button,
-input,
-select,
-textarea {
-    color: #222;
+html,button,input,select,textarea {
+    color:#222
 }
 
 body {
-    font-size: 1em;
-    line-height: 1.4;
-    font-family: 'Oswald', sans-serif;
+    font-size:1em;
+    line-height:1.4;
+    font-family:'Oswald',sans-serif
 }
 
 /*
@@ -43,383 +37,507 @@ body {
  * These selection rule sets have to be separate.
  * Customize the background color to match your design.
  */
-
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+    background:#b3d4fc;
+    text-shadow:none
 }
 
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+    background:#b3d4fc;
+    text-shadow:none
 }
 
 /*
  * A better looking default horizontal rule
  */
-
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #ccc;
+    margin:1em 0;
+    padding:0
 }
 
 /*
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
-
 img {
-    vertical-align: middle;
+    vertical-align:middle
 }
 
 /*
  * Remove default fieldset styles.
  */
-
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+    border:0;
+    margin:0;
+    padding:0
 }
 
 /*
  * Allow only vertical resizing of textareas.
  */
-
 textarea {
-    resize: vertical;
+    resize:vertical
 }
 
 /* ==========================================================================
    Chrome Frame prompt
    ========================================================================== */
-
 .chromeframe {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+    margin:.2em 0;
+    background:#ccc;
+    color:#000;
+    padding:.2em 0
 }
 
 /* ==========================================================================
    Parallax Scroll
    ========================================================================== */
-body, html {
-    height: 100%;
-    min-height: 100%;
-    background-color: #000000;
+body,html {
+    height:100%;
+    min-height:100%;
+    background-color:#000
 }
+
 body {
-    
 }
+
 .no-js {
-    padding-top: 106px;
+    padding-top:106px
 }
+
 h2 {
-    margin-top: 0;
+    margin-top:0
 }
+
 .loading {
-    background: url('https://lh6.googleusercontent.com/-9O89nUMOdck/VPbLXeWSI0I/AAAAAAAAAc8/4ZTgWxriLRg/w32-h22-no/ico_loading.gif') no-repeat center center;
+    background:url(https://lh6.googleusercontent.com/-9O89nUMOdck/VPbLXeWSI0I/AAAAAAAAAc8/4ZTgWxriLRg/w32-h22-no/ico_loading.gif) no-repeat center center
 }
+
 section {
-    min-width: 960px;
-    opacity: 0;
+    min-width:960px;
+    opacity:0
 }
-.loaded section,
-.no-js section {
-    opacity: 1;
-    -webkit-transition: opacity 300ms ease-out;
-    -moz-transition: opacity 300ms ease-out;
-    transition: opacity 300ms ease-out;
+
+.loaded section,.no-js section {
+    opacity:1;
+    -webkit-transition:opacity 300ms ease-out;
+    -moz-transition:opacity 300ms ease-out;
+    transition:opacity 300ms ease-out
 }
+
 main {
-    overflow-x: hidden;
+    overflow-x:hidden
 }
 
 .bcg {
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    height:100%;
+    width:100%
 }
 
 /* Slide 1 */
-#slide-1 {position: relative;}
-#slide-1 .bcg {background-image:url('http://www.eths.k12.il.us/assets/1/Page/ETHS_bldgfront_oct2013.jpg');}
+#slide-1 {
+    position:relative
+}
+
+#slide-1 .bcg {
+    background-image:url(http://www.eths.k12.il.us/assets/1/Page/ETHS_bldgfront_oct2013.jpg)
+}
 
 /* Slide 2 */
-#slide-2 {position: relative;}
-#slide-2 .bcg {background: none; background-color: #010101; height: 5px; text-align: center}
+#slide-2 {
+    position:relative
+}
+
+#slide-2 .bcg {
+    background:none;
+    background-color:#010101;
+    height:5px;
+    text-align:center
+}
 
 /* Slide 3 */
-#slide-3 {position: relative;}
-#slide-3 .bcg {background: none; background-color: #0f0f0f;}
+#slide-3 {
+    position:relative
+}
+
+#slide-3 .bcg {
+    background-image:url(http://dailynorthwestern.com/wp-content/uploads/2014/10/GEOMETRY_CarolineOlsen-900x599.jpg)
+}
 
 /* Slide 4 */
-#slide-4 {position: relative;}
-.curtainContainer {width: 100%; height: 100%; position: relative;}
+#slide-4 {
+    position:relative
+}
+
+.curtainContainer {
+    width:100%;
+    height:100%;
+    position:relative
+}
+
 /* .curtain affects the transparent black */
-.curtainContainer .curtain {width: 300%; height: 1px; background-color: #000000; position: absolute; top: 25%; left: 0; opacity: 0; z-index: 0}
-.curtainContainer .copy {position: absolute; bottom: 10%; left: 0; width: 100%; text-align: center;}
-#slide-4 .bcg {background-image:url('https://lh5.googleusercontent.com/-msPw1sVdgBo/VPbKtEp5gLI/AAAAAAAAAcc/yvU2l59o1hI/w2048-h1366-no/bcg_slide-4.jpg');}
+.curtainContainer .curtain {
+    width:300%;
+    height:1px;
+    background-color:#000;
+    position:absolute;
+    top:25%;
+    left:0;
+    opacity:0;
+    z-index:0
+}
+
+.curtainContainer .copy {
+    position:absolute;
+    bottom:10%;
+    left:0;
+    width:100%;
+    text-align:center
+}
+
+#slide-4 .bcg {
+    background-image:url(https://lh5.googleusercontent.com/-msPw1sVdgBo/VPbKtEp5gLI/AAAAAAAAAcc/yvU2l59o1hI/w2048-h1366-no/bcg_slide-4.jpg)
+}
 
 /* Slide 5 */
-#slide-5 {position: relative;}
-#slide-5 .bcg {background: none; background-color: #000000;}
-#slide-5 .bcg2 {background: none; background-color: #D3D3D3; position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 1}
-#slide-5 .bcg3 {background: none; background-color: #010101; z-index: 2;  position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 2}
-#slide-5 .bcg4 {background: none; background-color: #010101; z-index: 3;  position: fixed; bottom: 0; left: 0; opacity: 0; z-index: 3}
+#slide-5 {
+    position:relative
+}
+
+#slide-5 .bcg {
+    background:none;
+    background-color:#000
+}
+
+#slide-5 .bcg2 {
+    background:none;
+    background-color:#D3D3D3;
+    z-index:1;
+    position:fixed;
+    bottom:0;
+    left:0;
+    opacity:0;
+    z-index:1
+}
+
+#slide-5 .bcg3 {
+    background:none;
+    background-color:#D3D3D3;
+    z-index:2;
+    position:fixed;
+    bottom:0;
+    left:0;
+    opacity:0;
+    z-index:2
+}
+
+#slide-5 .bcg4 {
+    background-image:url(http://www.iyfusa.org/wp-content/uploads/2013/10/IMG_6728.jpg);
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+    background-position:center center;
+    background-size:cover;
+    height:100%;
+    width:100%;
+    z-index:3;
+    position:fixed;
+    bottom:0;
+    left:0;
+    opacity:0;
+    z-index:3
+}
+
+#slide-5 .bcg5 {
+    background:none;
+    background-color:#010101;
+    z-index:4;
+    position:fixed;
+    bottom:0;
+    left:0;
+    opacity:0;
+    z-index:4
+}
 
 .hsContainer {
-    position: relative;
-    display: table;
-    table-layout: fixed;
-    width: 100%;
-    height: 100%;
+    position:relative;
+    display:table;
+    table-layout:fixed;
+    width:100%;
+    height:100%
 }
 
 .hsContent {
-    max-width: 450px;
-    margin: -150px auto 0 auto;
-    display: table-cell;
-    vertical-align: middle;
-    color: #ebebeb;
-    padding: 0 8%;
-    text-align: center;
-    position: relative;
+    max-width:450px;
+    margin:-150px auto 0;
+    display:table-cell;
+    vertical-align:middle;
+    color:#ebebeb;
+    padding:0 8%;
+    text-align:center;
+    position:relative
 }
 
 .hsContent2 {
-    max-width: 450px;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: justify;
-    position: relative;
+    max-width:450px;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:justify;
+    position:relative
 }
 
 #hello {
-        background: rgba(0, 0, 0, 0.6);
+    background:rgba(0,0,0,0.6)
 }
 
-    .hsContent h2,
-    .copy h2 {
-        color: #ffffff;
-        font-size: 60px;
-        line-height: 48px;
-        margin-bottom: 12px;
-    }
-    .hsContent p {
-        width: 600px;
-        margin: 0 auto;
-        color: #b2b2b2;
-        font-size: 20px;
-    }
-    
-    .hsContent a {
-        color: #b2b2b2;
-        text-decoration: underline;
-    }
-    
-    .bgBlack {
-        background-color: rgba(0,0,0,0.75);
-        padding: 3px 10px;
-    }
+.hsContent h2,.copy h2 {
+    color:#fff;
+    font-size:60px;
+    line-height:48px;
+    margin-bottom:12px
+}
 
-    .plaxEl{
-        width: 36%;
-        background-color: rgba(0,0,0,0.75);
-        margin: auto;
-        border-color: rgb(0,0,0);
-        overflow: scroll;
-    }
+.hsContent p {
+    width:600px;
+    margin:0 auto;
+    color:#b2b2b2;
+    font-size:20px
+}
 
-        .plaxEl3{
-        width: 26%;
-        background-color: rgba(0,0,0,0.75);
-        margin: auto;
-        border-color: rgb(0,0,0);
-        overflow: scroll;
-    }
+.hsContent a {
+    color:#b2b2b2;
+    text-decoration:underline
+}
 
-    .plaxEl2{
-        width: 44.4%;
-        background-color: rgba(130,151,213,1);
-        margin: auto;
-        border-color: rgb(0,0,0);
-        overflow: scroll;
-    }
+.bgBlack {
+    background-color:rgba(0,0,0,0.75);
+    padding:3px 10px
+}
 
-    #paragraph {
-        width: 90%;
-        text-align: justify;
-        padding: auto;
-        font-family: 'Raleway', sans-serif;
-        font-size: 16px;
-    }
+.plaxEl {
+    width:28%;
+    background-color:rgba(0,0,0,0.75);
+    padding:auto;
+    border-color:#000;
+    overflow:scroll
+}
 
-    #paragraph2 {
-    text-align: center;
-    font-family: 'Raleway', sans-serif;
-    }
+.plaxEl3 {
+    width:24%;
+    background-color:rgba(0,0,0,0.75);
+    padding:auto;
+    border-color:#000;
+    overflow:scroll
+}
 
-    .paragraph3 {
-        margin: 5%;
-    }
+.plaxEl4 {
+    width:27%;
+    background-color:rgba(0,0,0,0.75);
+    padding:auto;
+    border-color:#000;
+    overflow:scroll
+}
 
-    .paragraph3 a {
-        color: #ffffff;
-    }
+.plaxEl10 {
+    width:35%;
+    background-color:rgba(174,174,174,0.75);
+    padding:auto;
+    border-color:#000;
+    overflow:scroll
+}
 
-    #paragraph4 {
-        width: 90%;
-        text-align: justify;
-        padding: auto;
-        font-family: 'Raleway', sans-serif;
-        font-size: 16px;
-        text-indent: 2em;
-    }
+.plaxEl2 {
+    width:44.4%;
+    background-color:rgba(130,151,213,1);
+    margin:auto;
+    border-color:#000;
+    overflow:scroll
+}
 
-    #paragraph5 {
-        width: 90%;
-        text-align: center;
-        padding: auto;
-        font-family: 'Raleway', sans-serif;
-        font-size: 16px;
-    }
+#paragraph {
+    width:90%;
+    text-align:justify;
+    padding:auto;
+    font-family:'Raleway',sans-serif;
+    font-size:16px
+}
 
-    #paragraph6 {
-        width: 90%;
-        text-align: center;
-        padding: auto;
-        color: #b2b2b2;
-        font-size: 20px;
-    }
+#paragraph2 {
+    text-align:center;
+    font-family:'Raleway',sans-serif
+}
 
-    #paragraph3 {
-        width: 100%;
-        text-align: justify;
-        margin: 0;
-        font-family: 'Raleway', sans-serif;
-        font-size: 16px;
-        line-height: 26px;
-        text-indent: 2em;
-    }
+.paragraph3 {
+    margin:5%
+}
 
-    #ETHSpopb {
-        text-align: center;
-        font-size: 24px;
-        line-height: 10px;
-    }
-    #ETHSpopa {
-        text-align: center;
-        font-size: 10px;
-        color: rgb(255, 255, 255)
-        line-height: 0.01px;
-    }
-    #ETHSgraphic {
-        max-height: 48%;
-        max-width: 48%;
-        position: relative;
-        z-index: 0;
-    }
+.paragraph3 a {
+    color:#fff
+}
 
-    .centered{
-        margin: 50%;
-    }
+#paragraph4 {
+    width:90%;
+    text-align:justify;
+    padding:auto;
+    font-family:'Raleway',sans-serif;
+    font-size:16px;
+    text-indent:2em
+}
 
-    html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+#paragraph7 {
+    width:90%;
+    text-align:justify;
+    padding:auto;
+    font-family:'Raleway',sans-serif;
+    font-size:16px;
+    text-indent:2em;
+    color:#fff
+}
+
+#paragraph5 {
+    max-width:90%;
+    text-align:center;
+    padding:auto;
+    font-family:'Raleway',sans-serif;
+    font-size:16px
+}
+
+#paragraph6 {
+    max-width:90%;
+    text-align:center;
+    padding:auto;
+    color:#b2b2b2;
+    font-size:20px
+}
+
+#paragraph3 {
+    width:100%;
+    text-align:justify;
+    margin:0;
+    font-family:'Raleway',sans-serif;
+    font-size:16px;
+    line-height:26px;
+    text-indent:2em
+}
+
+#paragraph10 {
+    width:90%;
+    color:#fff;
+    text-align:justify;
+    font-family:'Raleway',sans-serif;
+    font-size:16px;
+    text-indent:2em
+}
+
+#ETHSpopb {
+    text-align:center;
+    font-size:24px;
+    line-height:10px
+}
+
+#ETHSpopa {
+    text-align:center;
+    font-size:10px;
+    color:#fff;
+    line-height:.01px
+}
+
+#ETHSgraphic {
+    max-height:48%;
+    max-width:48%;
+    position:relative;
+    z-index:0
+}
+
+.centered {
+    margin:50%
+}
+
+html,body {
+    max-width:100%;
+    overflow-x:hidden
 }
 
 #links {
-        text-decoration: none;
-        color: #ffffff;
+    text-decoration:none;
+    color:#fff
 }
 
 .extra {
-    width: 54.6%;
-    float: right;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width:54.6%;
+    float:right;
+    display:block;
+    margin-left:auto;
+    margin-right:auto
 }
-
-
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-
 /*
  * Image replacement
  */
-
 .ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    /* IE 6/7 fallback */
-    *text-indent: -9999px;
+    background-color:transparent;
+    border:0;
+    overflow:hidden;
+/* IE 6/7 fallback */
+    *text-indent:-9999px
 }
 
 .ir:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 150%;
+    content:"";
+    display:block;
+    width:0;
+    height:150%
 }
 
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
-
 .hidden {
-    display: none !important;
-    visibility: hidden;
+    display:none!important;
+    visibility:hidden
 }
 
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
-
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+    border:0;
+    clip:rect(0 0 0 0);
+    height:1px;
+    margin:-1px;
+    overflow:hidden;
+    padding:0;
+    position:absolute;
+    width:1px
 }
 
 /*
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
  */
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus {
+    clip:auto;
+    height:auto;
+    margin:0;
+    overflow:visible;
+    position:static;
+    width:auto
 }
 
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
-
 .invisible {
-    visibility: hidden;
+    visibility:hidden
 }
 
 /*
@@ -433,24 +551,23 @@ main {
  * 2. The use of `table` rather than `block` is only necessary if using
  *    `:before` to contain the top-margins of child elements.
  */
-
-.clearfix:before,
-.clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+.clearfix:before,.clearfix:after {
+    content:" ";
+/* 1 */
+    display:table
+/* 2 */
 }
 
 .clearfix:after {
-    clear: both;
+    clear:both
 }
 
 /*
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
  */
-
 .clearfix {
-    *zoom: 1;
+    *zoom:1
 }
 
 /* ==========================================================================
@@ -458,86 +575,76 @@ main {
    These examples override the primary ('mobile first') styles.
    Modify as content requires.
    ========================================================================== */
-
 @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+/* Style adjustments for viewports that meet the condition */
+
 }
 
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+@media print,(-o-min-device-pixel-ratio: 54),(-webkit-min-device-pixel-ratio: 1.25),(min-resolution: 120dpi) {
+/* Style adjustments for high resolution devices */
+
 }
 
 /* ==========================================================================
    Print styles.
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
-
 @media print {
-    * {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
+* {
+    background:transparent!important;
+    color:#000!important;
+/* Black prints faster: h5bp.com/s */
+    box-shadow:none!important;
+    text-shadow:none!important
+}
 
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
+a,a:visited {
+    text-decoration:underline
+}
 
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
+a[href]:after {
+    content:" (" attr(href) ")"
+}
 
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
+abbr[title]:after {
+    content:" (" attr(title) ")"
+}
 
-    /*
+/*
      * Don't show links for images, or javascript/internal links
      */
+.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after {
+    content:""
+}
 
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: "";
-    }
+pre,blockquote {
+    border:1px solid #999;
+    page-break-inside:avoid
+}
 
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
+thead {
+    display:table-header-group
+/* h5bp.com/t */
+}
 
-    thead {
-        display: table-header-group; /* h5bp.com/t */
-    }
+tr,img {
+    page-break-inside:avoid
+}
 
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
+img {
+    max-width:100%!important
+}
 
-    img {
-        max-width: 100% !important;
-    }
+@page {
+    margin:.5cm
+}
 
-    @page {
-        margin: 0.5cm;
-    }
+p,h2,h3 {
+    orphans:3;
+    widows:3
+}
 
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+h2,h3 {
+    page-break-after:avoid
+}
 }
