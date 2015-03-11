@@ -130,10 +130,7 @@ a:hover{
 }
 .frontpage {
     height: 10em;
-    position: relative;
-    text-align: center; 
-}
-.frontpage {
+    text-align: center;
     margin: 0;
     position: absolute;
     top: 50%;
