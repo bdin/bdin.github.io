@@ -190,6 +190,7 @@ a:hover{
 }
 .centered{
   margin: 0 auto;
+  margin-bottom: 60px;
   position: absolute;
   top: 50%;
   left: 50%;
