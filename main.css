@@ -202,8 +202,7 @@ a:hover{
 }
 @media screen and (max-width: 445px) {
   .shrink {
-    height: 100px;
-    width: 100px;
+    display: block;
   }
 }
 /*
