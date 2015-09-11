@@ -66,7 +66,7 @@ body{
 h1, h3, h4, h5, p {
   margin-bottom: 5px;
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
   color: #000000;
 }
 h1 {
@@ -88,10 +88,8 @@ h4 {
   line-height: 22px;
 }
 h5 {
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 400;
-  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 300;
 }
 strong {
   font-weight: 400;
@@ -158,8 +156,7 @@ a:hover{
   bottom: 0;
   left: 0;
   padding: 5px;
-  opacity: 0.75;
-  background-color: #ffffff;
+  background-color: rgba(355,355,355,.6);
   z-index: 99;
 }
 .primary-footer small {
@@ -230,8 +227,58 @@ a:hover{
   Resume
   ========================================
 */
-.resumedistance {
-  margin-top: 50px;
+.resume {
+  padding-top: 140px;
+  width: 75%;
+  margin: 0 auto;
+}
+.reshead {
+  text-align: right;
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.resfill {
+  text-align: left;
+  width: 65%;
+  display: inline-block;
+  margin-left: 5%;
+}
+.resfill p {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 950px) and (max-width: 1203px) {
+  .resume {
+    width: 95%;
+  }
+}
+
+ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  width: 100%;
+  padding-left: 1em;
+}
+
+@media screen and (max-width: 949px) {
+  .resume {
+    width: 75%;
+  }
+  .reshead {
+    float: left;
+    width: 100%;
+    text-align: left;
+  }
+  .resfill {
+    float: left;
+    width: 100%;
+    margin-left: 0;
+  }
 }
 
 /*
