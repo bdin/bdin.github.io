@@ -96,6 +96,10 @@ strong {
 cite, em {
   font-style: italic;
 }
+p {
+  width: 75%;
+  margin: 0 auto;
+}
 /*
   ========================================
   Links
@@ -135,8 +139,10 @@ a:hover{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     margin-right: -50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 /*
   ========================================
@@ -162,43 +168,25 @@ a:hover{
   float: right;
   bottom: 0px;
 }
+@media screen and (max-width: 767px) {
+  footer img {
+    height: 40px;
+    width: 40px;
+  }
+}
 /*
   ========================================
   About//Contact
   ========================================
 */
 .aboutsection{
+    width: 100%;
     margin: 0 auto;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-right: 50%;
-    transform: translate(-50%, -50%);
+    margin-top: 140px;
 }
-.aboutsection2{
-    width: 600px;
-    margin: 0 auto;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-right: 50%;
-    transform: translate(-50%, -50%);
-}
-.aboutbutton{
-  float: left;
+.aboutsection img {
   display: block;
- }
- a:hover .aboutbutton{
- opacity: 0.1;
- transition: opacity 1s ease-out;
- -moz-transition: opacity 1s ease-out;
- -webkit-transition: opacity 1s ease-out;
- }
-.hidden{
-  display: none;
-}
-.unhidden{
-  display: block;
+  margin: 0 auto;
 }
 .centered{
   margin: 0;
@@ -208,6 +196,12 @@ a:hover{
     margin-right: -50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+@media screen and (max-width: 445px) {
+  .shrink {
+    height: 100px;
+    width: 100px;
+  }
 }
 /*
   ========================================
@@ -241,37 +235,72 @@ a:hover{
 .totality {
   margin-top: 140px;
 }
-.wrapper {
-      width: 970px;
-      margin: 0 auto;
-      position: relative;
-    }
-    .publication img {
-      width: 180px;
-      height: 180px;
-      float: left;
-    }
-    div.info {
-      float: left;
-      width: 750px;
-      padding-left: 20px;
-    }
-    .stories {
+@media screen and (max-width: 1032px) {
+  .publication img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  .publication {
+    margin-bottom: 25px;
+  }
+  .wrapper {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .totality {
+    margin-top: 130px;
+  }
+  time {
+    display: none;
+  }
+  .stories {
+    text-indent: -1em;
+    padding-left: 1em;
+    font-size: 15px;
+    border-left: 2px solid #888;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .box {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1033px) {
+  .wrapper {
+    width: 970px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .publication img {
+    width: 180px;
+    height: 180px;
+    float: left;
+  }
+  div.info {
+    float: left;
+    width: 750px;
+    padding-left: 20px;
+  }
+  .stories {
     padding-left: 30px;
     overflow: auto;
     height: 200px; 
     width: 675px;
-    }
-    .title {
-      text-align: left;
-    }
-    time {
-      text-align: right;
-      float: right;
-    }
-    .box{
-          background-color: rgba(239, 239, 239, 0.7);
-    }
+  }
+  .title {
+    text-align: left;
+  }
+  time {
+    text-align: right;
+    float: right;
+  }
+  .box {
+    background-color: rgba(239, 239, 239, 0.7);
+  }
+}
 /*
   ========================================
   Clearfix
