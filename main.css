@@ -203,6 +203,7 @@ a:hover{
 @media screen and (max-width: 445px) {
   .shrink {
     display: block;
+    margin: 0 auto;
   }
 }
 /*
