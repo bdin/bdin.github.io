@@ -193,9 +193,11 @@ a:hover{
   position: absolute;
   top: 50%;
   left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 @media screen and (max-width: 445px) {
   .shrink {
