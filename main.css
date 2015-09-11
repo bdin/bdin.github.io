@@ -191,7 +191,7 @@ a:hover{
 .centered{
   width: 100%;
   margin: 0 auto;
-  margin-bottom: 60px;
+  padding-bottom: 60px;
   position: absolute;
   text-align: center;
 }
