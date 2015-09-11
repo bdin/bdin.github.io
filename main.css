@@ -201,7 +201,7 @@ a:hover{
 }
 @media screen and (max-device-width: 1000px) and (orientation:landscape) {
   .centered {
-    margin-top: 140px;
+    margin-top: 60px;
   }
 }
 @media screen and (max-width: 445px) {
