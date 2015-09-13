@@ -254,6 +254,18 @@ a:hover{
   }
 }
 
+@media screen and (max-width: 569px) {
+  .changer {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 570px) {
+  .gamer {
+    display: none;
+  }
+}
+
 ul {
   list-style-type: disc;
   list-style-position: inside;
