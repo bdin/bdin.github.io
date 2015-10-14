@@ -1,0 +1,230 @@
+body {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+.block {
+  background-color: #3a3a3a;
+  margin-bottom: 1.5em;
+  height: 80vh;
+  max-height: 80vh;
+  position: relative;
+  width: 100%;
+}
+
+.blockimg {
+  background-image: url("https://benjamindin.files.wordpress.com/2015/09/img_3153.jpg");
+  background-position: center center;
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  position: absolute;
+  display: block;
+  opacity: .7;
+}
+
+.imgtext {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.byline {
+  text-align: center;
+}
+
+.byline p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+.bar {
+  background-color: #326891;
+  height: 12px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.pullquote {
+    font-family: 'Oswald', sans-serif;
+}
+
+@media screen and (min-width: 1025px) {
+.pullquote {
+  width: 200px;
+  margin-left: -100px;
+  float: left;
+  margin-right: 30px;
+  border-right: 10px solid #326891;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 30px;
+  text-align: right;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+.pullquote {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  }
+  .barquote {
+    border-top: 8px solid #326891;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+#graph {
+  width: 350px;
+  margin-right: -200px;
+  float: right;
+  margin-left: 30px;
+  border-left: 10px solid #326891;
+  padding-left: 30px;
+  padding-top: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+#graph {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  }
+  .barquote {
+    border-top: 8px solid #326891;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+}
+
+
+.story {
+  width: 83%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .story {
+    width: 50%;
+  }
+}
+
+.storytext { 
+  margin-bottom: 70px;
+}
+
+.storytext p {
+  margin-bottom: 12px;
+  line-height: 21px;
+  font-family: Georgia, Times, sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 60px;
+  line-height: 62px;
+  font-weight: normal;
+  text-shadow: 1px 1px 2px #000;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  opacity: 1;
+  font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+  font-size: 1.17em;
+  color: gray;
+  text-shadow: 1px 1px 2px #000;
+  letter-spacing: 1px;
+  line-height: 1.18em;
+  font-family: 'Oswald', sans-serif;
+}
+
+a {
+  color: #326891;
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #326891;
+}
+
+.footer {
+  width: 83%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+ /*
+  * Adjusting for viewport
+  */
+
+/*
+ * iPad with portrait orientation.
+ */
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  .block {
+    height: 819.2px;
+  }
+}
+
+/*
+ * iPad with landscape orientation.
+ */
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape){
+  .block {
+    height: 614.4px;
+  }
+}
+
+/*
+ * iPhone 5
+ * You can also target devices with aspect ratio.
+ */
+@media screen and (device-aspect-ratio: 40/71) {
+  .block {
+    height: 512px;
+  }
+}
+@media screen and (device-aspect-ratio: 40/71) and (orientation:portrait) {
+  .block {
+  height:  908.8px;
+}
+}
