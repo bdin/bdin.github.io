@@ -45,12 +45,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-<<<<<<< HEAD
-=======
 html {
   -webkit-text-size-adjust: 100%;
 }
->>>>>>> e1caa2a7452405e5104485e4a15cbe46cec62c3f
 /*
   ========================================
   Background
@@ -69,11 +66,7 @@ body{
 h1, h3, h4, h5, p {
   margin-bottom: 5px;
 }
-<<<<<<< HEAD
-h1, h2, h3, h4 {
-=======
 h1, h2, h3, h4, h5 {
->>>>>>> e1caa2a7452405e5104485e4a15cbe46cec62c3f
   color: #000000;
 }
 h1 {
@@ -95,15 +88,8 @@ h4 {
   line-height: 22px;
 }
 h5 {
-<<<<<<< HEAD
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 400;
-  text-transform: uppercase;
-=======
   font-size: 18px;
   font-weight: 300;
->>>>>>> e1caa2a7452405e5104485e4a15cbe46cec62c3f
 }
 strong {
   font-weight: 400;
@@ -111,13 +97,10 @@ strong {
 cite, em {
   font-style: italic;
 }
-<<<<<<< HEAD
-=======
 p {
   width: 75%;
   margin: 0 auto;
 }
->>>>>>> e1caa2a7452405e5104485e4a15cbe46cec62c3f
 /*
   ========================================
   Links
@@ -146,35 +129,20 @@ a:hover{
   top: 0;
   left: 0;
   padding: 10px;
-<<<<<<< HEAD
-  opacity: 0.75;
-  text-indent: 200px;
-=======
   text-align: center;
->>>>>>> e1caa2a7452405e5104485e4a15cbe46cec62c3f
   z-index: 99;
   background-color: #ffffff;
 }
 .frontpage {
     height: 10em;
-<<<<<<< HEAD
-    position: relative;
-    text-align: center; 
-}
-.frontpage {
-=======
     text-align: center;
->>>>>>> e1caa2a7452405e5104485e4a15cbe46cec62c3f
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
-<<<<<<< HEAD
-=======
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
->>>>>>> e1caa2a7452405e5104485e4a15cbe46cec62c3f
     transform: translate(-50%, -50%);
 }
 /*
@@ -188,12 +156,7 @@ a:hover{
   bottom: 0;
   left: 0;
   padding: 5px;
-<<<<<<< HEAD
-  opacity: 0.75;
-  background-color: #ffffff;
-=======
   background-color: rgba(355,355,355,.6);
->>>>>>> e1caa2a7452405e5104485e4a15cbe46cec62c3f
   z-index: 99;
 }
 .primary-footer small {
@@ -205,63 +168,18 @@ a:hover{
   float: right;
   bottom: 0px;
 }
-<<<<<<< HEAD
-=======
 @media screen and (max-width: 767px) {
   footer img {
     height: 40px;
     width: 40px;
   }
 }
->>>>>>> e1caa2a7452405e5104485e4a15cbe46cec62c3f
 /*
   ========================================
   About//Contact
   ========================================
 */
 .aboutsection{
-<<<<<<< HEAD
-    margin: 0 auto;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-right: 50%;
-    transform: translate(-50%, -50%);
-}
-.aboutsection2{
-    width: 600px;
-    margin: 0 auto;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    margin-right: 50%;
-    transform: translate(-50%, -50%);
-}
-.aboutbutton{
-  float: left;
-  display: block;
- }
- a:hover .aboutbutton{
- opacity: 0.1;
- transition: opacity 1s ease-out;
- -moz-transition: opacity 1s ease-out;
- -webkit-transition: opacity 1s ease-out;
- }
-.hidden{
-  display: none;
-}
-.unhidden{
-  display: block;
-}
-.centered{
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-=======
     width: 100%;
     margin: 0 auto;
     margin-top: 140px;
@@ -287,7 +205,6 @@ a:hover{
     height: 100px;
     width: 100px;
   }
->>>>>>> e1caa2a7452405e5104485e4a15cbe46cec62c3f
 }
 /*
   ========================================
@@ -306,10 +223,6 @@ a:hover{
   Resume
   ========================================
 */
-<<<<<<< HEAD
-.resumedistance {
-  margin-top: 50px;
-=======
 .resume {
   padding-top: 140px;
   width: 75%;
@@ -374,7 +287,6 @@ ul {
     width: 100%;
     margin-left: 0;
   }
->>>>>>> e1caa2a7452405e5104485e4a15cbe46cec62c3f
 }
 
 /*
@@ -388,24 +300,6 @@ ul {
 .totality {
   margin-top: 140px;
 }
-<<<<<<< HEAD
-.wrapper {
-      width: 970px;
-      margin: 0 auto;
-      position: relative;
-    }
-    .publication img {
-      width: 180px;
-      height: 180px;
-      float: left;
-    }
-    div.info {
-      float: left;
-      width: 750px;
-      padding-left: 20px;
-    }
-    .stories {
-=======
 @media screen and (max-width: 1032px) {
   .publication img {
     display: block;
@@ -456,24 +350,10 @@ ul {
     padding-left: 20px;
   }
   .stories {
->>>>>>> e1caa2a7452405e5104485e4a15cbe46cec62c3f
     padding-left: 30px;
     overflow: auto;
     height: 200px; 
     width: 675px;
-<<<<<<< HEAD
-    }
-    .title {
-      text-align: left;
-    }
-    time {
-      text-align: right;
-      float: right;
-    }
-    .box{
-          background-color: rgba(239, 239, 239, 0.7);
-    }
-=======
   }
   .title {
     text-align: left;
@@ -486,7 +366,6 @@ ul {
     background-color: rgba(239, 239, 239, 0.7);
   }
 }
->>>>>>> e1caa2a7452405e5104485e4a15cbe46cec62c3f
 /*
   ========================================
   Clearfix
