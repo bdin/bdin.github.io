@@ -150,11 +150,7 @@ main {
 
 /* Slide 1 */
 #slide-1 {position: relative;}
-<<<<<<< HEAD
-#slide-1 .bcg {background-image:url('http://www.eths.k12.il.us/assets/1/Page/ETHS_bldgfront_oct2013.jpg');}
-=======
 #slide-1 .bcg {background-image:url('https://benjamindin.files.wordpress.com/2015/09/img_3153.jpg');}
->>>>>>> e1caa2a7452405e5104485e4a15cbe46cec62c3f
 
 /* Slide 2 */
 #slide-2 {position: relative;}
