@@ -135,7 +135,8 @@ body {
 
 .storytext p {
   margin-bottom: 12px;
-  line-height: 21px;
+  line-height: 22px;
+  font-size: 15px;
   font-family: Georgia, Times, sans-serif;
 }
 
