@@ -228,6 +228,11 @@ a:hover{
   width: 75%;
   margin: 0 auto;
 }
+@media screen and (max-width: 949px) {
+.resume{
+  padding-top: 110px;
+}
+}
 .reshead {
   text-align: right;
   width: 25%;
@@ -294,6 +299,12 @@ ul {
   Portfolio
   ========================================
 */
+.reveal {
+  opacity: 0.8;
+}
+.reveal:hover {
+  opacity: 1;
+}
 .transparency:hover {
     opacity: 0.6;
 }
@@ -301,11 +312,33 @@ ul {
   margin-top: 140px;
 }
 @media screen and (max-width: 1032px) {
+  .portdiv {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .differences {
+    margin-top: 40px;
+  }
+  .project img {
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    border: 3px solid black;
+    margin-bottom: 5px;
+  }
+  .projimg {
+    text-align: center;
+  }
+  .projectinfo {
+    text-align: center;
+  }
   .publication img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+    width: 100%;
+    max-width: 200px;
   }
   .publication {
     margin-bottom: 25px;
@@ -332,8 +365,39 @@ ul {
     width: 90%;
     margin: 0 auto;
   }
+.portfolionav {
+  margin-top: 110px;
+}
+.portfolionav li {
+  list-style-type: none;
+  display: inline-block;
+}
+.portfolionav li a {
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
 }
 @media screen and (min-width: 1033px) {
+  .portdiv {
+    width: 35%;
+    margin: 0 auto;
+  }
+  .differences {
+    margin-top: 50px;
+  }
+  .project img {
+    width: 300px;
+    border: 2px solid black;
+    float: left;
+  }
+  .projectinfo {
+    float: left;
+    width: 600px;
+    padding: 20px;
+  }
   .wrapper {
     width: 970px;
     margin: 0 auto;
@@ -365,6 +429,26 @@ ul {
   .box {
     background-color: rgba(239, 239, 239, 0.7);
   }
+.portfolionav {
+  margin-top: 110px;
+}
+.portfolionav li {
+  list-style-type: none;
+  display: inline-block;
+}
+.portfolionav li a {
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+}
+.active {
+  background-color: #888;
+}
+.active li a {
+  color: black !important;
 }
 /*
   ========================================
