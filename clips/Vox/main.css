@@ -191,3 +191,10 @@ p.writing {
     padding-top: 10px;
   }
 }
+
+::selection {
+  background: #ffeb00;
+}
+::-moz-selection {
+  background: #ffeb00;
+}
