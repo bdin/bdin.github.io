@@ -101,6 +101,10 @@ p.writing {
   line-height: 2;
 }
 
+img.move a:hover {
+  opacity: 0.8;
+}
+
 .mediabreak {
   width: 53%; 
   margin-left: 6%; 
