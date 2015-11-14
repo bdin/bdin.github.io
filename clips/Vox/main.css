@@ -101,7 +101,7 @@ p.writing {
   line-height: 2;
 }
 
-img.move a:hover {
+a.move:hover {
   opacity: 0.8;
 }
 
