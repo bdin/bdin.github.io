@@ -117,6 +117,7 @@ a:visited{
 }
 a:hover{
   color: #808080;
+  text-decoration: underline;
 }
 /*
   ========================================
