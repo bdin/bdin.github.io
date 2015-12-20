@@ -108,6 +108,7 @@ p {
 */
 a{
   color: #36465d;
+  font-weight: 400;
 }
 a:link{
   text-decoration: none;
@@ -117,6 +118,15 @@ a:visited{
 }
 a:hover{
   color: #808080;
+}
+.box a {
+  font-weight: 300;
+}
+.box a:hover{
+  font-weight: 400;
+}
+nav a {
+  font-weight: 300;
 }
 /*
   ========================================
@@ -170,8 +180,7 @@ a:hover{
 }
 @media screen and (max-width: 767px) {
   footer img {
-    height: 40px;
-    width: 40px;
+    width: 40px !important;
   }
 }
 /*
@@ -180,7 +189,7 @@ a:hover{
   ========================================
 */
 .aboutsection{
-    width: 100%;
+    width: 50%;
     margin: 0 auto;
     margin-top: 140px;
 }
@@ -195,6 +204,21 @@ a:hover{
   position: absolute;
   text-align: center;
 }
+@media screen and (min-width: 830px) and (max-width: 1310px) {
+  .aboutsection {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 571px) and (max-width: 829px) {
+  .aboutsection {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 570px) {
+  .aboutsection {
+    width: 95%;
+  }
+}
 @media screen and (max-device-width: 1000px) and (orientation:landscape) {
   .centered {
     margin-top: 92px;
@@ -206,6 +230,19 @@ a:hover{
     width: 100px;
   }
 }
+@media screen and (min-width: 436px) and (max-width: 613px) {
+  #social {
+    width: 55%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 435px) {
+  #social {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
 /*
   ========================================
   Buttons
@@ -396,7 +433,8 @@ ul {
   .projectinfo {
     float: left;
     width: 600px;
-    padding: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
   }
   .wrapper {
     width: 970px;
@@ -415,8 +453,7 @@ ul {
   }
   .stories {
     padding-left: 30px;
-    overflow: auto;
-    height: 200px; 
+    height: auto; 
     width: 675px;
   }
   .title {
@@ -428,7 +465,9 @@ ul {
   }
   .box {
     background-color: rgba(239, 239, 239, 0.7);
+    padding: 10px;
   }
+
 .portfolionav {
   margin-top: 110px;
 }
