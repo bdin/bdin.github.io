@@ -180,25 +180,34 @@ nav a {
 
 @media screen and (min-width: 436px) and (max-width: 613px) {
   #contact-icons {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 357px) and (max-width: 435px) {
+  #contact-icons {
     width: 60%;
     margin: 0 auto;
   }
 }
-@media screen and (max-width: 435px) {
+
+@media screen and (min-width: 315px) and (max-width: 356px) {
   #contact-icons {
-    width: 90%;
+    width: 70%;
     margin: 0 auto;
   }
 }
 
 .icon {
-	height: 14vh; 
+	width: 20vw; 
 	margin-right: 10px; 
-	margin-top: 1.5vh
+	margin-top: 1.5vh;
+	max-width: 115px;
+	min-width: 95px;
 }
 
 #icon-margin {
-	margin-right: 10px;
+	margin: 5px;
 }
 
 /** style things **/
