@@ -1,112 +1,43 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
-  License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
 body {
-  line-height: 1;
+	margin: 0;
+	font-family: 'Raleway', sans-serif;
 }
-ol, ul {
-  list-style: none;
-}
-blockquote, q {
-  quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-html {
-  -webkit-text-size-adjust: 100%;
-}
-/*
-  ========================================
-  Background
-  ========================================
-*/
-body{
-  background: #ffffff;
-  color: #888;
-  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-/*
-  ========================================
-  Typography
-  ========================================
-*/
-h1, h3, h4, h5, p {
-  margin-bottom: 5px;
-}
-h1, h2, h3, h4, h5 {
-  color: #000000;
-}
-h1 {
-  font-family: 'Lato';
-  font-size: 56px;
-  line-height: 44px;
-  font-weight: 300;
-}
-h2 {
-  font-size: 44px;
-  line-height: 52px;
-}
-h3 {
-  font-size: 21px;
-}
-h4 {
-  font-family: 'Lato';
-  font-size: 26px;
-  line-height: 22px;
-}
-h5 {
-  font-size: 18px;
-  font-weight: 300;
-}
-strong {
-  font-weight: 400;
-}
-cite, em {
-  font-style: italic;
-}
+
 p {
-  width: 75%;
-  margin: 0 auto;
+	padding-top: 15px;
+	margin: 0;
 }
+
+.last {
+	padding-bottom: 15px;
+}
+
+#resume-info h3, h5 {
+	font-weight: normal;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+h3 {
+	font-size: 21px;
+}
+
+h5 {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+strong {
+	font-weight: 600 !important;
+}
+
 /*
   ========================================
   Links
   ========================================
 */
-a{
+
+a {
   color: #36465d;
   font-weight: 400;
 }
@@ -128,214 +59,187 @@ a:hover{
 nav a {
   font-weight: 300;
 }
-/*
-  ========================================
-  Primary header
-  ========================================
-*/
-.name {
-  position: fixed;
-  right: 0;
-  top: 0;
-  left: 0;
-  padding: 10px;
-  text-align: center;
-  z-index: 99;
-  background-color: #ffffff;
+
+/** home **/
+
+#home {
+	height: 40vh;
+	width: 100%;
 }
-.frontpage {
-    height: 10em;
-    text-align: center;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+
+#home h1 {
+	font-family: 'Raleway';
+	font-weight: 900;
+	text-align: center;
+	font-size: 100px;
+	margin: 0;
+	color: black;
 }
-/*
-  ========================================
-  Primary footer
-  ========================================
-*/
-.primary-footer {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 5px;
-  background-color: rgba(355,355,355,.6);
-  z-index: 99;
+
+#home h3 {
+	font-family: 'Raleway';
+	font-weight: 400;
+	text-align: center;
+	font-size: 40px;
+	margin-top: 10px;
 }
-.primary-footer small {
-  float: left;
-  position: absolute;
-  bottom: 5px;
+
+/** about **/
+
+#about {
+	background: rgb(206,213,229);
+	color: white;
+	height: 15vh;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
-.primary-footer med {
-  float: right;
-  bottom: 0px;
+
+#about-info {
+	background: rgba(206,213,229,0.5);
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
-@media screen and (max-width: 767px) {
-  footer img {
-    width: 40px !important;
-  }
+
+#aboutsection {
+	width: 60%;
+	margin: 0 auto;
 }
-/*
-  ========================================
-  About//Contact
-  ========================================
-*/
-.aboutsection{
-    width: 50%;
-    margin: 0 auto;
-    margin-top: 140px;
-}
-.aboutsection img {
-  display: block;
-  margin: 0 auto;
-}
-.centered{
-  width: 100%;
-  margin: 0 auto;
-  padding-bottom: 60px;
-  position: absolute;
-  text-align: center;
-}
+
 @media screen and (min-width: 830px) and (max-width: 1310px) {
-  .aboutsection {
+  #aboutsection {
     width: 70%;
   }
 }
 @media screen and (min-width: 571px) and (max-width: 829px) {
-  .aboutsection {
+  #aboutsection {
     width: 85%;
   }
 }
 @media screen and (max-width: 570px) {
-  .aboutsection {
-    width: 95%;
+  #aboutsection {
+    width: 90%;
   }
 }
-@media screen and (max-device-width: 1000px) and (orientation:landscape) {
-  .centered {
-    margin-top: 92px;
-  }
+
+/** clips **/
+
+#clips {
+	background: rgb(157,172,203);
+	color: white;
+	height: 15vh;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
 }
-@media screen and (max-width: 445px) {
-  .shrink {
-    height: 100px;
-    width: 100px;
-  }
+
+#clips-info {
+	background: rgba(157,172,203,0.5) !important;
+	width: 100%;
 }
+
+/** resume **/
+
+#resume {
+	background: rgb(108,130,177);
+	color: white;
+	height: 15vh;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+#resume-info {
+	background: rgba(108,130,177,0.5);
+	width: 100%;
+}
+
+/** contact **/
+
+#contact {
+	background: rgb(59,89,152);
+	color: white;
+	height: 15vh;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+#contact-info {
+	background: rgba(59,89,152,0.5);
+	width: 100%;
+}
+
+#contact-icons {
+	width: 100%;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
 @media screen and (min-width: 436px) and (max-width: 613px) {
-  #social {
-    width: 55%;
+  #contact-icons {
+    width: 50%;
     margin: 0 auto;
   }
 }
-@media screen and (max-width: 435px) {
-  #social {
-    width: 80%;
+@media screen and (min-width: 357px) and (max-width: 435px) {
+  #contact-icons {
+    width: 60%;
     margin: 0 auto;
   }
 }
 
-/*
-  ========================================
-  Buttons
-  ========================================
-*/
-.button{
-  height: 200px;
-  width: 200px;
-  border-style: none;
-  border-width: 5px;
-  border-radius: 100px;
-}
-/*
-  ========================================
-  Resume
-  ========================================
-*/
-.resume {
-  padding-top: 140px;
-  width: 75%;
-  margin: 0 auto;
-}
-@media screen and (max-width: 949px) {
-.resume{
-  padding-top: 110px;
-}
-}
-.reshead {
-  text-align: right;
-  width: 25%;
-  display: inline-block;
-  vertical-align: top;
-  text-transform: uppercase;
-  margin-bottom: 5px;
-}
-.resfill {
-  text-align: left;
-  width: 65%;
-  display: inline-block;
-  margin-left: 5%;
-}
-.resfill p {
-  text-align: left;
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-@media screen and (min-width: 950px) and (max-width: 1203px) {
-  .resume {
-    width: 95%;
+@media screen and (min-width: 315px) and (max-width: 356px) {
+  #contact-icons {
+    width: 70%;
+    margin: 0 auto;
   }
 }
 
-@media screen and (max-width: 569px) {
-  .changer {
-    display: none;
-  }
+.icon {
+	width: 20vw; 
+	margin-right: 10px; 
+	margin-top: 1.5vh;
+	max-width: 115px;
+	min-width: 95px;
 }
 
-@media screen and (min-width: 570px) {
-  .gamer {
-    display: none;
-  }
+#icon-margin {
+	margin: 5px;
 }
 
-ul {
-  list-style-type: disc;
-  list-style-position: inside;
-  width: 100%;
-  padding-left: 1em;
+/** style things **/
+
+.vert {
+	position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    -ms-transform: translate(-50%, -60%);
+    -webkit-transform: translate(-50%, -60%);
+    width: 90%;
 }
 
-@media screen and (max-width: 949px) {
-  .resume {
-    width: 75%;
-  }
-  .reshead {
-    float: left;
-    width: 100%;
-    text-align: left;
-  }
-  .resfill {
-    float: left;
-    width: 100%;
-    margin-left: 0;
-  }
+#about-info, #clips-info, #resume-info, #contact-info {
+	display: none;
 }
 
-/*
-  ========================================
-  Portfolio
-  ========================================
-*/
+.hello {
+	font-size: 11vh; 
+    font-weight: 800;
+	margin: 0; 
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+
+/** PORTFOLIO SECTION **/
+
 .reveal {
   opacity: 0.8;
 }
@@ -345,9 +249,7 @@ ul {
 .transparency:hover {
     opacity: 0.6;
 }
-.totality {
-  margin-top: 140px;
-}
+
 @media screen and (max-width: 1032px) {
   .portdiv {
     width: 70%;
@@ -384,9 +286,6 @@ ul {
     width: 75%;
     margin: 0 auto;
   }
-  .totality {
-    margin-top: 130px;
-  }
   time {
     display: none;
   }
@@ -403,7 +302,7 @@ ul {
     margin: 0 auto;
   }
 .portfolionav {
-  margin-top: 110px;
+  padding-top: 60px;
 }
 .portfolionav li {
   list-style-type: none;
@@ -469,7 +368,7 @@ ul {
   }
 
 .portfolionav {
-  margin-top: 110px;
+  padding-top: 60px;
 }
 .portfolionav li {
   list-style-type: none;
@@ -484,7 +383,7 @@ ul {
 }
 }
 .active {
-  background-color: #888;
+  background-color: rgb(108,130,177);
 }
 .active li a {
   color: black !important;
@@ -504,4 +403,137 @@ ul {
 }
 .clearfix {
     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+
+/** RESUME **/
+
+.resume {
+  padding-top: 40px;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.resume p {
+	padding-top: 0;
+}
+
+@media screen and (max-width: 949px) {
+}
+.reshead {
+  text-align: right;
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+.resfill {
+  text-align: left;
+  width: 65%;
+  display: inline-block;
+  margin-left: 5%;
+  margin-bottom: 30px;
+}
+.resfill p {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 950px) and (max-width: 1203px) {
+  .resume {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 569px) {
+  .changer {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 570px) {
+  .gamer {
+    display: none;
+  }
+}
+
+ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  width: 100%;
+  padding-left: 1em;
+}
+
+@media screen and (max-width: 949px) {
+  .resume {
+    width: 75%;
+  }
+  .reshead {
+    float: left;
+    width: 100%;
+    text-align: left;
+  }
+  .resfill {
+    float: left;
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/** media queries for gen layout **/
+
+@media screen and (max-width: 825px) {
+	#home h1 {
+		font-size: 80px;
+	}
+	#home h3 {
+		font-size: 35px;
+	}
+	.hello {
+		font-size: 11.5vw;
+	}
+}
+
+@media screen and (max-width: 638px) {
+	#home h1 {
+		font-size: 60px;
+	}
+	#home h3 {
+		font-size: 25px;
+	}
+	.hello {
+		font-size: 11.5vw;
+	}
+}
+
+@media screen and (max-width: 478px) {
+	#home h1 {
+		font-size: 40px;
+	}
+	#home h3 {
+		font-size: 25px;
+	}
+	.hello {
+		font-size: 11.5vw;
+	}
+}
+
+@media screen and (max-height: 450px) {
+	#home {
+		display: none;
+	}
+	#about {
+		height: 25vh;
+	}
+	#clips {
+		height: 25vh;
+	}
+	#resume {
+		height: 25vh;
+	}
+	#contact {
+		height: 25vh;
+	}
 }
