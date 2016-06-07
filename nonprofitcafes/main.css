@@ -88,55 +88,6 @@ body {
   }
 }
 
-@media screen and (min-width: 1025px) {
-#graph {
-  width: 350px;
-  margin-right: -150px;
-  float: right;
-  margin-left: 30px;
-  border-left: 5px solid brown;
-  padding-left: 30px;
-  padding-top: 5px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-#graph {
-  width: 80%;
-  text-align: center;
-  margin: 0 auto;
-  }
-  .barquote {
-    border-top: 5px solid brown;
-    width: 90%;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    margin-top: 30px;
-  }
-}
-
-#cafe {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  display: block;
-}
-
-.story {
-  width: 83%;
-  margin: 0 auto;
-}
-
-@media screen and (min-width: 1024px) {
-  .story {
-    width: 60%;
-  }
-}
-
 .storytext { 
   margin-bottom: 70px;
 }
@@ -199,6 +150,59 @@ footer {
 .footer a:hover {
   text-decoration: underline;
 }
+
+#cafe {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.story {
+  width: 83%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1025px) {
+#graph {
+  width: 350px;
+  margin-right: -150px;
+  float: right;
+  margin-left: 30px;
+  border-left: 5px solid brown;
+  padding-left: 30px;
+  padding-top: 5px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  }
+#cafe {
+  width: 90%;
+}
+}
+
+@media screen and (max-width: 1024px) {
+#graph {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+  }
+  .barquote {
+    border-top: 5px solid brown;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .story {
+    width: 60%;
+  }
+}
+
 
  /*
   * Adjusting for viewport
