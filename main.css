@@ -1,11 +1,13 @@
 body {
 	margin: 0;
 	font-family: 'Raleway', sans-serif;
+  font-size: 0.95em;
 }
 
 p {
 	padding-top: 15px;
 	margin: 0;
+  line-height: 1.3em;
 }
 
 .last {
@@ -19,12 +21,19 @@ p {
 }
 
 h3 {
-	font-size: 21px;
+	font-size: 1.2em;
 }
 
 h5 {
-	font-size: 18px;
+	font-size: 1em;
 	font-weight: 300;
+}
+
+h6 {
+  font-size: .92em;
+  font-weight: 300;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 strong {
@@ -250,26 +259,90 @@ nav a {
     opacity: 0.6;
 }
 
+.project {
+  width: calc(90%/3);
+  overflow: auto;
+  float: left;
+  margin-right: calc(10%/2);
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 868px) {
+  .project:nth-child(3n+1) {
+    clear: left;
+  }
+
+  .project:nth-child(3n+3) {
+    clear: right;
+    margin-right: 0;
+  }
+}
+
+.projimg, .project img {
+  width: 100%;
+}
+
+.projectinfo {
+  width: 100%;
+  margin-top: 5px;
+  line-height: 1.3em;
+}
+
+.project-title {
+  width: 100%;
+}
+
+.project-title h3 {
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.which-pub {
+  background-color: rgb(157,172,203);
+  padding: 1px 5px 1px 5px;
+  color: white;
+  font-weight: 300;
+}
+
+#digital {
+  font-size: 0.9em;
+}
+
+@media screen and (max-width: 867px) {
+  .project {
+    width: calc(95%/2);
+  }
+  .project:nth-child(2n+1) {
+    clear: left;
+    margin-right: calc(5%/1);
+  }
+
+  .project:nth-child(2n) {
+    clear: right;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .project {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
 @media screen and (max-width: 1032px) {
+
+  #digital .wrapper {
+    width: 90%;
+  }
+
   .portdiv {
     width: 70%;
     margin: 0 auto;
   }
   .differences {
     margin-top: 40px;
-  }
-  .project img {
-    max-width: 400px;
-    width: 100%;
-    text-align: center;
-    border: 3px solid black;
-    margin-bottom: 5px;
-  }
-  .projimg {
-    text-align: center;
-  }
-  .projectinfo {
-    text-align: center;
   }
   .publication img {
     display: block;
@@ -307,6 +380,8 @@ nav a {
 .portfolionav li {
   list-style-type: none;
   display: inline-block;
+  width: 44.8%;
+  background-color: rgb(108,130,177)
 }
 .portfolionav li a {
   display: block;
@@ -323,17 +398,6 @@ nav a {
   }
   .differences {
     margin-top: 50px;
-  }
-  .project img {
-    width: 300px;
-    border: 2px solid black;
-    float: left;
-  }
-  .projectinfo {
-    float: left;
-    width: 600px;
-    padding-top: 10px;
-    padding-left: 30px;
   }
   .wrapper {
     width: 970px;
@@ -373,6 +437,8 @@ nav a {
 .portfolionav li {
   list-style-type: none;
   display: inline-block;
+  width: 44.8%;
+  background-color: rgb(108,130,177)
 }
 .portfolionav li a {
   display: block;
@@ -383,10 +449,20 @@ nav a {
 }
 }
 .active {
-  background-color: rgb(108,130,177);
+  background-color: rgb(59,89,152);
 }
 .active li a {
   color: black !important;
+}
+
+.clips-links {
+  margin-top: 10px;
+  font-size: 0.9em;
+  line-height: 1.5em;
+}
+
+.clips-links a {
+  font-weight: 400;
 }
 /*
   ========================================
@@ -416,6 +492,15 @@ nav a {
 
 .resume p {
 	padding-top: 0;
+}
+
+.resume ul {
+  margin-top: 5px;
+}
+
+.resume li {
+  font-size: 0.9em;
+  line-height: 1.5em;
 }
 
 @media screen and (max-width: 949px) {
@@ -479,6 +564,13 @@ ul {
     float: left;
     width: 100%;
     margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .special {
+    width: 20%;
+    padding-left: 5%;
   }
 }
 
