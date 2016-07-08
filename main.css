@@ -253,6 +253,13 @@ nav a {
 .reveal {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 768px) {
+  .reveal {
+    opacity: 1;
+  }
+}
+
 .reveal:hover {
   opacity: 1;
 }
