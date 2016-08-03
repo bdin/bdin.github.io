@@ -12,20 +12,6 @@
   <script src="website.js"></script>
 
   <script>
-  	function Descriptor()
-	{
-	    var descriptions = new Array();
-	    descriptions[0] = "words and code"
-	    descriptions[1] = "knight lab fellow"
-	    descriptions[2] = "northwestern student"
-	    descriptions[3] = "daily northwestern reporter"
-	    descriptions[4] = "california native"
-	    descriptions[5] = "sf chronicle intern"
-	    return descriptions[Math.floor(Math.random() * 5.99)];
-	};
-  </script>
-
-  <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -40,7 +26,7 @@
 
 	<div class="vert">
 		<h1>BENJAMIN DIN</h1>
-		<h3><script>document.write(Descriptor());</script>
+		<h3 id="descriptor"></h3>
 	</div>
 
 </div>
@@ -113,6 +99,16 @@
 
 			<div style="padding-bottom: 10px;" class="differences" id="digital">
 			<div style="margin-bottom: 30px;" class="wrapper clearfix">
+
+			<div class="project">
+				<div class="project-title">
+					<h3>Summer of Women</h3>
+				</div>
+				<div class="projimg"><a href="http://projects.sfchronicle.com/2016/summer-of-women" target="_blank"><img class="reveal" src="images/timeline.png"></a></div>
+				<div class="projectinfo">
+					<span class="which-pub">San Francisco Chronicle</span> Repurposed a timeline built earlier in the summer. Removed jQuery dependency for this version of the timeline.
+				</div>
+			</div>
 
 			<div class="project">
 				<div class="project-title">
@@ -339,6 +335,19 @@
 	</div>
 
 </div>
+
+<script>
+    var descriptions = ["words and code","sf chronicle intern","knight lab fellow","northwestern student","daily northwestern reporter","california native"];
+
+	var i = 0;
+	function changeText() {
+	    document.getElementById("descriptor").textContent = descriptions[i];
+	    i < descriptions.length - 1 ? i++ : i = 0;
+	}
+	setInterval(changeText, 3000);
+
+	changeText();
+</script>
 
 </body>
 </html>
