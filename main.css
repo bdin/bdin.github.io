@@ -133,6 +133,10 @@ nav a {
   }
 }
 
+#myname {
+  display: none;
+}
+
 /** clips **/
 
 #clips {
@@ -624,6 +628,9 @@ ul {
 	#home {
 		display: none;
 	}
+  #myname {
+    display: inline-block;  
+  }
 	#about {
 		height: 25vh;
 	}
