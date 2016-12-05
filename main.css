@@ -1,13 +1,13 @@
 body {
 	margin: 0;
-	font-family: 'Raleway', sans-serif;
-  font-size: 0.95em;
+	font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
 }
 
 p {
 	padding-top: 15px;
 	margin: 0;
-  line-height: 1.3em;
+  line-height: 1.4em;
   font-weight: 300;
 }
 
@@ -26,7 +26,7 @@ h3 {
 }
 
 h5 {
-	font-size: 1em;
+	font-size: 1.05em;
 	font-weight: 300;
 }
 
@@ -63,9 +63,6 @@ a:hover{
 .box a {
   font-weight: 300;
 }
-.box a:hover{
-  font-weight: 400;
-}
 nav a {
   font-weight: 300;
 }
@@ -78,7 +75,7 @@ nav a {
 }
 
 #home h1 {
-	font-family: 'Raleway';
+	font-family: 'Roboto';
 	font-weight: 900;
 	text-align: center;
 	font-size: 100px;
@@ -87,8 +84,8 @@ nav a {
 }
 
 #home h3 {
-	font-family: 'Raleway';
-	font-weight: 400;
+	font-family: 'Roboto';
+	font-weight: 300;
 	text-align: center;
 	font-size: 40px;
 	margin-top: 10px;
@@ -242,7 +239,8 @@ nav a {
 
 .hello {
 	font-size: 11vh; 
-    font-weight: 800;
+  font-family: 'Roboto';
+  font-weight: 900;
 	margin: 0; 
 	text-align: center;
 	position: relative;
@@ -297,7 +295,8 @@ nav a {
 .projectinfo {
   width: 100%;
   margin-top: 5px;
-  line-height: 1.3em;
+  line-height: 1.4em;
+  font-weight: 300;
 }
 
 .project-title {
@@ -305,7 +304,7 @@ nav a {
 }
 
 .project-title h3 {
-  font-weight: 400;
+  font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 5px;
 }
@@ -314,11 +313,10 @@ nav a {
   background-color: rgb(157,172,203);
   padding: 1px 5px 1px 5px;
   color: white;
-  font-weight: 300;
 }
 
 #digital {
-  font-size: 0.9em;
+  font-size: 1em;
 }
 
 @media screen and (max-width: 867px) {
@@ -469,12 +467,12 @@ nav a {
 
 .clips-links {
   margin-top: 10px;
-  font-size: 0.9em;
-  line-height: 1.5em;
+  line-height: 1.4em;
+  font-weight: 300;
 }
 
 .clips-links a {
-  font-weight: 400;
+  font-weight: 300;
 }
 /*
   ========================================
@@ -511,7 +509,8 @@ nav a {
 }
 
 .resume li {
-  font-size: 0.9em;
+  font-weight: 300;
+  font-size: 1em;
   line-height: 1.5em;
 }
 
@@ -557,10 +556,9 @@ nav a {
 }
 
 ul {
-  list-style-type: disc;
-  list-style-position: inside;
+  list-style-type: none;
   width: 100%;
-  padding-left: 1em;
+  padding-left: 0em;
 }
 
 @media screen and (max-width: 949px) {
@@ -580,7 +578,7 @@ ul {
 }
 
 @media screen and (min-width: 950px) {
-  .special {
+  .reshead {
     width: 20%;
     padding-left: 5%;
   }
