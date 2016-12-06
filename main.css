@@ -114,22 +114,6 @@ nav a {
 	margin: 0 auto;
 }
 
-@media screen and (min-width: 830px) and (max-width: 1310px) {
-  #aboutsection {
-    width: 70%;
-  }
-}
-@media screen and (min-width: 571px) and (max-width: 829px) {
-  #aboutsection {
-    width: 85%;
-  }
-}
-@media screen and (max-width: 570px) {
-  #aboutsection {
-    width: 90%;
-  }
-}
-
 #myname {
   display: none;
 }
@@ -147,22 +131,6 @@ nav a {
 
 #clips-info {
 	background: rgba(157,172,203,0.5) !important;
-	width: 100%;
-}
-
-/** resume **/
-
-#resume {
-	background: rgb(108,130,177);
-	color: white;
-	height: 15vh;
-    -webkit-transform-style: preserve-3d;
-    -moz-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-}
-
-#resume-info {
-	background: rgba(108,130,177,0.5);
 	width: 100%;
 }
 
@@ -498,6 +466,7 @@ nav a {
   padding-top: 40px;
   width: 75%;
   margin: 0 auto;
+  overflow: auto;
 }
 
 .resume p {
@@ -537,6 +506,54 @@ nav a {
   margin-bottom: 10px;
 }
 
+/** resume **/
+
+#resume {
+  background: rgb(108,130,177);
+  color: white;
+  height: 15vh;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+#resume-info {
+  background: rgba(108,130,177,0.5);
+  width: 100%;
+}
+
+/** about section and resume media queries **/
+
+@media screen and (min-width: 830px) and (max-width: 1310px) {
+  #aboutsection {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 830px) and (max-width: 949px) {
+  .resume {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 571px) and (max-width: 829px) {
+  #aboutsection {
+    width: 85%;
+  }
+  .resume {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  #aboutsection {
+    width: 90%;
+  }
+  .resume {
+    width: 90%;
+  }
+}
+
 @media screen and (min-width: 950px) and (max-width: 1203px) {
   .resume {
     width: 95%;
@@ -562,9 +579,6 @@ ul {
 }
 
 @media screen and (max-width: 949px) {
-  .resume {
-    width: 75%;
-  }
   .reshead {
     float: left;
     width: 100%;
