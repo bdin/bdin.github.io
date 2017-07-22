@@ -8,22 +8,13 @@
     <link rel="shortcut icon" href="http://faviconist.com/icons/51d7a0944adeefa32416b4343daf226e/favicon.ico" />
 	<link href="https://fonts.googleapis.com/css?family=Merriweather:700" rel="stylesheet">
 	<!-- Google API Loader -->
-	<script type="text/javascript" src="https://www.google.com/jsapi"></script>
-
-	<script type="text/javascript">
-	    //load jQuery
-	    google.load("jquery", "1.7.1");
-
-	    //Google Fonts
-	    google.load("webfont", "1");
-
-	    google.setOnLoadCallback(function() {
-	        WebFont.load({
-	            google: {
-	              families: [ 'Merriweather:700' ]
-	            }
-	        });
-	    });
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+	<script>
+	  WebFont.load({
+	    google: {
+	      families: ['Merriweather']
+	    }
+	  });
 	</script>
 	 <script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
