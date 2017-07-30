@@ -42,8 +42,13 @@
 
 <p class="heading">education</p>
 <div class="entry">
-<p><a href="http://washingtonpost.com" target="_blank">medill school of journalism</a></p>
+<p><a href="http://medill.northwestern.edu" target="_blank">medill school of journalism</a></p>
 <p>northwestern university | c/o 2018</p>
 <p>- journalism major, asian-american studies minor, integrated marketing communications certificate</p>
 <p>- affiliated with aaja, ire, musac and tedxnorthwesternu</p>
+</div>
+
+<p class="heading">skills</p>
+<div class="entry">
+<p>html, css, javascript, python (in progress), adobe suite (photoshop, premiere, illustrator, indesign), chinese (native)</p>
 </div>
