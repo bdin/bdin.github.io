@@ -1,7 +1,7 @@
 <div style="overflow: auto; max-width: 1000px">
 <div class="project">
     <div class="project-title">
-        <h3>Press Secretaries</h3>
+        <p class="heading">Press Secretaries</p>
     </div>
     <div class="projimg">
         <a href="http://benjamindin.com/press-secretaries" target="_blank"><img class="reveal" src="http://benjamindin.com/images/p-s.jpg">
@@ -14,7 +14,7 @@
 
 <div class="project">
     <div class="project-title">
-        <h3>Charts & Maps</h3>
+        <p class="heading">Charts & Maps</p>
     </div>
     <div class="projimg">
         <a href="https://www.washingtonpost.com/local/dc-politics/dc-mayor-muriel-bowser-is-broadly-popular-as-re-election-nears/2017/06/20/c52b82ce-5507-11e7-ba90-f5875b7d1876_story.html" target="_blank"><img class="reveal" src="http://benjamindin.com/images/poll.jpg">
@@ -27,7 +27,7 @@
 
 <div class="project">
     <div class="project-title">
-        <h3>Best of Evanston '17</h3>
+        <p class="heading">Best of Evanston '17</p>
     </div>
     <div class="projimg">
         <a href="http://apps.dailynorthwestern.com/bestofevanston" target="_blank"><img class="reveal" src="http://benjamindin.com/images/boe.jpg">
@@ -40,7 +40,7 @@
 
 <div class="project">
     <div class="project-title">
-        <h3>Voter Guide</h3>
+        <p class="heading">Voter Guide</p>
     </div>
     <div class="projimg">
         <a href="http://projects.sfchronicle.com/2016/voter-guide" target="_blank"><img class="reveal" src="http://benjamindin.com/images/voterguide.jpg">
@@ -53,7 +53,7 @@
 
 <div class="project">
     <div class="project-title">
-        <h3>CA Resolutions</h3>
+        <p class="heading">CA Resolutions</p>
     </div>
     <div class="projimg">
         <a href="http://www.sfchronicle.com/politics/article/Resolutions-benefit-lawmakers-as-taxpayers-foot-9526597.php" target="_blank"><img class="reveal" src="http://benjamindin.com/images/resolutions.png">
@@ -66,7 +66,7 @@
 
 <div class="project">
     <div class="project-title">
-        <h3>A History of BART</h3>
+        <p class="heading">A History of BART</p>
     </div>
     <div class="projimg">
         <a href="http://projects.sfchronicle.com/2016/bart-timeline" target="_blank"><img class="reveal" src="http://benjamindin.com/images/bart.png">
@@ -79,7 +79,7 @@
 
 <div class="project">
     <div class="project-title">
-        <h3>Chronicle Covers</h3>
+        <p class="heading">Chronicle Covers</p>
     </div>
     <div class="projimg">
         <a href="http://sfchronicle.com/covers" target="_blank"><img class="reveal" src="http://benjamindin.com/images/chroncovers.png">
@@ -92,7 +92,7 @@
 
 <div class="project">
     <div class="project-title">
-        <h3>Summer of Women</h3>
+        <p class="heading">Summer of Women</p>
     </div>
     <div class="projimg">
         <a href="http://projects.sfchronicle.com/2016/summer-of-women" target="_blank"><img class="reveal" src="http://benjamindin.com/images/timeline.png">
@@ -105,7 +105,7 @@
 
 <div class="project">
     <div class="project-title">
-        <h3>Airbnb 2016</h3>
+        <p class="heading">Airbnb 2016</p>
     </div>
     <div class="projimg">
         <a href="http://projects.sfchronicle.com/2016/airbnb" target="_blank"><img class="reveal" src="http://benjamindin.com/images/airbnb.png">
@@ -118,7 +118,7 @@
 
 <div class="project">
     <div class="project-title">
-        <h3>Sea Level Rise</h3>
+        <p class="heading">Sea Level Rise</p>
     </div>
     <div class="projimg">
         <a href="http://projects.sfchronicle.com/2016/sea-level-rise/" target="_blank"><img class="reveal" src="http://benjamindin.com/images/sealevelrise.png">
@@ -131,7 +131,7 @@
 
 <div class="project">
     <div class="project-title">
-        <h3>Beyond Homelessness</h3>
+        <p class="heading">Beyond Homelessness</p>
     </div>
     <div class="projimg">
         <a href="http://projects.sfchronicle.com/sf-homeless" target="_blank"><img class="reveal" src="http://benjamindin.com/images/homeless.png">
@@ -144,7 +144,7 @@
 
 <div class="project">
     <div class="project-title">
-        <h3>Last Men Standing</h3>
+        <p class="heading">Last Men Standing</p>
     </div>
     <div class="projimg">
         <a href="http://projects.sfchronicle.com/2016/last-men-standing-film/" target="_blank"><img class="reveal" src="http://benjamindin.com/images/lms-film.png">
@@ -157,7 +157,7 @@
 
 <div class="project">
     <div class="project-title">
-        <h3>Dance Marathon</h3>
+        <p class="heading">Dance Marathon</p>
     </div>
     <div class="projimg">
         <a href="http://apps.dailynorthwestern.com/dm2016" target="_blank"><img class="reveal" src="http://benjamindin.com/images/dm2016.png">
@@ -170,7 +170,7 @@
 
 <div class="project">
     <div class="project-title">
-        <h3>Best of Evanston '16</h3>
+        <p class="heading">Best of Evanston '16</p>
     </div>
     <div class="projimg">
         <a href="http://apps.dailynorthwestern.com/bestofevanston/2016" target="_blank"><img class="reveal" src="http://benjamindin.com/images/boe.png">
@@ -183,7 +183,7 @@
 
 <div class="project">
     <div class="project-title">
-        <h3>2015 in Review</h3>
+        <p class="heading">2015 in Review</p>
     </div>
     <div class="projimg">
         <a href="http://apps.dailynorthwestern.com/2015inreview" target="_blank"><img class="reveal" src="http://benjamindin.com/images/2015.png">
@@ -196,7 +196,7 @@
 
 <div class="project">
     <div class="project-title">
-        <h3>Gameday</h3>
+        <p class="heading">Gameday</p>
     </div>
     <div class="projimg">
         <a href="http://apps.dailynorthwestern.com/gameday" target="_blank"><img class="reveal" src="http://benjamindin.com/images/gameday.png">
@@ -209,7 +209,7 @@
 
 <div class="project">
     <div class="project-title">
-        <h3>Mixed Levels</h3>
+        <p class="heading">Mixed Levels</p>
     </div>
     <div class="projimg">
         <a href="http://benjamindin.com/mixedlevels" target="_blank"><img class="reveal" src="http://benjamindin.com/images/mixedlevels.png">
@@ -222,7 +222,7 @@
 
 <div class="project">
     <div class="project-title">
-        <h3>Charts & Maps</h3>
+        <p class="heading">Charts & Maps</p>
     </div>
     <div class="projimg">
         <a href="http://benjamindin.com/2016recruits/" target="_blank"><img class="reveal" src="http://benjamindin.com/images/2016recruits.png">
