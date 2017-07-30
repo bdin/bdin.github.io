@@ -1,4 +1,4 @@
-<div id="input" style="overflow: auto">
+<div id="input" style="overflow: auto; max-width: 1000px">
 <div class="project">
     <div class="project-title">
         <h3>Press Secretaries</h3>
