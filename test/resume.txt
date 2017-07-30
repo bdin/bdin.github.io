@@ -1,2 +1,4 @@
-<p class="heading">the washington post</p> <span>design + graphics intern</span>
-<span>june 2017 - present</span>
+<p class="heading">experience</p>
+<p><a href="http://washingtonpost.com" target="_blank">the washington post</a></p>
+<p>design + graphics intern</p>
+<p>june 2017 - present</p>
