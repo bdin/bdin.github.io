@@ -1,4 +1,49 @@
 <p class="heading">experience</p>
+<div class="entry">
 <p><a href="http://washingtonpost.com" target="_blank">the washington post</a></p>
-<p>design + graphics intern</p>
-<p>june 2017 - present</p>
+<p>design + graphics intern | june 2017 - present</p>
+<p>- create charts and maps, tell stories in a visually engaging way</p>
+</div>
+<div class="entry">
+<p><a href="http://dailynorthwester.com" target="_blank">the daily northwestern</a></p>
+<p>reporter | oct 2014 - present</p>
+<p>- previously digital projects editor, copy chief, web editor, assistant campus editor, designer, assistant summer editor</p>
+</div>
+<div class="entry">
+<p><a href="http://knightlab.northwestern.edu" target="_blank">knight lab</a></p>
+<p>student fellow | sept 2015 - present</p>
+<p>- help develop interactive storytelling tools for journalists</p>
+</div>
+<div class="entry">
+<p><a href="http://iol.co.za/the-star" target="_blank">the star</a></p>
+<p>reporting intern | mar 2017 - june 2017</p>
+<p>- worked as a general assignment reporter for a daily metro in south africa's largest city</p>
+</div>
+<div class="entry">
+<p><a href="http://medilljusticeproject.org" target="_blank">medill justice project</a></p>
+<p>investigative reporter | jan 2017 - mar 2017</p>
+<p>- reported on a decades-old Pittsburgh murder as part of a 10-person team<p>
+</div>
+<div class="entry">
+<p><a href="http://medillonthehill.net" target="_blank">medill news service</a></p>
+<p>politics reporter | sept 2016 - dec 2016</p>
+<p>- covered national security and the election, with a week on the campaign trail in north carolina</p>
+</div>
+<div class="entry">
+<p><a href="http://sfchronicle.com" target="_blank">san francisco chronicle</a></p>
+<p>interactive intern | june 2016 - sept 2016</p>
+<p>- built data visualizations and interactive page elements for special projects and reports</p>
+</div>
+<div class="entry">
+<p><a href="http://voiceofoc.org" target="_blank">voice of oc</a></p>
+<p>data intern | july 2015 - sept 2015</p>
+<p>- filed public record requests, analyzed and visualized collision data</p>
+</div>
+
+<p class="heading">education</p>
+<div class="entry">
+<p><a href="http://washingtonpost.com" target="_blank">medill school of journalism</a></p>
+<p>northwestern university | c/o 2018</p>
+<p>- journalism major, asian-american studies minor, integrated marketing communications certificate</p>
+<p>- affiliated with aaja, ire, musac and tedxnorthwesternu</p>
+</div>
