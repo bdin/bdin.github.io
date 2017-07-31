@@ -44,7 +44,6 @@ window.onload = function() {
 	        }, 0);
 	    };
 	}, 8000);
-	document.body.ontouchend = function() { nameInput.focus(); };
 };
 
 // change the name of the directory based on the first question

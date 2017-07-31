@@ -7,11 +7,6 @@ body {
   max-width: 1100px;
 }
 
-* {
-    -webkit-user-select: none;
-    user-select: none;
-}
-
 td {
   vertical-align: top;
 }
@@ -142,12 +137,6 @@ h3, .heading {
 
 #digital {
   font-size: 1em;
-}
-
-p, span, [contenteditable] {
-  -webkit-user-modify: read-write;
-  -webkit-user-select: text;
-  user-select: text;
 }
 
 @media screen and (max-width: 867px) {
