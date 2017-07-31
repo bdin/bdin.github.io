@@ -21,7 +21,7 @@
         </a>
     </div>
     <div class="projectinfo">
-        <span class="which-pub">The Washington Post</span> Took a stab at creating static graphics in Illustrator. See more <a href="https://www.washingtonpost.com/local/dc-politics/speed-camera-tickets-doubled-last-year-in-dc-new-data-show/2017/07/19/6e67dda2-6cbd-11e7-b9e2-2056e768a7e5_story.html" target="_blank">here</a>, <a href="https://www.washingtonpost.com/local/trafficandcommuting/district-residents-perceptions-of-metro-have-fallen-dramatically-many-support-a-sales-tax-to-turn-it-around/2017/06/22/0b7764e8-55d8-11e7-ba90-f5875b7d1876_story.html" target="_blank">here</a> and <a href="https://www.washingtonpost.com/local/virginia-politics/as-data-centers-bloom-a-century-old-african-american-enclave-is-threatened/2017/07/02/f33db65a-5502-11e7-a204-ad706461fa4f_story.html" target="_blank">here</a>.
+        <span class="which-pub"><a href="http://washingtonpost.com" target="_blank">The Washington Post</a></span> Took a stab at creating static graphics in Illustrator. See more <a href="https://www.washingtonpost.com/local/dc-politics/speed-camera-tickets-doubled-last-year-in-dc-new-data-show/2017/07/19/6e67dda2-6cbd-11e7-b9e2-2056e768a7e5_story.html" target="_blank">here</a>, <a href="https://www.washingtonpost.com/local/trafficandcommuting/district-residents-perceptions-of-metro-have-fallen-dramatically-many-support-a-sales-tax-to-turn-it-around/2017/06/22/0b7764e8-55d8-11e7-ba90-f5875b7d1876_story.html" target="_blank">here</a> and <a href="https://www.washingtonpost.com/local/virginia-politics/as-data-centers-bloom-a-century-old-african-american-enclave-is-threatened/2017/07/02/f33db65a-5502-11e7-a204-ad706461fa4f_story.html" target="_blank">here</a>.
     </div>
 </div>
 
@@ -34,7 +34,7 @@
         </a>
     </div>
     <div class="projectinfo">
-        <span class="which-pub">The Daily Northwestern</span> Designed and developed this page to showcase local Evanston favorites.
+        <span class="which-pub"><a href="http://dailynorthwestern.com" target="_blank">The Daily Northwestern</a></span> Designed and developed this page to showcase local Evanston favorites.
     </div>
 </div>
 
@@ -47,7 +47,7 @@
         </a>
     </div>
     <div class="projectinfo">
-        <span class="which-pub">San Francisco Chronicle</span> Helped design and build a voter guide for 2016 election. Also contributed to the election results <a href="http://projects.sfchronicle.com/2016/election" target="_blank">page</a>.
+        <span class="which-pub"><a href="http://sfchronicle.com" target="_blank">San Francisco Chronicle</a></span> Helped design and build a voter guide for 2016 election. Also contributed to the election results <a href="http://projects.sfchronicle.com/2016/election" target="_blank">page</a>.
     </div>
 </div>
 
@@ -60,7 +60,7 @@
         </a>
     </div>
     <div class="projectinfo">
-        <span class="which-pub">San Francisco Chronicle</span> Built a graphic to showcase how frequently the state legislature passes resolutions.
+        <span class="which-pub"><a href="http://sfchronicle.com" target="_blank">San Francisco Chronicle</a></span> Built a graphic to showcase how frequently the state legislature passes resolutions.
     </div>
 </div>
 
@@ -73,7 +73,7 @@
         </a>
     </div>
     <div class="projectinfo">
-        <span class="which-pub">San Francisco Chronicle</span> Rebuilt a version of past timelines, making it more visual and easier to replicate.
+        <span class="which-pub"><a href="http://sfchronicle.com" target="_blank">San Francisco Chronicle</a></span> Rebuilt a version of past timelines, making it more visual and easier to replicate.
     </div>
 </div>
 
@@ -86,7 +86,7 @@
         </a>
     </div>
     <div class="projectinfo">
-        <span class="which-pub">San Francisco Chronicle</span> Built search functionality for the Chronicle Covers database of iconic front pages, one for each day of the year.
+        <span class="which-pub"><a href="http://sfchronicle.com" target="_blank">San Francisco Chronicle</a></span> Built search functionality for the Chronicle Covers database of iconic front pages, one for each day of the year.
     </div>
 </div>
 
@@ -99,7 +99,7 @@
         </a>
     </div>
     <div class="projectinfo">
-        <span class="which-pub">San Francisco Chronicle</span> Repurposed a timeline built earlier in the summer. Removed jQuery dependency for this version of the timeline.
+        <span class="which-pub"><a href="http://sfchronicle.com" target="_blank">San Francisco Chronicle</a></span> Repurposed a timeline built earlier in the summer. Removed jQuery dependency for this version of the timeline.
     </div>
 </div>
 
@@ -112,7 +112,7 @@
         </a>
     </div>
     <div class="projectinfo">
-        <span class="which-pub">San Francisco Chronicle</span> Built a tool to help users find out how prevalent Airbnb is in their neighborhood via a searchable database or a search-by-address option.
+        <span class="which-pub"><a href="http://sfchronicle.com" target="_blank">San Francisco Chronicle</a></span> Built a tool to help users find out how prevalent Airbnb is in their neighborhood via a searchable database or a search-by-address option.
     </div>
 </div>
 
@@ -125,7 +125,7 @@
         </a>
     </div>
     <div class="projectinfo">
-        <span class="which-pub">San Francisco Chronicle</span> Worked on the first three parts of this series. Designed page elements, created an interactive timeline and image slider.
+        <span class="which-pub"><a href="http://sfchronicle.com" target="_blank">San Francisco Chronicle</a></span> Worked on the first three parts of this series. Designed page elements, created an interactive timeline and image slider.
     </div>
 </div>
 
@@ -138,7 +138,7 @@
         </a>
     </div>
     <div class="projectinfo">
-        <span class="which-pub">San Francisco Chronicle</span> Helped design and build this site for The Chronicle's participation in the SF Homeless Project. Created interactive data visualizations.
+        <span class="which-pub"><a href="http://sfchronicle.com" target="_blank">San Francisco Chronicle</a></span> Helped design and build this site for The Chronicle's participation in the SF Homeless Project. Created interactive data visualizations.
     </div>
 </div>
 
@@ -151,7 +151,7 @@
         </a>
     </div>
     <div class="projectinfo">
-        <span class="which-pub">San Francisco Chronicle</span> Helped create and maintain this page to showcase "Last Men Standing," The Chronicle's first-ever full-length documentary.
+        <span class="which-pub"><a href="http://sfchronicle.com" target="_blank">San Francisco Chronicle</a></span> Helped create and maintain this page to showcase "Last Men Standing," The Chronicle's first-ever full-length documentary.
     </div>
 </div>
 
@@ -164,7 +164,7 @@
         </a>
     </div>
     <div class="projectinfo">
-        <span class="which-pub">The Daily Northwestern</span> Built this page for Dance Marathon coverage. Updated the page throughout the 30-hour event.
+        <span class="which-pub"><a href="http://dailynorthwestern.com" target="_blank">The Daily Northwestern</a></span> Built this page for Dance Marathon coverage. Updated the page throughout the 30-hour event.
     </div>
 </div>
 
@@ -177,7 +177,7 @@
         </a>
     </div>
     <div class="projectinfo">
-        <span class="which-pub">The Daily Northwestern</span> Oversaw the design and development for the page. Created the opening video.
+        <span class="which-pub"><a href="http://dailynorthwestern.com" target="_blank">The Daily Northwestern</a></span> Oversaw the design and development for the page. Created the opening video.
     </div>
 </div>
 
@@ -190,7 +190,7 @@
         </a>
     </div>
     <div class="projectinfo">
-        <span class="which-pub">The Daily Northwestern</span> Designed and built all elements of this page to highlight The Daily's best coverage in 2015.
+        <span class="which-pub"><a href="http://dailynorthwestern.com" target="_blank">The Daily Northwestern</a></span> Designed and built all elements of this page to highlight The Daily's best coverage in 2015.
     </div>
 </div>
 
@@ -203,7 +203,7 @@
         </a>
     </div>
     <div class="projectinfo">
-        <span class="which-pub">The Daily Northwestern</span> Built this page for The Daily's coverage of Northwestern's 2015 football season.
+        <span class="which-pub"><a href="http://dailynorthwestern.com" target="_blank">The Daily Northwestern</a></span> Built this page for The Daily's coverage of Northwestern's 2015 football season.
     </div>
 </div>
 
@@ -229,7 +229,7 @@
         </a>
     </div>
     <div class="projectinfo">
-        <span class="which-pub">The Daily Northwestern</span> Created interactive charts and maps. More examples <a href="http://dailynorthwestern.com/2015/11/12/campus/in-focus-a-bid-for-diversity" target="_blank">here</a>, <a href="http://dailynorthwestern.com/2015/11/18/top-stories/in-focus-as-university-recruits-more-low-income-students-textbook-costs-still-a-barrier/" target="_blank">here</a> and <a href="http://dailynorthwestern.com/2015/09/21/city/hurdles-remain-for-police-body-cameras-in-evanston/" target="_blank">here</a>.
+        <span class="which-pub"><a href="http://dailynorthwestern.com" target="_blank">The Daily Northwestern</a></span> Created interactive charts and maps. More examples <a href="http://dailynorthwestern.com/2015/11/12/campus/in-focus-a-bid-for-diversity" target="_blank">here</a>, <a href="http://dailynorthwestern.com/2015/11/18/top-stories/in-focus-as-university-recruits-more-low-income-students-textbook-costs-still-a-barrier/" target="_blank">here</a> and <a href="http://dailynorthwestern.com/2015/09/21/city/hurdles-remain-for-police-body-cameras-in-evanston/" target="_blank">here</a>.
     </div>
 </div>
 </div>
