@@ -32,13 +32,12 @@ else {
 
 document.getElementById("date").innerHTML = d.toDateString() + " " + hours + ":" + minutes + ":" + seconds;
 
-document.body.addEventListener("click",function() {
-	document.getElementById("name-input").focus();
-})
-
 window.onload = function() {
 	var text = document.getElementById('typewriter').dataset.text;
 	typeWriter(text, 0);
+	document.body.addEventListener("touchstart",function() {
+		document.getElementById("name-input").focus();
+	})
 	setTimeout(function() {
 		document.getElementById("input").style.visibility = "visible";
 		nameInput.focus();
