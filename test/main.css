@@ -7,6 +7,16 @@ body {
   max-width: 1100px;
 }
 
+* {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+*[contenteditable=true] {
+    -webkit-user-select: text;
+    user-select: text;
+}
+
 td {
   vertical-align: top;
 }
