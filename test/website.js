@@ -472,7 +472,7 @@ function typeWriter(text, n) {
 
     setTimeout(function() {
       typeWriter(text, n);
-	  window.scrollTo(0,document.body.scrollHeight);
+	//  window.scrollTo(0,document.body.scrollHeight);
     }, timer);
   }
 }
