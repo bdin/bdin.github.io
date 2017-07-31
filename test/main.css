@@ -14,7 +14,8 @@ html,body{
 
 *[contenteditable] {
     -webkit-user-select: auto !important;
-    -webkit-user-modify:read-write-plaintext-only
+    -webkit-user-modify:read-write;
+    user-modify:read-write;
 }
 
 td {
