@@ -139,6 +139,12 @@ h3, .heading {
   font-size: 1em;
 }
 
+p, span [contenteditable] {
+  -webkit-user-modify: read-write;
+  -webkit-user-select: text;
+  user-select: text;
+}
+
 @media screen and (max-width: 867px) {
   .project {
     width: calc(95%/2);
