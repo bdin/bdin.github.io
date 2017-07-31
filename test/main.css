@@ -139,7 +139,7 @@ h3, .heading {
   font-size: 1em;
 }
 
-p, span [contenteditable] {
+p, span, [contenteditable] {
   -webkit-user-modify: read-write;
   -webkit-user-select: text;
   user-select: text;
