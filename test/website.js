@@ -32,6 +32,10 @@ else {
 
 document.getElementById("date").innerHTML = d.toDateString() + " " + hours + ":" + minutes + ":" + seconds;
 
+document.body.addEventListener("click",function() {
+	document.getElementById("name-input").focus();
+})
+
 window.onload = function() {
 	var text = document.getElementById('typewriter').dataset.text;
 	typeWriter(text, 0);
