@@ -87,7 +87,7 @@ document.body.onkeypress = function(e) {
 			var keyCode = e.keyCode || e.which;
 			if ((keyCode == '13') && (document.getElementById("current-p").innerHTML != "")){
 				document.getElementById("current-p").contentEditable = false;
-				ga('send','pageview','site?myParam=' + this.innerHTML);
+				ga('send','pageview','site?myParam=' + username + "_" + document.getElementById("current-p").innerHTML);
 				if (current == "") {
 					valid();
 				}
@@ -482,7 +482,6 @@ function typeWriter(text, n) {
 		closeLink++;
 	}
 	else {}
-		console.log(openLink + " " + closeLink);
 	if (openLink > closeLink) {
 		var timer = 0;
 	}
