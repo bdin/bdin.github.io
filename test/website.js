@@ -60,7 +60,7 @@ window.onload = function() {
 	            nameInput.focus();
 	        }, 0);
 	    };
-	}, 2500);
+	}, 2800);
 };
 
 // change the name of the directory based on the first question
@@ -226,7 +226,7 @@ function valid() {
 		}, 1800);
 		setTimeout(function(){
 			newInput();
-		}, 38800);
+		}, 3800);
 	}
 
 	else if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"").toLowerCase() == "help") {
