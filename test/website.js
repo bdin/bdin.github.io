@@ -35,7 +35,7 @@ document.getElementById("date").innerHTML = d.toDateString() + " " + hours + ":"
 window.onload = function() {
 	var text = document.getElementById('typewriter').dataset.text;
 	typeWriter(text, 0);
-	document.body.addEventListener("touchstart",function() {
+	document.body.addEventListener("touchend",function() {
 		document.getElementById("name-input").focus();
 	})
 	setTimeout(function() {
@@ -475,7 +475,9 @@ function typeWriter(text, n) {
 
     setTimeout(function() {
       typeWriter(text, n);
-	//  window.scrollTo(0,document.body.scrollHeight);
+      if (document.body.scrollHeight > document.body.clientHeight) {
+		 window.scrollTo(0,document.body.scrollHeight);
+	  }
     }, timer);
   }
 }
