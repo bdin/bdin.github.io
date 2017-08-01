@@ -37,7 +37,6 @@ window.onload = function() {
 	typeWriter(text, 0);
 	document.addEventListener("touchend",function() {
 		document.getElementById("name-input").focus();
-		document.getElementById("input").focus();
 	})
 	setTimeout(function() {
 		document.getElementById("input").style.visibility = "visible";
