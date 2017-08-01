@@ -489,8 +489,8 @@ function typeWriter(text, n) {
 
     setTimeout(function() {
       typeWriter(text, n);
-      if (document.body.scrollHeight > document.body.clientHeight) {
-		 console.log(document.body.scrollHeight + " " + document.body.clientHeight);
+      if (document.body.scrollHeight > window.screen.height) {
+		 console.log(document.body.scrollHeight + " " + window.screen.height);
 		 window.scrollTo(0,document.body.scrollHeight);
 	  }
     }, timer);
