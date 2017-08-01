@@ -74,7 +74,7 @@ nameInput.onkeypress = function(e){
 		nameInput.classList.remove("active");
 		nameInput.contentEditable = false;
 		nameResponse();
-		ga('send','pageview','site?myParam=' + this.value);
+		ga('send','pageview','site?myParam=' + this.innerHTML);
 		counter++;
 	}
 }
@@ -87,7 +87,7 @@ document.body.onkeypress = function(e) {
 			var keyCode = e.keyCode || e.which;
 			if ((keyCode == '13') && (document.getElementById("current-p").innerHTML != "")){
 				document.getElementById("current-p").contentEditable = false;
-				ga('send','pageview','site?myParam=' + this.value);
+				ga('send','pageview','site?myParam=' + this.innerHTML);
 				if (current == "") {
 					valid();
 				}
