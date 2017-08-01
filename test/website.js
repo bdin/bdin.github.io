@@ -35,12 +35,21 @@ document.getElementById("date").innerHTML = d.toDateString() + " " + hours + ":"
 window.onload = function() {
 	var text = document.getElementById('typewriter').dataset.text;
 	typeWriter(text, 0);
+	var move = false;
+	document.addEventListener("touchstart",function() {
+		move = false;
+	})
+	document.addEventListener("touchmove",function() {
+		move = true;
+	})
 	document.addEventListener("touchend",function() {
-		if (username == "") {
-			document.getElementById("name-input").focus();
-		}
-		else {
-			document.getElementById("current-p").focus();
+		if (move == false) {
+			if (username == "") {
+				document.getElementById("name-input").focus();
+			}
+			else {
+				document.getElementById("current-p").focus();
+			}
 		}
 	})
 	setTimeout(function() {
