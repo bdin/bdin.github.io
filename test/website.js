@@ -1,3 +1,5 @@
+// https://skalman.github.io/UglifyJS-online/
+
 var d = new Date();
 var hours, minutes, seconds;
 var nameInput = document.getElementById("name-input");
