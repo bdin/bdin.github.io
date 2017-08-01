@@ -35,7 +35,7 @@ document.getElementById("date").innerHTML = d.toDateString() + " " + hours + ":"
 window.onload = function() {
 	var text = document.getElementById('typewriter').dataset.text;
 	typeWriter(text, 0);
-	document.body.addEventListener("touchend",function() {
+	document.addEventListener("touchend",function() {
 		document.getElementById("name-input").focus();
 	})
 	setTimeout(function() {
