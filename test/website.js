@@ -490,6 +490,7 @@ function typeWriter(text, n) {
     setTimeout(function() {
       typeWriter(text, n);
       if (document.body.scrollHeight > document.body.clientHeight) {
+		 console.log(document.body.scrollHeight + " " + document.body.clientHeight);
 		 window.scrollTo(0,document.body.scrollHeight);
 	  }
     }, timer);
