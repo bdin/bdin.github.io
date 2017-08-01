@@ -60,7 +60,7 @@ window.onload = function() {
 	            nameInput.focus();
 	        }, 0);
 	    };
-	}, 8000);
+	}, 2500);
 };
 
 // change the name of the directory based on the first question
@@ -114,20 +114,20 @@ function nameResponse() {
 	var input = document.getElementById("input");
 	input.insertAdjacentHTML('afterend','<div id="input"><span class="directory">benjamindin</span><span id="typewriter" class="text" data-text="Well, ' + nameInput.innerHTML + ', I\'m glad you\'re here! How can I help you today? (Hint: Try typing <span class=\'highlight\'>bio</span>, <span class=\'highlight\'>portfolio</span>, <span class=\'highlight\'>resume</span> or <span class=\'highlight\'>contact</span>.)"></span></div>');
 	var inputLength = nameInput.innerHTML.length;
-	var timeout = 40*(inputLength+10);
+	var timeout = 10*(inputLength);
 	input.removeAttribute("id");
 	var input = document.getElementById("input");
 	var text = document.getElementById('typewriter').dataset.text;  
 	typeWriter(text, 0);
 	setTimeout(function(){
 		newInput();
-	}, 5000 + timeout)
+	}, 2000 + timeout)
 }
 
 function valid() {
 	document.getElementById("typewriter").removeAttribute("id");
 	var input = document.getElementById("input");
-	if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"") == "bio") {
+	if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"").toLowerCase() == "bio") {
 		input.insertAdjacentHTML('afterend','<div id="input"><span class="directory">benjamindin</span><span id="typewriter" class="text" data-text="Alright! Gimme a sec. I\'m a fast typer."></span></div>');
 		input.removeAttribute("id");
 		var text = document.getElementById('typewriter').dataset.text;  
@@ -140,7 +140,7 @@ function valid() {
 		var input = document.getElementById("input");
 		var text = document.getElementById('typewriter').dataset.text;  
 		typeWriter(text, 0);
-		}, 2000);
+		}, 900);
 		setTimeout(function(){
 		document.getElementById("typewriter").removeAttribute("id");
 		var input = document.getElementById("input");
@@ -149,7 +149,7 @@ function valid() {
 		var input = document.getElementById("input");
 		var text = document.getElementById('typewriter').dataset.text;  
 		typeWriter(text, 0);
-		}, 23000);
+		}, 8500);
 		setTimeout(function(){
 		document.getElementById("typewriter").removeAttribute("id");
 		var input = document.getElementById("input");
@@ -158,13 +158,13 @@ function valid() {
 		var input = document.getElementById("input");
 		var text = document.getElementById('typewriter').dataset.text;  
 		typeWriter(text, 0);
-		}, 37500);
+		}, 12800);
 		setTimeout(function(){
 			newInput();
-		}, 40000);
+		}, 13800);
 	}
 
-	else if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"") == "resume") {
+	else if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"").toLowerCase() == "resume") {
 
 		// take the current input value and put in a new input line
 		input.insertAdjacentHTML('afterend','<div id="input"><span class="directory">benjamindin</span><span id="typewriter" class="text" data-text="One resume, coming right up:"></span></div>');
@@ -176,7 +176,7 @@ function valid() {
 		setTimeout(function(){
 			// load the doc, which also includes an input
 			loadResume();
-		}, 1500);
+		}, 1000);
 		setTimeout(function(){
 		// remove the first input, keep the second, it's here so it doesn't run async to loadDoc
 		var input = document.getElementById("input");
@@ -196,10 +196,10 @@ function valid() {
 		}, 4500);
 		setTimeout(function(){
 			newInput();
-		}, 6500);
+		}, 5500);
 	}
 
-	else if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"") == "portfolio") {
+	else if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"").toLowerCase() == "portfolio") {
 		input.insertAdjacentHTML('afterend','<div id="input"><span class="directory">benjamindin</span><span id="typewriter" class="text" data-text="Let\'s narrow that down. What kind of clips are you looking for? Tell me <span class=\'highlight\'>words</span> or <span class=\'highlight\'>code</span>."></span></div>');
 		input.removeAttribute("id");
 		var text = document.getElementById('typewriter').dataset.text;  
@@ -207,10 +207,10 @@ function valid() {
 		setTimeout(function(){
 			current = "clips";
 			newInput();
-		}, 4500);
+		}, 1800);
 	}
 
-	else if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"") == "contact") {
+	else if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"").toLowerCase() == "contact") {
 		input.insertAdjacentHTML('afterend','<div id="input"><span class="directory">benjamindin</span><span id="typewriter" class="text" data-text="<a href=\'http://linkedin.com/in/bcdin\' target=\'blank\'>LinkedIn</a> / <a href=\'mailto:benjamin.din@gmail.com\' target=\'blank\'>Email</a> / <a href=\'http://twitter.com/benjamindin\' target=\'blank\'>Twitter</a>"></span></div>');
 		input.removeAttribute("id");
 		var text = document.getElementById('typewriter').dataset.text;  
@@ -223,13 +223,13 @@ function valid() {
 		current = "contact";
 		var text = document.getElementById('typewriter').dataset.text;  
 		typeWriter(text, 0);
-		}, 3000);
+		}, 1800);
 		setTimeout(function(){
 			newInput();
-		}, 8000);
+		}, 38800);
 	}
 
-	else if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"") == "help") {
+	else if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"").toLowerCase() == "help") {
 		input.insertAdjacentHTML('afterend','<div id="input"><span class="directory">benjamindin</span><span id="typewriter" class="text" data-text="Are you lost? Here are some quick commands to help you navigate this website:"></span></div>');
 		input.removeAttribute("id");
 		var text = document.getElementById('typewriter').dataset.text;  
@@ -242,13 +242,13 @@ function valid() {
 		var input = document.getElementById("input");
 		var text = document.getElementById('typewriter').dataset.text;  
 		typeWriter(text, 0);
-		}, 4000);
+		}, 1500);
 		setTimeout(function(){
 			newInput();
-		}, 5000);
+		}, 2000);
 	}
 
-	else if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"") == "clear") {
+	else if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"").toLowerCase() == "clear") {
 		location.reload();
 	}
 
@@ -258,7 +258,7 @@ function valid() {
 }
 
 function whichPortfolio() {
-	if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"") == "words") {
+	if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"").toLowerCase() == "words") {
 		loadWords();
 		setTimeout(function(){
 		// remove the first input, keep the second, it's here so it doesn't run async to loadDoc
@@ -274,14 +274,14 @@ function whichPortfolio() {
 		input.removeAttribute("id");
 		var text = document.getElementById('typewriter').dataset.text;  
 		typeWriter(text, 0);
-		}, 2500);
+		}, 1500);
 		setTimeout(function(){
 			// grabs the current input
 			var input = document.getElementById("input");
 			newInput();
-		}, 4500);
+		}, 2000);
 	}
-	else if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"") == "code") {
+	else if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"").toLowerCase() == "code") {
 		loadDigital();
 		setTimeout(function(){
 		// remove the first input, keep the second, it's here so it doesn't run async to loadDoc
@@ -302,7 +302,7 @@ function whichPortfolio() {
 			// grabs the current input
 			var input = document.getElementById("input");
 			newInput();
-		}, 8500);
+		}, 7000);
 	}
 	else {
 		current = "";
@@ -312,7 +312,7 @@ function whichPortfolio() {
 
 
 function emailGenerator() {
-	if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"") == "email") {
+	if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"").toLowerCase() == "email") {
 		// remove typewriter id, so it can be used on the next one
 		document.getElementById("typewriter").removeAttribute("id");
 		// grabs the current input
@@ -328,7 +328,7 @@ function emailGenerator() {
 			var input = document.getElementById("input");
 			newInput();
 			current = "subject";
-		}, 1500);
+		}, 500);
 	}
 	else {
 		current = "";
@@ -354,7 +354,7 @@ function setSubject() {
 		var input = document.getElementById("input");
 		newInput();
 		current = "body";
-	}, 1500);
+	}, 500);
 }
 
 function setBody() {
@@ -376,12 +376,12 @@ function setBody() {
 		newInput();
 		current = "send";
 		url = "mailto:benjamin.din@gmail.com?subject=" + subject + "&body=" + body;
-	}, 6000);
+	}, 1500);
 }
 
 function sendEmail() {
 	document.getElementById("current-p").contentEditable = false;
-	if (document.getElementById("current-p").innerHTML == "send") {
+	if (document.getElementById("current-p").innerHTML.toLowerCase() == "send") {
 		window.open(url, "_blank");
 	}
 	newInput();
@@ -390,7 +390,7 @@ function sendEmail() {
 
 function invalid() {
 	var input = document.getElementById("input");
-	input.insertAdjacentHTML('afterend','<div id="input"><span class="directory">benjamindin</span><span id="typewriter" class="text" data-text="I\'m sorry. That\'s not a valid command. Keep in mind that this console is case-sensitive. If you need instructions, feel free to type <span class=\'highlight\'>help</span>."></span></div>');
+	input.insertAdjacentHTML('afterend','<div id="input"><span class="directory">benjamindin</span><span id="typewriter" class="text" data-text="I\'m sorry. That\'s not a valid command. If you need instructions, feel free to type <span class=\'highlight\'>help</span>."></span></div>');
 	error = true;
 	input.removeAttribute("id");
 	var input = document.getElementById("input");
@@ -398,7 +398,7 @@ function invalid() {
 	typeWriter(text, 0);
 	setTimeout(function(){
 		newInput();
-	}, 6000);
+	}, 1000);
 }
 
 // creates a new input row
@@ -483,14 +483,14 @@ function typeWriter(text, n) {
 		var timer = 0;
 	}
 	else {
-		var timer = 40;
+		var timer = 10;
 	}
+	
 	n++;
 
     setTimeout(function() {
       typeWriter(text, n);
       if (document.body.scrollHeight > window.screen.height) {
-		 console.log(document.body.scrollHeight + " " + window.screen.height);
 		 window.scrollTo(0,document.body.scrollHeight);
 	  }
     }, timer);
