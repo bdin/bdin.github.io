@@ -40,7 +40,7 @@ window.onload = function() {
 			document.getElementById("name-input").focus();
 		}
 		else {
-			document.getElementById("input").focus();
+			document.getElementById("current-p").focus();
 		}
 	})
 	setTimeout(function() {
