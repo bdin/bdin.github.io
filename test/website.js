@@ -36,8 +36,12 @@ window.onload = function() {
 	var text = document.getElementById('typewriter').dataset.text;
 	typeWriter(text, 0);
 	document.addEventListener("touchend",function() {
-		document.getElementById("name-input").focus();
-		document.getElementById("input").focus();
+		if (username == "") {
+			document.getElementById("name-input").focus();
+		}
+		else {
+			document.getElementById("input").focus();
+		}
 	})
 	setTimeout(function() {
 		document.getElementById("input").style.visibility = "visible";
@@ -476,9 +480,9 @@ function typeWriter(text, n) {
 
     setTimeout(function() {
       typeWriter(text, n);
-      if (document.body.scrollHeight > document.body.clientHeight) {
-		 window.scrollTo(0,document.body.scrollHeight);
-	  }
+   //    if (document.body.scrollHeight > document.body.clientHeight) {
+		 // window.scrollTo(0,document.body.scrollHeight);
+	  // }
     }, timer);
   }
 }
