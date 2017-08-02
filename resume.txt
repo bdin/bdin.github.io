@@ -1,0 +1,54 @@
+<p class="heading">Experience</p>
+<div class="entry">
+<p><a href="http://washingtonpost.com" target="_blank">The Washington Post</a></p>
+<p>design + graphics intern | June 2017 - Present</p>
+<p>- Create charts and maps, tell stories in a visually engaging way</p>
+</div>
+<div class="entry">
+<p><a href="http://dailynorthwestern.com" target="_blank">The Daily Northwestern</a></p>
+<p>reporter | Oct 2014 - present</p>
+<p>- Previously digital projects editor, copy chief, web editor, assistant campus editor, designer, assistant summer editor</p>
+</div>
+<div class="entry">
+<p><a href="http://knightlab.northwestern.edu" target="_blank">Knight Lab</a></p>
+<p>student fellow | Sept 2015 - Present</p>
+<p>- Help develop interactive storytelling tools for journalists</p>
+</div>
+<div class="entry">
+<p><a href="http://iol.co.za/the-star" target="_blank">The Star</a></p>
+<p>reporting intern | Mar 2017 - June 2017</p>
+<p>- Worked as a general assignment reporter for a daily metro in South Africa's largest city</p>
+</div>
+<div class="entry">
+<p><a href="http://medilljusticeproject.org" target="_blank">Medill Justice Project</a></p>
+<p>investigative reporter | Jan 2017 - Mar 2017</p>
+<p>- <a href="http://www.medilljusticeproject.org/2017/04/06/stranger-than-fiction-4/" target="_blank">Reported</a> on a decades-old Pittsburgh murder as part of a 10-person team<p>
+</div>
+<div class="entry">
+<p><a href="http://medillonthehill.net" target="_blank">Medill News Service</a></p>
+<p>politics reporter | Sept 2016 - Dec 2016</p>
+<p>- Covered national security and the election, with a week on the campaign trail in North Carolina</p>
+</div>
+<div class="entry">
+<p><a href="http://sfchronicle.com" target="_blank">San Francisco Chronicle</a></p>
+<p>interactive intern | June 2016 - Sept 2016</p>
+<p>- Built data visualizations and interactive page elements for special projects and reports</p>
+</div>
+<div class="entry">
+<p><a href="http://voiceofoc.org" target="_blank">Voice of OC</a></p>
+<p>data intern | July 2015 - Sept 2015</p>
+<p>- Filed public record requests for, analyzed and visualized collision data</p>
+</div>
+
+<p class="heading">Education</p>
+<div class="entry">
+<p><a href="http://www.medill.northwestern.edu" target="_blank">Medill School of Journalism</a></p>
+<p>Northwestern University | c/o 2018</p>
+<p>- Journalism major, Asian-American studies minor, integrated marketing communications certificate</p>
+<p>- Affiliated with <a href="http://aaja.org" target="_blank">AAJA</a>, <a href="http://ire.org" target="_blank">IRE</a>, <a href="https://www.facebook.com/NU.MUSAC/" target="_blank">MUSAC</a> and <a href="https://tedxnorthwesternu.com/2016-2/" target="_blank">TEDxNorthwesternU</a></p>
+</div>
+
+<p class="heading">Skills</p>
+<div class="entry">
+<p>HTML, CSS, JavaScript, Python (in progress), Adobe suite (Photoshop, Premiere, Illustrator, InDesign), Chinese (native)</p>
+</div>

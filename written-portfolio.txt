@@ -1,0 +1,22 @@
+<p class="heading">The Star</p>
+<div class="entry">
+<p><a href="http://www.iol.co.za/the-star/growing-affordable-private-school-industry-raises-questions-9940227" target="_blank">Growing affordable private school industry raises questions</a></p>
+<p><a href="http://www.iol.co.za/the-star/victims-family-not-happy-with-wisanis-sentencing-9078808" target="_blank">Victim's family not happy with Wisani's sentencing</a></p>
+<p><a href="http://www.iol.co.za/the-star/delivery-protest-planned-over-waterless-school-9042545" target="_blank">Delivery protest planned over waterless school</a></p>
+<p><a href="http://www.iol.co.za/news/south-africa/gauteng/cellphone-tower-plan-sends-neighbourhood-into-frenzy-8791335" target="_blank">Cellphone tower plan sends neighbourhood into frenzy</a></p>
+</div>
+
+<p class="heading">Medill News Service</p>
+<div class="entry">
+<p><a href="http://medillonthehill.medill.northwestern.edu/2016/11/which-senators-have-passed-the-most-laws/" target="_blank">Which senators have passed the most laws?</a></p>
+<p><a href="http://www.usnews.com/news/national-news/articles/2016-11-01/ground-game-differences-could-be-key-in-nc" target="_blank">Ground game differences could be key in N.C.</a> U.S. News</p>
+<p><a href="http://www.usnews.com/news/politics/articles/2016-10-27/michelle-obama-denounces-rigged-election-allegations" target="_blank">Michelle Obama denounces rigged election allegations</a> U.S. News</p>
+</div>
+
+<p class="heading">The Daily Northwestern</p>
+<div class="entry">
+<p><a href="http://dailynorthwestern.com/2015/05/06/campus/faculty-to-call-for-asian-american-studies-major-20-years-after-hunger-strike/" target="_blank">Faculty to call for Asian-American studies major 20 years after hunger strike</a></p>
+<p><a href="http://dailynorthwestern.com/2015/09/29/campus/medill-prof-cecilia-vaisman-remembered-for-passion-dedication/" target="_blank">Medill Prof. Cecilia Vaisman remembered for passion, dedication</a></p>
+<p><a href="http://dailynorthwestern.com/2016/02/11/ae/northwestern-guitar-program-creator-takes-the-stage-in-classical-guitar-series/" target="_blank">Northwestern guitar program creator takes the stage in classical guitar series</a></p>
+<p><a href="http://dailynorthwestern.com/2016/01/14/campus/brendan-dassey-case-shines-spotlight-on-northwesterns-center-on-wrongful-convictions-of-youth/" target="_blank">Brendan Dassey case shines spotlight on Northwestern's Center on Wrongful Convictions of Youth</a></p>
+</div>
