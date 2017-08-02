@@ -27,7 +27,7 @@
 <div class="entry">
 <p><a href="http://medillonthehill.net" target="_blank">Medill News Service</a></p>
 <p>politics reporter | Sept 2016 - Dec 2016</p>
-<p>- Covered national security and the election, with a week on the campaign trail in north carolina</p>
+<p>- Covered national security and the election, with a week on the campaign trail in North Carolina</p>
 </div>
 <div class="entry">
 <p><a href="http://sfchronicle.com" target="_blank">San Francisco Chronicle</a></p>
