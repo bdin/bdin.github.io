@@ -475,10 +475,10 @@ var closeLink = 0;
 function typeWriter(text, n) {
   if (n < (text.length)) {
     document.getElementById("typewriter").innerHTML = text.substring(0, n+1);
-	if (text.substring(n, n+1).includes("<") == true) {
+	if (text.substring(n, n+1).indexOf("<") != -1) {
 		openLink++;
 	}
-	else if (text.substring(n,n+1).includes(">") == true) {
+	else if (text.substring(n,n+1).indexOf(">") != -1) {
 		closeLink++;
 	}
 	else {}
