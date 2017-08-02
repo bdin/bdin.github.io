@@ -5,7 +5,7 @@
 <p>- Create charts and maps, tell stories in a visually engaging way</p>
 </div>
 <div class="entry">
-<p><a href="http://dailynorthwester.com" target="_blank">The Daily Northwestern</a></p>
+<p><a href="http://dailynorthwestern.com" target="_blank">The Daily Northwestern</a></p>
 <p>reporter | Oct 2014 - present</p>
 <p>- Previously digital projects editor, copy chief, web editor, assistant campus editor, designer, assistant summer editor</p>
 </div>
@@ -42,7 +42,7 @@
 
 <p class="heading">Education</p>
 <div class="entry">
-<p><a href="http://medill.northwestern.edu" target="_blank">Medill School of Journalism</a></p>
+<p><a href="http://www.medill.northwestern.edu" target="_blank">Medill School of Journalism</a></p>
 <p>Northwestern University | c/o 2018</p>
 <p>- Journalism major, Asian-American studies minor, integrated marketing communications certificate</p>
 <p>- Affiliated with <a href="http://aaja.org" target="_blank">AAJA</a>, <a href="http://ire.org" target="_blank">IRE</a>, <a href="https://www.facebook.com/NU.MUSAC/" target="_blank">MUSAC</a> and <a href="https://tedxnorthwesternu.com/2016-2/" target="_blank">TEDxNorthwesternU</a></p>
