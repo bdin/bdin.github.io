@@ -62,7 +62,7 @@ window.onload = function() {
 	            nameInput.focus();
 	        }, 0);
 	    };
-	}, 2800);
+	}, 2200);
 };
 
 // change the name of the directory based on the first question
@@ -139,7 +139,7 @@ function valid() {
 		setTimeout(function(){
 		document.getElementById("typewriter").removeAttribute("id");
 		var input = document.getElementById("input");
-		input.insertAdjacentHTML('afterend','<div id="input"><span class="directory">benjamindin</span><span id="typewriter" class="text" data-text="My name is Benjamin Din, and I\'m a journalism student at Northwestern University. I\'m currently an intern on the graphics and design teams at <a href=&quot;http://washingtonpost.com&quot; target=&quot;_blank&quot;>The Washington Post</a>. On campus, I\'m a student fellow at the <a href=&quot;http://knightlab.northwestern.edu&quot; target=&quot;_blank&quot;>Knight Lab</a>, where I explore the intersection of journalism and technology. I also report, write and code at <a href=&quot;http://dailynorthwestern.com&quot; target=&quot;_blank&quot;>The Daily Northwestern</a>. Past stints: interactive intern at the <a href=&quot;http://sfchronicle.com&quot; target=&quot;_blank&quot;>San Francisco Chronicle</a> and reporting intern at <a href=&quot;http://iol.co.za/the-star&quot; target=&quot;_blank&quot;>The Star</a> in Johannesburg. "></span></div>');
+		input.insertAdjacentHTML('afterend','<div id="input"><span class="directory">benjamindin</span><span id="typewriter" class="text" data-text="My name is Benjamin Din, and I\'m a journalism student at Northwestern University. I\'m currently a data visuals fellow at <a href=&quot;http://texastribune.org&quot; target=&quot;_blank&quot;>The Texas Tribune</a>. On campus, I\'m a student fellow at the <a href=&quot;http://knightlab.northwestern.edu&quot; target=&quot;_blank&quot;>Knight Lab</a>, where I explore the intersection of journalism and technology. I also report, write and code at <a href=&quot;http://dailynorthwestern.com&quot; target=&quot;_blank&quot;>The Daily Northwestern</a>. Past stints: graphics + design intern at <a href=&quot;http://wapo.st&quot;>The Washington Post</a>, interactive intern at the <a href=&quot;http://sfchronicle.com&quot; target=&quot;_blank&quot;>San Francisco Chronicle</a> and reporting intern at <a href=&quot;http://iol.co.za/the-star&quot; target=&quot;_blank&quot;>The Star</a> in Johannesburg. "></span></div>');
 		input.removeAttribute("id");
 		var input = document.getElementById("input");
 		var text = document.getElementById('typewriter').dataset.text;  

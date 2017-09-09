@@ -1,11 +1,11 @@
 <p class="heading">Experience</p>
 <div class="entry">
-<p><a href="http://washingtonpost.com" target="_blank">The Washington Post</a></p>
-<p>design + graphics intern | June 2017 - Present</p>
-<p>- Create charts and maps, tell stories in a visually engaging way</p>
+<p><a href="http://texastribune.org" target="_blank">The Texas Tribune</a></p>
+<p>data visuals fellow | Sept. 2017 - present</p>
+<p>- Assist on anything and everything data related (a detailed description TK)</p>
 </div>
 <div class="entry">
-<p><a href="http://dailynorthwestern.com" target="_blank">The Daily Northwestern</a></p>
+<p><a href="https://dailynorthwestern.com/staff/?writer=Benjamin%20Din" target="_blank">The Daily Northwestern</a></p>
 <p>reporter | Oct 2014 - present</p>
 <p>- Previously digital projects editor, copy chief, web editor, assistant campus editor, designer, assistant summer editor</p>
 </div>
@@ -15,17 +15,22 @@
 <p>- Help develop interactive storytelling tools for journalists</p>
 </div>
 <div class="entry">
-<p><a href="http://iol.co.za/the-star" target="_blank">The Star</a></p>
+<p><a href="http://washingtonpost.com/people/benjamin-din" target="_blank">The Washington Post</a></p>
+<p>design + graphics intern | June 2017 - Aug. 2017</p>
+<p>- Created charts and maps, presented stories in a visually engaging way</p>
+</div>
+<div class="entry">
+<p><a href="https://www.iol.co.za/search?q=benjamin+din" target="_blank">The Star</a></p>
 <p>reporting intern | Mar 2017 - June 2017</p>
 <p>- Worked as a general assignment reporter for a daily metro in South Africa's largest city</p>
 </div>
 <div class="entry">
-<p><a href="http://medilljusticeproject.org" target="_blank">Medill Justice Project</a></p>
+<p><a href="http://www.medilljusticeproject.org/2017/04/06/stranger-than-fiction-4/" target="_blank">Medill Justice Project</a></p>
 <p>investigative reporter | Jan 2017 - Mar 2017</p>
-<p>- <a href="http://www.medilljusticeproject.org/2017/04/06/stranger-than-fiction-4/" target="_blank">Reported</a> on a decades-old Pittsburgh murder as part of a 10-person team<p>
+<p>- Reported on a decades-old Pittsburgh murder as part of a 10-person team<p>
 </div>
 <div class="entry">
-<p><a href="http://medillonthehill.net" target="_blank">Medill News Service</a></p>
+<p><a href="http://medillonthehill.medill.northwestern.edu/author/bdin/" target="_blank">Medill News Service</a></p>
 <p>politics reporter | Sept 2016 - Dec 2016</p>
 <p>- Covered national security and the election, with a week on the campaign trail in North Carolina</p>
 </div>
