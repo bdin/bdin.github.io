@@ -442,7 +442,7 @@ function loadResume() {
      document.getElementById("input").insertAdjacentHTML('afterend','<div id="input">' + this.responseText + '</div>');
     }
   };
-  xhttp.open("GET", "http://benjamindin.com/test/resume.txt?t=" + Math.random(), true);
+  xhttp.open("GET", "http://benjamindin.com/resume.txt?t=" + Math.random(), true);
   xhttp.send();
 }
 
@@ -453,7 +453,7 @@ function loadWords() {
      document.getElementById("input").insertAdjacentHTML('afterend','<div id="input">' + this.responseText + '</div>');
     }
   };
-  xhttp.open("GET", "http://benjamindin.com/test/written-portfolio.txt?t=" + Math.random(), true);
+  xhttp.open("GET", "http://benjamindin.com/written-portfolio.txt?t=" + Math.random(), true);
   xhttp.send();
 }
 
@@ -464,7 +464,7 @@ function loadDigital() {
      document.getElementById("input").insertAdjacentHTML('afterend','<div id="input">' + this.responseText + '</div>');
     }
   };
-  xhttp.open("GET", "http://benjamindin.com/test/digital-portfolio.txt?t=" + Math.random(), true);
+  xhttp.open("GET", "http://benjamindin.com/digital-portfolio.txt?t=" + Math.random(), true);
   xhttp.send();
 }
 
