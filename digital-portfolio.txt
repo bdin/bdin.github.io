@@ -12,7 +12,6 @@
     </div>
 </div>
 
-<div style="overflow: auto; max-width: 1000px">
 <div class="project">
     <div class="project-title">
         <p class="heading">Health-care Bill</p>
@@ -26,7 +25,6 @@
     </div>
 </div>
 
-<div style="overflow: auto; max-width: 1000px">
 <div class="project">
     <div class="project-title">
         <p class="heading">Press Secretaries</p>
