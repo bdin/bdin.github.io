@@ -71,6 +71,9 @@ nameInput.onkeypress = function(e){
 	var keyCode = e.keyCode || e.which;
 	if ((keyCode == '13') && (nameInput.innerHTML != "")){
 		username = nameInput.innerHTML.toLowerCase().replace(/\W/g, '');
+		if (username == "") {
+			username = "visitor";
+		}
 		nameInput.classList.remove("active");
 		nameInput.contentEditable = false;
 		nameResponse();
