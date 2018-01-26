@@ -66,6 +66,19 @@
 
 <div class="project">
     <div class="project-title">
+        <p class="heading">Charts & More Charts</p>
+    </div>
+    <div class="projimg">
+        <a href="https://www.texastribune.org/2017/11/30/how-texas-curtailed-traditional-welfare-without-ending-poverty/" target="_blank"><img class="reveal" src="images/tanf.jpg">
+        </a>
+    </div>
+    <div class="projectinfo">
+        <span class="which-pub"><a href="http://texastribune.com" target="_blank">The Texas Tribune</a></span> Built lots of charts. See more <a href="https://www.texastribune.org/2017/12/18/texas-harvey-victims-say-fema-hotel-program-plagued-confusion/" target="_blank">here</a> and <a href="https://apps.texastribune.org/dangerous-deliveries/" target="_blank">here</a>.
+    </div>
+</div>
+
+<div class="project">
+    <div class="project-title">
         <p class="heading">Best of Evanston '17</p>
     </div>
     <div class="projimg">

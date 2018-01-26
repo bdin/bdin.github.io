@@ -1,8 +1,8 @@
 <p class="heading">Experience</p>
 <div class="entry">
 <p><a href="http://texastribune.org" target="_blank">The Texas Tribune</a></p>
-<p>data visuals fellow | Sept. 2017 - present</p>
-<p>- Assist on anything and everything data related (a detailed description TK)</p>
+<p>data visuals fellow | Sept. 2017 - Dec. 2017</p>
+<p>- Assist on anything and everything data related, from building charts to gathering and analyzing data</p>
 </div>
 <div class="entry">
 <p><a href="https://dailynorthwestern.com/staff/?writer=Benjamin%20Din" target="_blank">The Daily Northwestern</a></p>
