@@ -82,7 +82,7 @@
         <p class="heading">Best of Evanston '17</p>
     </div>
     <div class="projimg">
-        <a href="http://apps.dailynorthwestern.com/bestofevanston" target="_blank"><img class="reveal" src="images/boe.jpg">
+        <a href="http://apps.dailynorthwestern.com/bestofevanston/2017" target="_blank"><img class="reveal" src="images/boe.jpg">
         </a>
     </div>
     <div class="projectinfo">
