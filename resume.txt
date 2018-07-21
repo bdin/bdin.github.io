@@ -1,19 +1,29 @@
 <p class="heading">Experience</p>
 <div class="entry">
+<p><a href="http://wsj.com" target="_blank">The Wall Street Journal</a></p>
+<p>reporting intern | July 2018 - now</p>
+<p>- Report on happenings around the West</p>
+</div>
+<div class="entry">
+<p><a href="http://knightlab.northwestern.edu" target="_blank">Knight Lab</a></p>
+<p>student fellow | Sept 2015 - now</p>
+<p>- Help develop interactive storytelling tools for journalists</p>
+</div>
+<p><a href="https://dailynorthwestern.com/staff/?writer=Benjamin%20Din" target="_blank">The Daily Northwestern</a></p>
+<p>reporter | Oct 2014 - May 2018</p>
+<p>- Previously <a href="http://apps.dailynorthwestern.com/" target="_blank">digital projects editor</a>, copy chief, web editor, assistant campus editor, designer, assistant summer editor</p>
+</div>
+<div class="entry">
+<p><a href="http://nbcolympics.com" target="_blank">NBC Sports Group</a></p>
+<p>research runner | Feb. 2018</p>
+<p>- Compiled data and statistics, copy edited NBC Olympics' internal daily newsletter</p>
+</div>
+<div class="entry">
 <p><a href="http://texastribune.org" target="_blank">The Texas Tribune</a></p>
 <p>data visuals fellow | Sept. 2017 - Dec. 2017</p>
 <p>- Assist on anything and everything data related, from building charts to gathering and analyzing data</p>
 </div>
 <div class="entry">
-<p><a href="https://dailynorthwestern.com/staff/?writer=Benjamin%20Din" target="_blank">The Daily Northwestern</a></p>
-<p>reporter | Oct 2014 - present</p>
-<p>- Previously <a href="http://apps.dailynorthwestern.com/" target="_blank">digital projects editor</a>, copy chief, web editor, assistant campus editor, designer, assistant summer editor</p>
-</div>
-<div class="entry">
-<p><a href="http://knightlab.northwestern.edu" target="_blank">Knight Lab</a></p>
-<p>student fellow | Sept 2015 - Present</p>
-<p>- Help develop interactive storytelling tools for journalists</p>
-</div>
 <div class="entry">
 <p><a href="http://washingtonpost.com/people/benjamin-din" target="_blank">The Washington Post</a></p>
 <p>design + graphics intern | June 2017 - Aug. 2017</p>

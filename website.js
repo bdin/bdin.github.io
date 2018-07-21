@@ -142,21 +142,21 @@ function valid() {
 		setTimeout(function(){
 		document.getElementById("typewriter").removeAttribute("id");
 		var input = document.getElementById("input");
-		input.insertAdjacentHTML('afterend','<div id="input"><span class="directory">benjamindin</span><span id="typewriter" class="text" data-text="My name is Benjamin Din, and I\'m a journalism student at Northwestern University. When I\'m on campus, I work as a student fellow at the <a href=&quot;http://knightlab.northwestern.edu&quot; target=&quot;_blank&quot;>Knight Lab</a>, where I explore the intersection of journalism and technology. I also report, write and code at <a href=&quot;http://dailynorthwestern.com&quot; target=&quot;_blank&quot;>The Daily Northwestern</a>. Past stints: data viz fellow at <a href=&quot;http://texastribune.com&quot;>The Texas Tribune</a>, graphics + design intern at <a href=&quot;http://wapo.st&quot;>The Washington Post</a>, interactive intern at the <a href=&quot;http://sfchronicle.com&quot; target=&quot;_blank&quot;>San Francisco Chronicle</a> and reporting intern at <a href=&quot;http://iol.co.za/the-star&quot; target=&quot;_blank&quot;>The Star</a> in Johannesburg. "></span></div>');
+		input.insertAdjacentHTML('afterend','<div id="input"><span class="directory">benjamindin</span><span id="typewriter" class="text" data-text="My name is Benjamin Din, and I\'m a reporting intern at <a href=&quot;http://wsj.com&quot; target=&quot;_blank&quot;>The Wall Street Journal</a>. I\'m a recent Medill grad at Northwestern (Go \'Cats!). Past stints: Olympics research runner with <a href=&quot;http://nbcolympics.com&quot;>NBC Sports</a>, data viz fellow at <a href=&quot;http://texastribune.com&quot;>The Texas Tribune</a>, graphics + design intern at <a href=&quot;http://wapo.st&quot;>The Washington Post</a>, interactive intern at the <a href=&quot;http://sfchronicle.com&quot; target=&quot;_blank&quot;>San Francisco Chronicle</a> and reporting intern at <a href=&quot;http://iol.co.za/the-star&quot; target=&quot;_blank&quot;>The Star</a> in Johannesburg. "></span></div>');
 		input.removeAttribute("id");
 		var input = document.getElementById("input");
 		var text = document.getElementById('typewriter').dataset.text;  
 		typeWriter(text, 0);
 		}, 900);
-		setTimeout(function(){
-		document.getElementById("typewriter").removeAttribute("id");
-		var input = document.getElementById("input");
-		input.insertAdjacentHTML('afterend','<div id="input"><span class="directory">benjamindin</span><span id="typewriter" class="text" data-text="I like to write. I like to code. If it\'s not too much to ask, one day I hope to be doing both. But for now – while I\'m still in school – I\'ll keep on doing what I do best: spending late nights in the newsroom, doing marathon coding sessions, solving crossword puzzles and counting down the days until I get to go back to sunny California."></span></div>');
-		input.removeAttribute("id");
-		var input = document.getElementById("input");
-		var text = document.getElementById('typewriter').dataset.text;  
-		typeWriter(text, 0);
-		}, 8500);
+		// setTimeout(function(){
+		// document.getElementById("typewriter").removeAttribute("id");
+		// var input = document.getElementById("input");
+		// input.insertAdjacentHTML('afterend','<div id="input"><span class="directory">benjamindin</span><span id="typewriter" class="text" data-text="I like to write. I like to code. If it\'s not too much to ask, one day I hope to be doing both. But for now – while I\'m still in school – I\'ll keep on doing what I do best: spending late nights in the newsroom, doing marathon coding sessions, solving crossword puzzles and counting down the days until I get to go back to sunny California."></span></div>');
+		// input.removeAttribute("id");
+		// var input = document.getElementById("input");
+		// var text = document.getElementById('typewriter').dataset.text;  
+		// typeWriter(text, 0);
+		// }, 8500);
 		setTimeout(function(){
 		document.getElementById("typewriter").removeAttribute("id");
 		var input = document.getElementById("input");
@@ -165,10 +165,12 @@ function valid() {
 		var input = document.getElementById("input");
 		var text = document.getElementById('typewriter').dataset.text;  
 		typeWriter(text, 0);
-		}, 12800);
+		// }, 12800);
+		}, 7000);
 		setTimeout(function(){
 			newInput();
-		}, 13800);
+		// }, 13800);
+		}, 8000);
 	}
 
 	else if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"").toLowerCase() == "resume") {
