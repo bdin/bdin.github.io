@@ -9,6 +9,7 @@
 <p>student fellow | Sept 2015 - now</p>
 <p>- Help develop interactive storytelling tools for journalists</p>
 </div>
+<div class="entry">
 <p><a href="https://dailynorthwestern.com/staff/?writer=Benjamin%20Din" target="_blank">The Daily Northwestern</a></p>
 <p>reporter | Oct 2014 - May 2018</p>
 <p>- Previously <a href="http://apps.dailynorthwestern.com/" target="_blank">digital projects editor</a>, copy chief, web editor, assistant campus editor, designer, assistant summer editor</p>
@@ -23,7 +24,6 @@
 <p>data visuals fellow | Sept. 2017 - Dec. 2017</p>
 <p>- Assist on anything and everything data related, from building charts to gathering and analyzing data</p>
 </div>
-<div class="entry">
 <div class="entry">
 <p><a href="http://washingtonpost.com/people/benjamin-din" target="_blank">The Washington Post</a></p>
 <p>design + graphics intern | June 2017 - Aug. 2017</p>
