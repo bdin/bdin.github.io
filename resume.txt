@@ -10,16 +10,6 @@
 <p>- Reported on entertainment and other happenings around the West</p>
 </div>
 <div class="entry">
-<p><a href="http://knightlab.northwestern.edu" target="_blank">Knight Lab</a></p>
-<p>student fellow | Sept 2015 - July 2018</p>
-<p>- Help develop interactive storytelling tools for journalists</p>
-</div>
-<div class="entry">
-<p><a href="https://dailynorthwestern.com/staff/?writer=Benjamin%20Din" target="_blank">The Daily Northwestern</a></p>
-<p>reporter | Oct 2014 - May 2018</p>
-<p>- Previously digital projects editor, copy chief, web editor, assistant campus editor, designer, assistant summer editor</p>
-</div>
-<div class="entry">
 <p><a href="http://nbcolympics.com" target="_blank">NBC Sports Group</a></p>
 <p>research runner | Feb. 2018</p>
 <p>- Compiled data and statistics, copy edited NBC Olympics' internal daily newsletter</p>
@@ -65,7 +55,8 @@
 <div class="entry">
 <p><a href="http://www.medill.northwestern.edu" target="_blank">Medill School of Journalism</a></p>
 <p>Northwestern University | c/o 2018</p>
-<p>- Journalism major, Asian-American studies minor, integrated marketing communications certificate</p>
+<p>- Journalism major, Asian-American studies minor, psychology concentration</p>
+<p>- Worked as a student fellow at the <a href="http://knightlab.northwestern.edu" target="_blank">Knight Lab</a> and at <a href="https://dailynorthwestern.com/staff/?writer=Benjamin%20Din" target="_blank">The Daily Northwestern</a> as a reporter, digital projects editor, copy chief, web editor, assistant campus editor, designer and assistant summer editor</p>
 <p>- Affiliated with <a href="http://aaja.org" target="_blank">AAJA</a>, <a href="http://ire.org" target="_blank">IRE</a>, <a href="https://www.facebook.com/NU.MUSAC/" target="_blank">MUSAC</a> and <a href="https://tedxnorthwesternu.com/2016-2/" target="_blank">TEDxNorthwesternU</a></p>
 </div>
 
