@@ -9,7 +9,7 @@
 
 <p class="heading">Entertainment</p>
 <div class="entry">
-<p><a href="https://www.wsj.com/articles/a-renaissance-for-documentaries-1535895000?mod=searchresults&page=1&pos=3" target="_blank">A renaissance for documentaries</a> The Wall street Journal</p>
+<p><a href="https://www.wsj.com/articles/a-renaissance-for-documentaries-1535895000?mod=searchresults&page=1&pos=3" target="_blank">A renaissance for documentaries</a> The Wall Street Journal</p>
 <p><a href="https://www.wsj.com/articles/for-spike-lee-blackkklansman-is-a-period-piece-best-viewed-now-1533734406?mod=searchresults&page=1&pos=6" target="_blank">For Spike Lee, 'BlacKkKlansman' is a period piece best viewed now</a> The Wall Street Journal</p>
 </div>
 
