@@ -1,22 +1,35 @@
-<p class="heading">The Star</p>
+<p class="heading">Politics</p>
 <div class="entry">
-<p><a href="http://www.iol.co.za/the-star/growing-affordable-private-school-industry-raises-questions-9940227" target="_blank">Growing affordable private school industry raises questions</a></p>
-<p><a href="http://www.iol.co.za/the-star/victims-family-not-happy-with-wisanis-sentencing-9078808" target="_blank">Victim's family not happy with Wisani's sentencing</a></p>
-<p><a href="http://www.iol.co.za/the-star/delivery-protest-planned-over-waterless-school-9042545" target="_blank">Delivery protest planned over waterless school</a></p>
-<p><a href="http://www.iol.co.za/news/south-africa/gauteng/cellphone-tower-plan-sends-neighbourhood-into-frenzy-8791335" target="_blank">Cellphone tower plan sends neighbourhood into frenzy</a></p>
-</div>
-
-<p class="heading">Medill News Service</p>
-<div class="entry">
-<p><a href="http://medillonthehill.medill.northwestern.edu/2016/11/which-senators-have-passed-the-most-laws/" target="_blank">Which senators have passed the most laws?</a></p>
+<p><a href="https://www.bloomberg.com/news/articles/2018-10-05/trump-s-race-to-save-house-takes-him-to-reliably-red-kansas" target="_blank">Trump's race to save House takes him to reliably red Kansas</a> Bloomberg News</p>
+<p><a href="https://www.bloomberg.com/news/articles/2018-11-13/trump-scoffs-at-report-north-korea-has-undeclared-nuclear-sites" target="_blank">Trump scoffs at report North Korea has undeclared nuclear sites</a> Bloomberg News</p>
 <p><a href="http://www.usnews.com/news/national-news/articles/2016-11-01/ground-game-differences-could-be-key-in-nc" target="_blank">Ground game differences could be key in N.C.</a> U.S. News</p>
 <p><a href="http://www.usnews.com/news/politics/articles/2016-10-27/michelle-obama-denounces-rigged-election-allegations" target="_blank">Michelle Obama denounces rigged election allegations</a> U.S. News</p>
+<p><a href="http://medillonthehill.medill.northwestern.edu/2016/11/which-senators-have-passed-the-most-laws/" target="_blank">Which senators have passed the most laws?</a> Medill News Service</p>
 </div>
 
-<p class="heading">The Daily Northwestern</p>
+<p class="heading">Entertainment</p>
 <div class="entry">
-<p><a href="http://dailynorthwestern.com/2015/05/06/campus/faculty-to-call-for-asian-american-studies-major-20-years-after-hunger-strike/" target="_blank">Faculty to call for Asian-American studies major 20 years after hunger strike</a></p>
-<p><a href="http://dailynorthwestern.com/2015/09/29/campus/medill-prof-cecilia-vaisman-remembered-for-passion-dedication/" target="_blank">Medill Prof. Cecilia Vaisman remembered for passion, dedication</a></p>
-<p><a href="http://dailynorthwestern.com/2016/02/11/ae/northwestern-guitar-program-creator-takes-the-stage-in-classical-guitar-series/" target="_blank">Northwestern guitar program creator takes the stage in classical guitar series</a></p>
-<p><a href="http://dailynorthwestern.com/2016/01/14/campus/brendan-dassey-case-shines-spotlight-on-northwesterns-center-on-wrongful-convictions-of-youth/" target="_blank">Brendan Dassey case shines spotlight on Northwestern's Center on Wrongful Convictions of Youth</a></p>
+<p><a href="https://www.wsj.com/articles/a-renaissance-for-documentaries-1535895000?mod=searchresults&page=1&pos=3" target="_blank">A renaissance for documentaries</a> The Wall street Journal</p>
+<p><a href="https://www.wsj.com/articles/for-spike-lee-blackkklansman-is-a-period-piece-best-viewed-now-1533734406?mod=searchresults&page=1&pos=6" target="_blank">For Spike Lee, 'BlacKkKlansman' is a period piece best viewed now</a> The Wall Street Journal</p>
+</div>
+
+<p class="heading">Business</p>
+<div class="entry">
+<p><a href="https://www.bloomberg.com/news/articles/2018-11-21/charity-s-impact-investment-helps-soviet-emigre-lap-carmakers" target="_blank">Charity's ‘impact’ investment helps Soviet emigre lap carmakers</a> Bloomberg News</p>
+<p><a href="https://www.wsj.com/articles/moviepass-woes-may-be-opportunity-for-competitors-1536952474?mod=searchresults&page=1&pos=1" target="_blank">MoviePass woes may be opportunity for competitors</a> The Wall Street Journal</p>
+<p><a href="https://www.wsj.com/articles/alibaba-hollywood-studios-are-among-those-pouring-1-billion-into-a-mobile-video-startup-1533636000" target="_blank">Alibaba, Hollywood studios are among those pouring $1 billion into a mobile video startup</a> The Wall Street Journal</p>
+</div>
+
+<p class="heading">Education</p>
+<div class="entry">
+<p><a href="http://www.iol.co.za/the-star/growing-affordable-private-school-industry-raises-questions-9940227" target="_blank">Growing affordable private school industry raises questions</a> The (Johannesburg) Star</p>
+<p><a href="http://www.iol.co.za/the-star/delivery-protest-planned-over-waterless-school-9042545" target="_blank">Delivery protest planned over waterless school</a> The (Johannesburg) Star</p>
+<p><a href="http://dailynorthwestern.com/2015/05/06/campus/faculty-to-call-for-asian-american-studies-major-20-years-after-hunger-strike/" target="_blank">Faculty to call for Asian-American studies major 20 years after hunger strike</a> The Daily Northwestern</p>
+</div>
+
+<p class="heading">Other News</p>
+<div class="entry">
+<p><a href="https://www.wsj.com/articles/yosemite-area-fire-continues-to-grow-1532037567?mod=searchresults&page=1&pos=10" target="_blank">Yosemite-area fire continues to grow</a> The Wall Street Journal</p>
+<p><a href="http://www.iol.co.za/news/south-africa/gauteng/cellphone-tower-plan-sends-neighbourhood-into-frenzy-8791335" target="_blank">Cellphone tower plan sends neighbourhood into frenzy</a> The (Johannesburg) Star</p>
+<p><a href="http://www.iol.co.za/the-star/victims-family-not-happy-with-wisanis-sentencing-9078808" target="_blank">Victim's family not happy with Wisani's sentencing</a> The (Johannesburg) Star</p>
 </div>

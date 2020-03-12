@@ -11,6 +11,8 @@ var subject = "",
 	body = "", 
 	url;
 
+// what time is it?
+// the hour
 if (String(d.getHours()).length == 1) {
 	hours = "0" + d.getHours();
 }
@@ -18,6 +20,7 @@ else {
 	hours = d.getHours();
 }
 
+// the minutes
 if (String(d.getMinutes()).length == 1) {
 	minutes = "0" + d.getMinutes();
 }
@@ -25,6 +28,7 @@ else {
 	minutes = d.getMinutes();
 }
 
+// the seconds
 if (String(d.getSeconds()).length == 1) {
 	seconds = "0" + d.getSeconds();
 }
@@ -32,6 +36,7 @@ else {
 	seconds = d.getSeconds();
 }
 
+// sets the date
 document.getElementById("date").innerHTML = d.toDateString() + " " + hours + ":" + minutes + ":" + seconds;
 
 window.onload = function() {
@@ -62,7 +67,7 @@ window.onload = function() {
 	            nameInput.focus();
 	        }, 0);
 	    };
-	}, 2200);
+	}, 1600);
 };
 
 // change the name of the directory based on the first question
@@ -131,6 +136,7 @@ function nameResponse() {
 	}, 2000 + timeout)
 }
 
+// command responses
 function valid() {
 	document.getElementById("typewriter").removeAttribute("id");
 	var input = document.getElementById("input");
@@ -142,7 +148,7 @@ function valid() {
 		setTimeout(function(){
 		document.getElementById("typewriter").removeAttribute("id");
 		var input = document.getElementById("input");
-		input.insertAdjacentHTML('afterend','<div id="input"><span class="directory">benjamindin</span><span id="typewriter" class="text" data-text="My name is Benjamin Din, and I\'m a reporting intern at <a href=&quot;http://wsj.com&quot; target=&quot;_blank&quot;>The Wall Street Journal</a>. I\'m a recent Medill grad at Northwestern (Go \'Cats!). Past stints: Olympics research runner with <a href=&quot;http://nbcolympics.com&quot;>NBC Sports</a>, data viz fellow at <a href=&quot;http://texastribune.com&quot;>The Texas Tribune</a>, graphics + design intern at <a href=&quot;http://wapo.st&quot;>The Washington Post</a>, interactive intern at the <a href=&quot;http://sfchronicle.com&quot; target=&quot;_blank&quot;>San Francisco Chronicle</a> and reporting intern at <a href=&quot;http://iol.co.za/the-star&quot; target=&quot;_blank&quot;>The Star</a> in Johannesburg. "></span></div>');
+		input.insertAdjacentHTML('afterend','<div id="input"><span class="directory">benjamindin</span><span id="typewriter" class="text" data-text="My name is Benjamin Din, and I\'m a recent Medill grad from Northwestern (Go \'Cats!). Past stints: reporting intern with <a href=&quot;http://bloomberg.com/&quot; target=&quot;_blank&quot;>Bloomberg News</a>, <a href=&quot;http://wsj.com&quot; target=&quot;_blank&quot;>The Wall Street Journal</a> and <a href=&quot;http://iol.co.za/the-star&quot; target=&quot;_blank&quot;>The Star</a> in Johannesburg; Olympics research runner with <a href=&quot;http://nbcolympics.com&quot;>NBC Sports</a>; data viz fellow at <a href=&quot;http://texastribune.com&quot;>The Texas Tribune</a>; graphics + design intern at <a href=&quot;http://wapo.st&quot;>The Washington Post</a>; interactive intern at the <a href=&quot;http://sfchronicle.com&quot; target=&quot;_blank&quot;>San Francisco Chronicle</a>. "></span></div>');
 		input.removeAttribute("id");
 		var input = document.getElementById("input");
 		var text = document.getElementById('typewriter').dataset.text;  
@@ -266,6 +272,7 @@ function valid() {
 	}
 }
 
+// which portfolio do you want to see?
 function whichPortfolio() {
 	if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"").toLowerCase() == "words") {
 		loadWords();
@@ -319,7 +326,7 @@ function whichPortfolio() {
 	}
 }
 
-
+// want to send an email?
 function emailGenerator() {
 	if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"").toLowerCase() == "email") {
 		// remove typewriter id, so it can be used on the next one
@@ -345,6 +352,7 @@ function emailGenerator() {
 	}
 }
 
+// input email subject line
 function setSubject() {
 	subject = document.getElementById('current-p').innerHTML;
 	console.log(subject);
@@ -366,6 +374,7 @@ function setSubject() {
 	}, 500);
 }
 
+// input email body text
 function setBody() {
 	var body = document.getElementById('current-p').innerHTML;
 	console.log(body);
@@ -388,6 +397,7 @@ function setBody() {
 	}, 1500);
 }
 
+// sends the email by opening up in a mail client
 function sendEmail() {
 	document.getElementById("current-p").contentEditable = false;
 	if (document.getElementById("current-p").innerHTML.toLowerCase() == "send") {
@@ -397,6 +407,7 @@ function sendEmail() {
 	current = "";
 }
 
+// invalid command
 function invalid() {
 	var input = document.getElementById("input");
 	input.insertAdjacentHTML('afterend','<div id="input"><span class="directory">benjamindin</span><span id="typewriter" class="text" data-text="I\'m sorry. That\'s not a valid command. If you need instructions, feel free to type <span class=\'highlight\'>help</span>."></span></div>');
@@ -430,6 +441,7 @@ function newInput() {
 	counter++;
 }
 
+// makes the input always active
 function focusme() {
 	var currentP = document.getElementById("current-p");
 	currentP.focus();
@@ -440,6 +452,7 @@ function focusme() {
     };
 }
 
+// generates resume
 function loadResume() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
@@ -451,6 +464,7 @@ function loadResume() {
   xhttp.send();
 }
 
+// generates words portfolio
 function loadWords() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
@@ -462,6 +476,7 @@ function loadWords() {
   xhttp.send();
 }
 
+// generates digital portfolio
 function loadDigital() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {

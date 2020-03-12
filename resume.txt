@@ -1,18 +1,23 @@
 <p class="heading">Experience</p>
 <div class="entry">
+<p><a href="http://bloomberg.com" target="_blank">Bloomberg News</a></p>
+<p>reporting intern | Sept 2018 - Nov 2018</p>
+<p>- Covered various government issues, from policy to elections</p>
+</div>
+<div class="entry">
 <p><a href="http://wsj.com" target="_blank">The Wall Street Journal</a></p>
-<p>reporting intern | July 2018 - now</p>
-<p>- Report on happenings around the West</p>
+<p>reporting intern | July 2018 - Sept 2018</p>
+<p>- Reported on entertainment and other happenings around the West</p>
 </div>
 <div class="entry">
 <p><a href="http://knightlab.northwestern.edu" target="_blank">Knight Lab</a></p>
-<p>student fellow | Sept 2015 - now</p>
+<p>student fellow | Sept 2015 - July 2018</p>
 <p>- Help develop interactive storytelling tools for journalists</p>
 </div>
 <div class="entry">
 <p><a href="https://dailynorthwestern.com/staff/?writer=Benjamin%20Din" target="_blank">The Daily Northwestern</a></p>
 <p>reporter | Oct 2014 - May 2018</p>
-<p>- Previously <a href="http://apps.dailynorthwestern.com/" target="_blank">digital projects editor</a>, copy chief, web editor, assistant campus editor, designer, assistant summer editor</p>
+<p>- Previously digital projects editor, copy chief, web editor, assistant campus editor, designer, assistant summer editor</p>
 </div>
 <div class="entry">
 <p><a href="http://nbcolympics.com" target="_blank">NBC Sports Group</a></p>
