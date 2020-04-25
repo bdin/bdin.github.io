@@ -244,6 +244,10 @@ function valid() {
 		}, 3800);
 	}
 
+	else if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"").toLowerCase() == "consulting") {
+		window.location.href = "http://www.benjamindin.com/consulting";
+	}
+
 	else if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"").toLowerCase() == "help") {
 		input.insertAdjacentHTML('afterend','<div id="input"><span class="directory">benjamindin</span><span id="typewriter" class="text" data-text="Are you lost? Here are some quick commands to help you navigate this website:"></span></div>');
 		input.removeAttribute("id");
@@ -252,7 +256,7 @@ function valid() {
 		setTimeout(function(){
 		document.getElementById("typewriter").removeAttribute("id");
 		var input = document.getElementById("input");
-		input.insertAdjacentHTML('afterend','<div id="input"><table id="typewriter"><tr><td class="highlight" style="width: 120px">bio</td><td>read up on my background</td></tr><tr><td class="highlight">portfolio</td><td>check out the work I\'ve done</td></tr><tr><td class="highlight">resume</td><td>see where I\'ve worked</td></tr><tr><td class="highlight">contact</td><td>talk to me!</td></tr><tr><td class="highlight">help</td><td>quick guide to navigating this site</td></tr></div>');
+		input.insertAdjacentHTML('afterend','<div id="input"><table id="typewriter"><tr><td class="highlight" style="width: 120px">bio</td><td>read up on my background</td></tr><tr><td class="highlight">portfolio</td><td>check out the work I\'ve done</td></tr><tr><td class="highlight">resume</td><td>see where I\'ve worked</td></tr><tr><td class="highlight">contact</td><td>talk to me!</td></tr><tr><td class="highlight">consulting</td><td>need essay help? work with me!</td></tr><tr><td class="highlight">help</td><td>quick guide to navigating this site</td></tr></div>');
 		input.removeAttribute("id");
 		var input = document.getElementById("input");
 		var text = document.getElementById('typewriter').dataset.text;  

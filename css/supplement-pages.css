@@ -1,0 +1,126 @@
+body {
+	margin: 0;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+/* header styles */
+.header {
+	height: 40px; 
+	width: 100%; 
+	background-color: rgb(59,89,152);
+}
+
+.header span {
+	color: white; 
+	font-size: 35px; 
+	margin-left: 10px
+}
+
+/* headline styles */
+#headline {
+	margin: 40px auto;
+	text-align: center;
+	font-size: 42px;
+	width: 80%;
+	max-width: 700px;
+	font-weight: bold;
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+}
+
+/* byline/date styles */
+.author-info {
+	width: 100%;
+}
+
+#byline {
+	text-align: center;
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+#date {
+	color: gray;
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+/* body text styles */
+.storytext {
+	width: 90%;
+	margin: 50px auto;
+	max-width: 700px;
+}
+
+.storytext p {
+    margin-bottom: 18px;
+    line-height: 1.8em;
+    font-size: 18px;
+    font-family: Georgia, Times, sans-serif;
+}
+
+/* highlight styles */
+.highlight {
+	padding: 2px 5px;
+	background-color: rgba(255,255,0,0.3);
+}
+
+/* link styles */
+.link {
+	color: rgb(59,89,152);
+	text-decoration: none;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
+
+/* consulting page specifics */
+#itsme {
+	margin: 0 auto;
+	width: 350px;
+	max-width: 30%;
+	padding-top: 50px;
+}
+
+#itsme img {
+	max-width: 100%;
+	border-radius: 50%;
+}
+
+/* media queries yay */
+@media screen and (max-width: 650px) {
+	.storytext {
+		margin: 25px auto;
+	}
+
+	.storytext p {
+		font-size: 17px;
+		line-height: 1.5em;
+	}
+
+	#headline {
+		text-align: left;
+		font-size: 25px;
+		width: 90%;
+		margin: 20px auto;
+	}
+
+	#byline, #date {
+		text-align: left;
+		width: 90%;
+		margin: 0 auto;
+	}
+	/* consulting page specifics */	
+	#itsme {
+		width: 90%;
+		padding-top: 25px;
+	}
+}
