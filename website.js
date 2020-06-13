@@ -39,6 +39,7 @@ else {
 // sets the date
 document.getElementById("date").innerHTML = d.toDateString() + " " + hours + ":" + minutes + ":" + seconds;
 
+// can someone tell me what this does? lol it's been too long
 window.onload = function() {
 	var text = document.getElementById('typewriter').dataset.text;
 	typeWriter(text, 0);
@@ -59,6 +60,27 @@ window.onload = function() {
 			}
 		}
 	})
+
+	setTimeout(function() {
+		document.getElementById("typewriter").removeAttribute("id");
+		var welcome1 = document.getElementById("welcome-1");
+		var typewriter1 = document.getElementById("typewriter-1");
+		welcome1.style.visibility = "visible";
+		typewriter1.setAttribute("id","typewriter");
+		var text1 = typewriter1.dataset.text;
+		typeWriter(text1, 0);
+	}, 1700);
+
+	setTimeout(function() {
+		document.getElementById('typewriter').removeAttribute("id");
+		var welcome2 = document.getElementById("welcome-2");
+		var typewriter2 = document.getElementById("typewriter-2");
+		welcome2.style.visibility = "visible";
+		typewriter2.setAttribute("id","typewriter");
+		var text2 = typewriter2.dataset.text;
+		typeWriter(text2, 0);
+	}, 4300);
+
 	setTimeout(function() {
 		document.getElementById("input").style.visibility = "visible";
 		nameInput.focus();
@@ -67,7 +89,7 @@ window.onload = function() {
 	            nameInput.focus();
 	        }, 0);
 	    };
-	}, 1600);
+	}, 5400);
 };
 
 // change the name of the directory based on the first question
@@ -140,19 +162,30 @@ function nameResponse() {
 function valid() {
 	document.getElementById("typewriter").removeAttribute("id");
 	var input = document.getElementById("input");
-	if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"").toLowerCase() == "bio") {
+
+	if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"").toLowerCase().includes("job")) {
+		input.insertAdjacentHTML('afterend','<div id="input"><span class="directory">benjamindin</span><span id="typewriter" class="text" data-text="Did I hear you say \'job\'? If you\'ve got an opening, feel free to email me directly at <a href=&quot;mailto:benjamin.din@gmail.com&quot; target=&quot;_blank&quot;>benjamin.din@gmail.com</a>. I\'d love to hear from you. If that\'s not what you meant, then... Well, this is awkward. Please type another command."></span></div>');
+		input.removeAttribute("id");
+		var text = document.getElementById('typewriter').dataset.text;  
+		typeWriter(text, 0);
+		setTimeout(function(){
+			newInput();
+		}, 3300);
+	}
+
+	else if (document.getElementById("current-p").innerHTML.replace(/(<([^>]+)>)/ig,"").toLowerCase() == "bio") {
 		input.insertAdjacentHTML('afterend','<div id="input"><span class="directory">benjamindin</span><span id="typewriter" class="text" data-text="Alright! Gimme a sec. I\'m a fast typer."></span></div>');
 		input.removeAttribute("id");
 		var text = document.getElementById('typewriter').dataset.text;  
 		typeWriter(text, 0);
 		setTimeout(function(){
-		document.getElementById("typewriter").removeAttribute("id");
-		var input = document.getElementById("input");
-		input.insertAdjacentHTML('afterend','<div id="input"><span class="directory">benjamindin</span><span id="typewriter" class="text" data-text="My name is Benjamin Din, and I\'m a recent Medill grad from Northwestern (Go \'Cats!). Past stints: reporting intern with <a href=&quot;http://bloomberg.com/&quot; target=&quot;_blank&quot;>Bloomberg News</a>, <a href=&quot;http://wsj.com&quot; target=&quot;_blank&quot;>The Wall Street Journal</a> and <a href=&quot;http://iol.co.za/the-star&quot; target=&quot;_blank&quot;>The Star</a> in Johannesburg; Olympics research runner with <a href=&quot;http://nbcolympics.com&quot;>NBC Sports</a>; data viz fellow at <a href=&quot;http://texastribune.com&quot;>The Texas Tribune</a>; graphics + design intern at <a href=&quot;http://wapo.st&quot;>The Washington Post</a>; interactive intern at the <a href=&quot;http://sfchronicle.com&quot; target=&quot;_blank&quot;>San Francisco Chronicle</a>. "></span></div>');
-		input.removeAttribute("id");
-		var input = document.getElementById("input");
-		var text = document.getElementById('typewriter').dataset.text;  
-		typeWriter(text, 0);
+			document.getElementById("typewriter").removeAttribute("id");
+			var input = document.getElementById("input");
+			input.insertAdjacentHTML('afterend','<div id="input"><span class="directory">benjamindin</span><span id="typewriter" class="text" data-text="My name is Benjamin Din, and I\'m a recent Medill grad from Northwestern (Go \'Cats!). Past stints: reporting intern with <a href=&quot;http://bloomberg.com/&quot; target=&quot;_blank&quot;>Bloomberg News</a>, <a href=&quot;http://wsj.com&quot; target=&quot;_blank&quot;>The Wall Street Journal</a> and <a href=&quot;http://iol.co.za/the-star&quot; target=&quot;_blank&quot;>The Star</a> in Johannesburg; Olympics research runner with <a href=&quot;http://nbcolympics.com&quot;>NBC Sports</a>; data viz fellow at <a href=&quot;http://texastribune.com&quot;>The Texas Tribune</a>; graphics + design intern at <a href=&quot;http://wapo.st&quot;>The Washington Post</a>; interactive intern at the <a href=&quot;http://sfchronicle.com&quot; target=&quot;_blank&quot;>San Francisco Chronicle</a>. "></span></div>');
+			input.removeAttribute("id");
+			var input = document.getElementById("input");
+			var text = document.getElementById('typewriter').dataset.text;  
+			typeWriter(text, 0);
 		}, 900);
 		// setTimeout(function(){
 		// document.getElementById("typewriter").removeAttribute("id");
@@ -164,18 +197,18 @@ function valid() {
 		// typeWriter(text, 0);
 		// }, 8500);
 		setTimeout(function(){
-		document.getElementById("typewriter").removeAttribute("id");
-		var input = document.getElementById("input");
-		input.insertAdjacentHTML('afterend','<div id="input"><span class="directory">benjamindin</span><span id="typewriter" class="text" data-text="Well, that\'s me! Type another command for more."></span></div>');
-		input.removeAttribute("id");
-		var input = document.getElementById("input");
-		var text = document.getElementById('typewriter').dataset.text;  
-		typeWriter(text, 0);
-		// }, 12800);
+			document.getElementById("typewriter").removeAttribute("id");
+			var input = document.getElementById("input");
+			input.insertAdjacentHTML('afterend','<div id="input"><span class="directory">benjamindin</span><span id="typewriter" class="text" data-text="Well, that\'s me! Type another command for more."></span></div>');
+			input.removeAttribute("id");
+			var input = document.getElementById("input");
+			var text = document.getElementById('typewriter').dataset.text;  
+			typeWriter(text, 0);
+			// }, 12800);
 		}, 7000);
 		setTimeout(function(){
 			newInput();
-		// }, 13800);
+			// }, 13800);
 		}, 8000);
 	}
 
