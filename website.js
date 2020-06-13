@@ -69,7 +69,7 @@ window.onload = function() {
 		typewriter1.setAttribute("id","typewriter");
 		var text1 = typewriter1.dataset.text;
 		typeWriter(text1, 0);
-	}, 1700);
+	}, 1500);
 
 	setTimeout(function() {
 		document.getElementById('typewriter').removeAttribute("id");
@@ -79,7 +79,7 @@ window.onload = function() {
 		typewriter2.setAttribute("id","typewriter");
 		var text2 = typewriter2.dataset.text;
 		typeWriter(text2, 0);
-	}, 4300);
+	}, 3900);
 
 	setTimeout(function() {
 		document.getElementById("input").style.visibility = "visible";
@@ -89,7 +89,7 @@ window.onload = function() {
 	            nameInput.focus();
 	        }, 0);
 	    };
-	}, 5400);
+	}, 4800);
 };
 
 // change the name of the directory based on the first question
@@ -155,7 +155,7 @@ function nameResponse() {
 	typeWriter(text, 0);
 	setTimeout(function(){
 		newInput();
-	}, 2000 + timeout)
+	}, 2200 + timeout)
 }
 
 // command responses
@@ -455,7 +455,7 @@ function invalid() {
 	typeWriter(text, 0);
 	setTimeout(function(){
 		newInput();
-	}, 1000);
+	}, 1600);
 }
 
 // creates a new input row
