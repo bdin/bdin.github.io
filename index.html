@@ -23,8 +23,18 @@
             m.parentNode.insertBefore(a, m)
         })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
         ga('create', 'UA-58525256-1', 'auto');
+        ga('require', 'ipMeta', {
+            apiKey: '9ce3ed2f42a2c61071a872f5d8d2b0f68a8fb61e6e44cb92223e26759a434d2b',
+            serviceProvider: 'dimension1',
+            networkDomain: 'dimension2',
+            networkType: 'dimension3',
+        });
+        ga('ipMeta:loadNetworkFields');
         ga('send', 'pageview');
     </script>
+
+    <!-- IpMeta must be included after Google Analytics -->
+    <script async src="https://ipmeta.io/plugin.js"></script>
 </head>
 
 <body>
