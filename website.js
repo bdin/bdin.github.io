@@ -9,7 +9,6 @@ var weekday = new Array(7);
 	weekday[4] = "Thu";
 	weekday[5] = "Fri";
 	weekday[6] = "Sat";
-
 var n = weekday[d.getDay()];
 var chatInput = document.getElementById("input-wrapper");
 var chatText = document.getElementById("chat-input");
@@ -23,9 +22,9 @@ var chatCounter = 0;
 var chats = document.getElementById("chats");
 var errorCounter = 0;
 
-
 // what time is it?
-// the hour
+
+// the hour + timezone
 if (String(d.getHours()) > 12) {
 	hours = d.getHours() - 12;
 	timezone = "PM";
@@ -46,6 +45,9 @@ else {
 // sets the date
 document.getElementById("date").innerHTML = n + " " + hours + ":" + minutes + " " + timezone;
 
+
+// when page loads, it'll automatically run the next two prompts
+
 window.onload = function() {
 	setTimeout(function(){ 
 		chats.insertAdjacentHTML('beforeend',
@@ -59,12 +61,19 @@ window.onload = function() {
 }
 
 // some code that deals with the placeholder text
+
+// when you click on the chatbox, it sets chatClick to true, and the counter to a value != 1
+// and then it runs the textReplace function
 chatText.onclick = function() {
 	counter = 10;
 	chatClick = true;
 	textReplace();
 };
 
+// checks to see what's currently in the input. if it's "type here," that means there's no input,
+// so you would replace it with something blank for them to chat in
+// the second check of "" is a catch to see if they hit enter when there is no input
+// the counter is reset to 0
 function textReplace() {
   if (chatText.innerHTML == "Type here" || chatText.innerHTML == "") {
   	chatText.innerHTML = "";
@@ -72,6 +81,12 @@ function textReplace() {
   counter = 0;
 }
 
+// this checks to see if chatClick is true, which means the last thing you clicked is the chat input
+// however, if you clicked on the chat input, then counter would be set to 0 (per textReplace)
+// so the counter++ will increase the counter to 1
+// therefore, it won't run because the if conditions are not met (counter != 1)
+// this tells you that you clicked outside of the chat input, and if the input is blank, then
+// the placeholder text reappears and chatClick is set to false
 function textReplaceChecker() {
 	counter++;
 	if (chatClick == true && chatText.innerHTML == "" && counter != 1) {
@@ -80,9 +95,13 @@ function textReplaceChecker() {
 	}
 }
 
+// every time you click on the page, it'll run the text replace checker
 document.onclick = function() {
 	textReplaceChecker();
 }
+
+// you need this code every time a new chat bubble appears to pull the chat down to the bottom
+// chats.scrollTop = chats.scrollHeight;
 
 // whereIveBeen click
 
@@ -231,7 +250,7 @@ function youreWelcome() {
  	}, 800);
 }
 
-// display the text they want to send
+// display the text they want to send in a chat bubble
 
 function displayText() {
 	current = chatText.innerHTML;
@@ -246,7 +265,7 @@ function displayText() {
 	}
 }
 
-// dark mode
+// dark + light mode
 
 function darkMode() {
 	document.body.classList.add("dark-mode");
@@ -283,7 +302,7 @@ function invalid() {
 	}
 }
 
-// how to respond to ppl
+// WHAT HAPPENS WHEN SOMEONE HITS ENTER ON THE INPUT BOX
 
 document.body.onkeypress = function(e) {
 	if (!e) e = window.event;
