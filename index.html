@@ -5,11 +5,12 @@
     <meta charset="utf-8">
     <meta name=viewport content="width=device-width, initial-scale=1">
     <title>Benjamin Din</title>
+    <link rel="stylesheet" href="main.css">
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
-    <link rel="stylesheet" href="css/main.css?v=11">
+    <link href="https://fonts.googleapis.com/css?Source+Sans+Pro:300,600" rel="stylesheet">
     <script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -28,12 +29,52 @@
 </head>
 
 <body>
-    <div class="archive">Last login: <span id="date"></span> on console</div>
-    <span class="directory">benjamindin</span><span id="typewriter" class="text" data-text="Hi! My name is Ben. I'm a journalist interested in telling stories through words + code. Before we begin, what's your name?"></span>
-    <div style="visibility: hidden" id="input"><span class="arrow">➜</span><span id="first-directory" class="directory">~</span><span id="name-input" class="active paragraph" contenteditable="true"></span></div>
 
-    <!--make sure this is website.min.js when you upload it-->
-    <script src="website.min.js?v=13"></script>
+<div class="main-box" id="menu">
+
+    <div id="welcome">
+        <img src="img/9440321.jpg"><strong>Hi, I'm Ben!</strong>
+    </div>
+
+    <div class="menu-box active">
+        <img id="chat" src="img/chat.png"><strong>Chat with Me</strong>
+    </div>
+
+    <div class="menu-box hidden" id="whereIveBeen">
+        <img id="clip" src="img/clip.png"><strong>Where I've Worked</strong>
+    </div>
+
+    <div class="menu-box hidden" id="whatIveDone">
+        <img id="portfolio" src="img/portfolio.png"><strong>Stuff I've Done</strong>
+    </div>
+
+    <div class="menu-box hidden" id="contactMe">
+        <img id="social" src="img/contact.png"><strong>Contact Me</strong>
+    </div>
+
+    <div id="bio">I write, report, design and code things.<br><br>You can find my work <a href="" target="blank">@politico</a>, <a href="" target="blank">@wsj</a>, <a href="" target="blank">@washingtonpost</a>, <a href="" target="blank">@business</a>, <a href="" target="blank">@nbcolympics</a>, <a href="" target="blank">@sfchronicle</a>, <a href="" target="blank">@texastribune</a> and <a href="" target="blank">@thestar_news</a>.<br><br>Follow me on <a href="https://twitter.com/benjamindin" target="_blank">Twitter</a>!</div>
+
+</div>
+
+<div class="main-box parent" id="chatbox">
+
+    <div id="chats">
+        <div class="dateline child">
+            <span id="date"></span>
+        </div>
+
+        <div class="chat-bubble ben child">
+            <div class="inner-text">Hey there! Thanks for stopping by my little corner of the internet. My name is Benjamin Din, and I'm a journalist interested in telling stories through words and code.</div>
+        </div>
+    </div>
+
+    <div id="input-wrapper">
+        <div id="chat-input" contenteditable="true">Type here</div>
+    </div>
+
+</div>
+
+<script src="website.js"></script>
 
 </body>
 
