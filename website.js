@@ -64,22 +64,22 @@ window.onload = function() {
 
 // when you click on the chatbox, it sets chatClick to true, and the counter to a value != 1
 // and then it runs the textReplace function
-chatText.onclick = function() {
-	counter = 10;
-	chatClick = true;
-	textReplace();
-};
+// chatText.onclick = function() {
+// 	counter = 10;
+// 	chatClick = true;
+// 	textReplace();
+// };
 
 // checks to see what's currently in the input. if it's "type here," that means there's no input,
 // so you would replace it with something blank for them to chat in
 // the second check of "" is a catch to see if they hit enter when there is no input
 // the counter is reset to 0
-function textReplace() {
-  if (chatText.innerHTML == "Type here" || chatText.innerHTML == "") {
-  	chatText.innerHTML = "";
-  }
-  counter = 0;
-}
+// function textReplace() {
+//   if (chatText.innerHTML == "Type here" || chatText.innerHTML == "") {
+//   	chatText.innerHTML = "";
+//   }
+//   counter = 0;
+// }
 
 // this checks to see if chatClick is true, which means the last thing you clicked is the chat input
 // however, if you clicked on the chat input, then counter would be set to 0 (per textReplace)
@@ -87,18 +87,18 @@ function textReplace() {
 // therefore, it won't run because the if conditions are not met (counter != 1)
 // this tells you that you clicked outside of the chat input, and if the input is blank, then
 // the placeholder text reappears and chatClick is set to false
-function textReplaceChecker() {
-	counter++;
-	if (chatClick == true && chatText.innerHTML == "" && counter != 1) {
-		chatText.innerHTML = "Type here";
-		chatClick = false;
-	}
-}
+// function textReplaceChecker() {
+// 	counter++;
+// 	if (chatClick == true && chatText.innerHTML == "" && counter != 1) {
+// 		chatText.innerHTML = "Type here";
+// 		chatClick = false;
+// 	}
+// }
 
 // every time you click on the page, it'll run the text replace checker
-document.onclick = function() {
-	textReplaceChecker();
-}
+// document.onclick = function() {
+// 	textReplaceChecker();
+// }
 
 // you need this code every time a new chat bubble appears to pull the chat down to the bottom
 // chats.scrollTop = chats.scrollHeight;

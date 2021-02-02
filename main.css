@@ -206,6 +206,15 @@ img {
     margin-top: auto !important;
 }
 
+#chat-input[contentEditable="true"]:empty:before {
+  content: attr(placeholder);
+  color: gray;
+}
+
+.dark-mode #chat-input[contentEditable="true"]:empty:before {
+  color: #f7faff;
+}
+
 [contenteditable="true"]:focus {
     outline: none;
 }
