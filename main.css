@@ -338,6 +338,7 @@ nav a {
   }
 
   #chatbox {
+    border-left: 0;
     height: -webkit-calc(100% - 86px);
     height:    -moz-calc(100% - 86px);
     height:         calc(100% - 86px);
