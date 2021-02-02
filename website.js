@@ -125,7 +125,7 @@ function thingsIveDone() {
  	}, 800);
 }
 
-function words() {
+function words(){
 	setTimeout(function(){ 
 		chats.insertAdjacentHTML('beforeend',
     	'<div class="chat-bubble ben child"><div class="inner-text">Yup, let me send you some clips. I\'ve got them arranged by topic, since there are quite a few.</div></div>');
@@ -338,6 +338,15 @@ document.body.onkeypress = function(e) {
 		else if (chatText.innerHTML.toLowerCase().includes("light mode")) {
 			displayText();
 			lightMode();
+		}
+		else if (chatText.innerHTML.toLowerCase().includes("v3")) {
+			window.location.href = "http://www.benjamindin.com/v3";		
+		}
+		else if (chatText.innerHTML.toLowerCase().includes("v2")) {
+			window.location.href = "http://www.benjamindin.com/v2";		
+		}
+		else if (chatText.innerHTML.toLowerCase().includes("v1")) {
+			window.location.href = "http://www.benjamindin.com/v1";		
 		}
 		else {
 			displayText();
