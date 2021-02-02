@@ -300,7 +300,7 @@ document.body.onkeypress = function(e) {
 				whereIveBeen.classList.remove("hidden");
 				whatIveDone.classList.remove("hidden");
 				contactMe.classList.remove("hidden");
-			}, 800)
+			}, 800);
 			ga('send','pageview','site?myParam=' + username);
 			var name = chatText.innerHTML;
 			displayText();
