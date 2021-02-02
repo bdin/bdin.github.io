@@ -242,7 +242,7 @@ function displayText() {
 	chats.scrollTop = chats.scrollHeight;
 
 	if (chatCounter > 0) {
-		ga('send','pageview','site?myParam=' + current);
+		ga('send','pageview','site?myParam=' + username + "_" + current);
 	}
 }
 
@@ -301,7 +301,7 @@ document.body.onkeypress = function(e) {
 				whatIveDone.classList.remove("hidden");
 				contactMe.classList.remove("hidden");
 			}, 800)
-			ga('send','pageview','site?myParam=' + this.innerHTML);
+			ga('send','pageview','site?myParam=' + username);
 			var name = chatText.innerHTML;
 			displayText();
 			welcomeMessage(name);			
