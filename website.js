@@ -358,10 +358,18 @@ document.body.onkeypress = function(e) {
 		else if (chatText.innerHTML.toLowerCase().includes("dark mode")) {
 			displayText();
 			darkMode();
+			document.getElementById("chat").src = "img/chat-dark.png";
+			document.getElementById("clip").src = "img/clip-dark.png";
+			document.getElementById("portfolio").src = "img/portfolio-dark.png";
+			document.getElementById("social").src = "img/contact-dark.png";
 		}
 		else if (chatText.innerHTML.toLowerCase().includes("light mode")) {
 			displayText();
 			lightMode();
+			document.getElementById("chat").src = "img/chat.png";
+			document.getElementById("clip").src = "img/clip.png";
+			document.getElementById("portfolio").src = "img/portfolio.png";
+			document.getElementById("social").src = "img/contact.png";
 		}
 		else if (chatText.innerHTML.toLowerCase().includes("v3")) {
 			window.location.href = "http://www.benjamindin.com/v3";		

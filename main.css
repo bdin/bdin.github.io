@@ -287,6 +287,22 @@ nav a {
   color: #f5f7fa;
 }
 
+.dark-mode #chat {
+  background-color: #486581;
+}
+
+.dark-mode #clip {
+  background-color: #627d98;
+}
+
+.dark-mode #portfolio {
+  background-color: #829ab1;
+}
+
+.dark-mode #social {
+  background-color: #9fb3c8;
+}
+
 /*
   ========================================
   Clearfix
