@@ -66,7 +66,7 @@ chatText.onclick = function() {
 };
 
 function textReplace() {
-  if (chatText.innerHTML == "Type here") {
+  if (chatText.innerHTML == "Type here" || chatText.innerHTML == "") {
   	chatText.innerHTML = "";
   }
   counter = 0;
@@ -288,7 +288,12 @@ function invalid() {
 document.body.onkeypress = function(e) {
 	if (!e) e = window.event;
 	var keyCode = e.keyCode || e.which;
-	if ((keyCode == '13') && (chatText.innerHTML != "") && (chatText.innerHTML != "Type here")){
+	// prevents someone from hitting enter twice and submitting blank content
+	if ((keyCode == '13') && (chatText.innerHTML == "")) {
+		e.preventDefault();
+		textReplace();
+	}
+	else if ((keyCode == '13') && (chatText.innerHTML != "") && (chatText.innerHTML != "Type here")){
 		e.preventDefault();
 		// this is the username value
 		if (chatCounter == 0) {
