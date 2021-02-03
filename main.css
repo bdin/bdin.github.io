@@ -382,7 +382,7 @@ nav a {
   }
 
   #chatbox {
-    border-left: 0;
+    border-left: 0 !important;
     height: -webkit-calc(100% - 86px);
     height:    -moz-calc(100% - 86px);
     height:         calc(100% - 86px);
