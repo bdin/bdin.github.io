@@ -291,6 +291,10 @@ nav a {
   background-color: #486581;
 }
 
+.dark-mode #chatbox {
+  border-left: 1px solid #3e4c59;
+}
+
 .dark-mode #clip {
   background-color: #627d98;
 }
