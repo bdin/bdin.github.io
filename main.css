@@ -330,6 +330,17 @@ nav a {
   }
 }
 
+@media screen and (max-height: 506px) {
+  .menu-box {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 607px) {
+  #bio-second {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 606px) {
   #menu {
@@ -338,6 +349,10 @@ nav a {
 
   #chatbox {
     width: 55%;
+  }
+
+  #bio-second {
+    display: none;
   }
 }
 
