@@ -256,10 +256,9 @@ nav a {
 
 .dark-mode a {
   color: #f5f7fa;
-  border-bottom: 0;
 }
 
-.dark-mode div, .dark-mode #bio a {
+.dark-mode div {
   background-color: #1f2933;
   color: #f5f7fa;
   border-bottom: 0;
