@@ -57,6 +57,7 @@ window.onload = function() {
 	setTimeout(function(){ 
 		chats.insertAdjacentHTML('beforeend',
     	'<div class="chat-bubble ben child"><div class="inner-text">Before we begin, what\'s your name? (100% OK if you put a fake name, but you\'ll have to put something to unlock full access to the site.)</div></div>');
+		chatText.setAttribute("contenteditable", true);
  	}, 1600);
 }
 
@@ -128,6 +129,9 @@ function whereIveWorked() {
 whereIveBeen.onclick = function() {
 	chats.insertAdjacentHTML('beforeend',
     '<div class="chat-bubble visitor child"><div class="inner-text">I want to hear more about where you\'ve worked!</div></div>');
+
+
+	ga('send','pageview','site?myParam=' + username + "_resume-click");
 
 	chats.scrollTop = chats.scrollHeight;
 
@@ -206,6 +210,8 @@ whatIveDone.onclick = function() {
 	chats.insertAdjacentHTML('beforeend',
     '<div class="chat-bubble visitor child"><div class="inner-text">Can I see some of the work you\'ve done?</div></div>');
 
+	ga('send','pageview','site?myParam=' + username + "_portfolio-click");
+
 	chats.scrollTop = chats.scrollHeight;
 
 	thingsIveDone();
@@ -224,6 +230,8 @@ function contactBen() {
 contactMe.onclick = function() {
 	chats.insertAdjacentHTML('beforeend',
     '<div class="chat-bubble visitor child"><div class="inner-text">I want to talk to you. How can I reach you?</div></div>');
+
+	ga('send','pageview','site?myParam=' + username + "_contact-click");
 
 	chats.scrollTop = chats.scrollHeight;
 
