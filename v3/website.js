@@ -82,7 +82,7 @@ nameInput.onkeypress = function(e){
 		nameInput.classList.remove("active");
 		nameInput.contentEditable = false;
 		nameResponse();
-		ga('send','pageview','site?myParam=' + this.innerHTML);
+		ga('send','pageview','v3/site?myParam=' + this.innerHTML);
 		counter++;
 	}
 }
@@ -95,7 +95,7 @@ document.body.onkeypress = function(e) {
 			var keyCode = e.keyCode || e.which;
 			if ((keyCode == '13') && (document.getElementById("current-p").innerHTML != "")){
 				document.getElementById("current-p").contentEditable = false;
-				ga('send','pageview','site?myParam=' + username + "_" + document.getElementById("current-p").innerHTML);
+				ga('send','pageview','v3/site?myParam=' + username + "_" + document.getElementById("current-p").innerHTML);
 				if (current == "") {
 					valid();
 				}
