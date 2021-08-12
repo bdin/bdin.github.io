@@ -109,19 +109,19 @@ window.onload = function() {
 function whereIveWorked() {
 	setTimeout(function(){ 
 		chats.insertAdjacentHTML('beforeend',
-    	'<div class="chat-bubble ben child"><div class="inner-text">Of course! Well, I’m currently an editorial  intern at POLITICO, covering breaking news. It’s a great gig, and it keeps me pretty busy.</div></div>');
+    	'<div class="chat-bubble ben child"><div class="inner-text">Of course! I\'m the author of POLITICO\'s <a href="http://politico.com/morningtech" target="_blank">Morning Tech</a> newsletter, where I keep you posted on all you need to know about tech policy and politics. It’s a great gig, and it keeps me pretty busy.</div></div>');
 		chats.scrollTop = chats.scrollHeight;
  	}, 800);
 
 	setTimeout(function(){ 
 		chats.insertAdjacentHTML('beforeend',
-    	'<div class="chat-bubble ben child"><div class="inner-text">Some other things I’ve done:<br><br>— reported from LA for <a href="http://wsj.com" target="_blank">The Wall Street Journal</a>, where I got to interview Jeff Katzenberg and Meg Whitman (RIP, Quibi)<br>— covered U.S. government for <a href="http://bloomberg.com" target="_blank">Bloomberg News</a><br>— wrote for <a href="https://www.iol.co.za/the-star" target="_blank">The Star</a>, an English-language daily in Johannesburg<br>— researched facts and stats for <a href="http://nbcolympics.com" target="_blank">NBC Olympics</a>’ coverage of the 2018 Games<br>— designed and built interactives at <a href="http://washingtonpost.com" target="_blank">The Washington Post</a>, <a href="http://sfchronicle.com" target="_blank">The San Francisco Chronicle</a> and <a href="http://texastribune.org" target="_blank">The Texas Tribune</a></div></div>');
+    	'<div class="chat-bubble ben child"><div class="inner-text">Some other things I’ve done:<br><br>— reported from LA for <a href="http://wsj.com" target="_blank">The Wall Street Journal</a>, where I got to interview Jeff Katzenberg and Meg Whitman (RIP, Quibi)<br>— covered U.S. government for <a href="http://bloomberg.com" target="_blank">Bloomberg News</a><br>— wrote for <a href="https://www.iol.co.za/the-star" target="_blank">The Star</a>, an English-language daily in Johannesburg<br>— researched facts and stats for <a href="http://nbcolympics.com" target="_blank">NBC Olympics</a>’ coverage of the 2018 + 2020 Games<br>— designed and built interactives at <a href="http://washingtonpost.com" target="_blank">The Washington Post</a>, <a href="http://sfchronicle.com" target="_blank">The San Francisco Chronicle</a> and <a href="http://texastribune.org" target="_blank">The Texas Tribune</a></div></div>');
 		chats.scrollTop = chats.scrollHeight;
  	}, 1600);
 
 	setTimeout(function(){ 
 		chats.insertAdjacentHTML('beforeend',
-    	'<div class="chat-bubble ben child"><div class="inner-text">I’ve also done comms work for <a href="http://bfa.org" target="_blank">Bibles for America</a>, a Christian nonprofit that distributes free Bibles!</div></div>');
+    	'<div class="chat-bubble ben child"><div class="inner-text">I’ve also done comms and content design work for <a href="http://bfa.org" target="_blank">Bibles for America</a>, a faith-based nonprofit in California!</div></div>');
 		chats.scrollTop = chats.scrollHeight;
  	}, 2400);
 }
@@ -157,7 +157,7 @@ function words(){
 
 	setTimeout(function(){ 
 		chats.insertAdjacentHTML('beforeend',
-    	'<div class="chat-bubble ben child"><div class="inner-text"><strong>Politics</strong><br><a href="https://www.bloomberg.com/news/articles/2018-10-05/trump-s-race-to-save-house-takes-him-to-reliably-red-kansas" target="_blank">Trump\'s race to save House takes him to reliably red Kansas</a> Bloomberg News<br><a href="https://www.bloomberg.com/news/articles/2018-11-13/trump-scoffs-at-report-north-korea-has-undeclared-nuclear-sites" target="_blank">Trump scoffs at report North Korea has undeclared nuclear sites</a> Bloomberg News<br><a href="http://www.usnews.com/news/national-news/articles/2016-11-01/ground-game-differences-could-be-key-in-nc" target="_blank">Ground game differences could be key in N.C.</a> U.S. News<br><a href="http://www.usnews.com/news/politics/articles/2016-10-27/michelle-obama-denounces-rigged-election-allegations" target="_blank">Michelle Obama denounces rigged election allegations</a> U.S. News<br><a href="http://medillonthehill.medill.northwestern.edu/2016/11/which-senators-have-passed-the-most-laws/" target="_blank">Which senators have passed the most laws?</a> Medill News Service</div></div>');
+    	'<div class="chat-bubble ben child"><div class="inner-text"><strong>Politics</strong><br><a href="https://www.politico.com/news/2021/04/13/pandemic-native-american-languages-481081" target="_blank">‘Race against time’: Pandemic propels fight to save Native American languages</a> POLITICO<br><a href="https://www.bloomberg.com/news/articles/2018-10-05/trump-s-race-to-save-house-takes-him-to-reliably-red-kansas" target="_blank">Trump\'s race to save House takes him to reliably red Kansas</a> Bloomberg News<br><a href="https://www.bloomberg.com/news/articles/2018-11-13/trump-scoffs-at-report-north-korea-has-undeclared-nuclear-sites" target="_blank">Trump scoffs at report North Korea has undeclared nuclear sites</a> Bloomberg News<br><a href="http://www.usnews.com/news/national-news/articles/2016-11-01/ground-game-differences-could-be-key-in-nc" target="_blank">Ground game differences could be key in N.C.</a> U.S. News<br><a href="http://www.usnews.com/news/politics/articles/2016-10-27/michelle-obama-denounces-rigged-election-allegations" target="_blank">Michelle Obama denounces rigged election allegations</a> U.S. News<br><a href="http://medillonthehill.medill.northwestern.edu/2016/11/which-senators-have-passed-the-most-laws/" target="_blank">Which senators have passed the most laws?</a> Medill News Service</div></div>');
 		chats.scrollTop = chats.scrollHeight;
  	}, 1600);
 
